@@ -1,0 +1,48 @@
+:root {
+    --bg-color: hsl(0 0% 98%);
+    --text-color: hsl(0 0% 5%);
+}
+
+* {
+    font-family: sans-serif;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    font-size: 16px;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+main {
+    margin: auto;
+    max-width: 60dvw;
+}
+
+header {
+    background-color: var(--text-color);
+    padding: 1rem;
+
+    h1 {
+        color: var(--bg-color);
+        margin: 0;
+    }
+}
+
+section {
+    padding-block-end: 2rem;
+}
+
+section:has(+ section) {
+    border-bottom: 1px solid hsl(0 0% 5%);
+    margin-block-end: 2rem;
+}
+
+time {
+    display: block;
+    margin-block-start: 1rem;
+}
