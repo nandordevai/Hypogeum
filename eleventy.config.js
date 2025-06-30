@@ -12,6 +12,7 @@ export default function (eleventyConfig) {
 	    htmlTemplateEngine: 'njk',
         dir: {
             input: 'src',
+            output: 'docs',
             includes: '../_includes',
             layouts: '../_layouts',
         },
