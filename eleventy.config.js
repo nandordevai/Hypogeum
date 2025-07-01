@@ -3,8 +3,10 @@ export default function (eleventyConfig) {
         'md',
         'css',
         'njk',
+        'js',
     ]);
     eleventyConfig.addPassthroughCopy('src/img');
+    eleventyConfig.addPassthroughCopy('src/js');
     eleventyConfig.addPassthroughCopy({ 'src/main.css': 'main.css' });
     eleventyConfig.addGlobalData('layout', 'base');
 

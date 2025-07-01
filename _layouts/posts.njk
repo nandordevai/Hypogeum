@@ -1,0 +1,9 @@
+{% extends '_layouts/base.njk' %}
+
+{%- for post in collections.post | reverse -%}
+    <section>
+        <h1>{{ post.data.title }}</h1>
+        {{ post.content | safe }}
+        <time datetime="{{ post.data.date.toISOString() }}">{{ post.data.date.toUTCString() }}</time>
+    </section>
+{%- endfor -%}

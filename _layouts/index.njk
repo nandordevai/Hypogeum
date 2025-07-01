@@ -1,21 +1,26 @@
----
-layout: base.njk
----
+{% extends '_layouts/base.njk' %}
 
-<form
-    action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
-    method="post"
-    id="newsletter"
-    class="newsletter"
->
-    <label for="bd-email">Hírlevél:</label>
-    <input type="email" name="email" id="bd-email">
-    <input type="submit" value="Feliratkozás" id="newsletter-submit">
-</form>
-{%- for post in collections.post | reverse -%}
-<section>
-    <h1>{{ post.data.title }}</h1>
-    {{ post.content | safe }}
-    <time datetime="{{ post.data.date.toISOString() }}">{{ post.data.date.toUTCString() }}</time>
-</section>
-{%- endfor -%}
+{% block head %}
+    <script type="text/javascript" src="/js/newsletter.js"></script>
+{% endblock %}
+
+{% block content %}
+    <form
+        action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
+        method="post"
+        id="newsletter"
+        class="newsletter"
+    >
+        <label for="bd-email">Hírlevél:</label>
+        <input type="email" name="email" id="bd-email">
+        <input type="submit" value="Feliratkozás" id="newsletter-submit">
+    </form>
+
+    {%- for post in collections.post | reverse -%}
+        <section>
+            <h1>{{ post.data.title }}</h1>
+            {{ post.content | safe }}
+            <time datetime="{{ post.data.date.toISOString() }}">{{ post.data.date.toUTCString() }}</time>
+        </section>
+    {%- endfor -%}
+{% endblock %}
