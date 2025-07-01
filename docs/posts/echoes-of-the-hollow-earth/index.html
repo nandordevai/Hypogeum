@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypogeum ※ dark ambient // ritual // drone // industrial</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body>
     <header>
-        <h1>Hypogeum ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
+        <h1><a href="https://hypogeum.hu">Hypogeum</a> ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
     </header>
     <main>
-        <form
-            action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
-            method="post"
-            id="newsletter"
-            class="newsletter"
-        >
-            <label for="bd-email">Hírlevél:</label>
-            <input type="email" name="email" id="bd-email">
-            <input type="submit" value="Feliratkozás" id="newsletter-submit">
-        </form>
-        <p>Új Cryo Chamber release: Echoes of the Hollow Earth.</p>
+        
+<section>
+    <h1>Echoes of the Hollow Earth</h1>
+    <p>Új Cryo Chamber release: Echoes of the Hollow Earth.</p>
 <iframe style="border: 0; width: 560px; height: 435px;" src="https://bandcamp.com/VideoEmbed?track=2235435438&bgcol=ffffff&linkcol=0687f5" mozallowfullscreen="1" webkitallowfullscreen="1" allowfullscreen="1" seamless></iframe>
+    <time datetime="2025-06-17T20:04:00.000Z">Tue, 17 Jun 2025 20:04:00 GMT</time>
+</section>
+
     </main>
     <script>
         async function sendNewsletterForm() {
@@ -36,12 +32,14 @@
 
         const form = document.querySelector('#newsletter');
         const submit = document.querySelector('#newsletter-submit');
-        form.addEventListener('submit', async (event) => {
-            submit.disabled = true;
-            event.preventDefault();
-            await sendNewsletterForm();
-            submit.disabled = false;
-        });
+        if (form) {
+            form.addEventListener('submit', async (event) => {
+                submit.disabled = true;
+                event.preventDefault();
+                await sendNewsletterForm();
+                submit.disabled = false;
+            });
+        }
     </script>
 </body>
 </html>

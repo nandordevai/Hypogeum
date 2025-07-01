@@ -4,24 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypogeum ※ dark ambient // ritual // drone // industrial</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body>
     <header>
-        <h1>Hypogeum ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
+        <h1><a href="https://hypogeum.hu">Hypogeum</a> ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
     </header>
     <main>
-        <form
-            action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
-            method="post"
-            id="newsletter"
-            class="newsletter"
-        >
-            <label for="bd-email">Hírlevél:</label>
-            <input type="email" name="email" id="bd-email">
-            <input type="submit" value="Feliratkozás" id="newsletter-submit">
-        </form>
-        <section>
+        
+<form
+    action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
+    method="post"
+    id="newsletter"
+    class="newsletter"
+>
+    <label for="bd-email">Hírlevél:</label>
+    <input type="email" name="email" id="bd-email">
+    <input type="submit" value="Feliratkozás" id="newsletter-submit">
+</form><section>
     <h1>Kult of O 2025-06-24</h1>
     <p>Oneirich is új mixtape-pel örvendeztet meg minket, benne Holotrop, Seesar és sokan mások.</p>
 <iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2FuurObscuur%2Fdark-ritual-ambient-20250624%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
@@ -43,8 +43,7 @@
 </section><section>
     <h1>Hypogeum Mixtape #1</h1>
     <p>Hallgatnivaló a hétvégére: az ígérteken kívül még Desiderii Marginis, Beckahesten és mások, közel egy órában.</p>
-<p><a href="https://www.mixcloud.com/rabbitknight/hypogeum-1/">Hypogeum Mixtape #1 – Mixcloud</a></p>
-
+<iframe width="100%" height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2Frabbitknight%2Fhypogeum-1%2F" frameborder="0" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>
     <time datetime="2025-06-13T12:00:00.000Z">Fri, 13 Jun 2025 12:00:00 GMT</time>
 </section><section>
     <h1>CD-k</h1>
@@ -77,12 +76,14 @@
 
         const form = document.querySelector('#newsletter');
         const submit = document.querySelector('#newsletter-submit');
-        form.addEventListener('submit', async (event) => {
-            submit.disabled = true;
-            event.preventDefault();
-            await sendNewsletterForm();
-            submit.disabled = false;
-        });
+        if (form) {
+            form.addEventListener('submit', async (event) => {
+                submit.disabled = true;
+                event.preventDefault();
+                await sendNewsletterForm();
+                submit.disabled = false;
+            });
+        }
     </script>
 </body>
 </html>

@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypogeum ※ dark ambient // ritual // drone // industrial</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body>
     <header>
-        <h1>Hypogeum ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
+        <h1><a href="https://hypogeum.hu">Hypogeum</a> ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
     </header>
     <main>
-        <form
-            action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
-            method="post"
-            id="newsletter"
-            class="newsletter"
-        >
-            <label for="bd-email">Hírlevél:</label>
-            <input type="email" name="email" id="bd-email">
-            <input type="submit" value="Feliratkozás" id="newsletter-submit">
-        </form>
-        <p>Kezdjük a közös dark ambient aktivitást egy mixtape-pel: a Winter Light 'Nacht' műsorában Joel Gilardini, Maeror Tri, Caldon Glover, Vidna Obmana, Violent Grief és mások hallhatók.</p>
+        
+<section>
+    <h1>Nacht 2025-06-07</h1>
+    <p>Kezdjük a közös dark ambient aktivitást egy mixtape-pel: a Winter Light 'Nacht' műsorában Joel Gilardini, Maeror Tri, Caldon Glover, Vidna Obmana, Violent Grief és mások hallhatók.</p>
 <p><a href="https://www.mixcloud.com/winterlightnl/nacht-radio-show-07062025/">Mixcloud – Nacht Radio Show 2025-06-07</a></p>
+
+    <time datetime="2025-06-07T20:36:00.000Z">Sat, 07 Jun 2025 20:36:00 GMT</time>
+</section>
 
     </main>
     <script>
@@ -37,12 +33,14 @@
 
         const form = document.querySelector('#newsletter');
         const submit = document.querySelector('#newsletter-submit');
-        form.addEventListener('submit', async (event) => {
-            submit.disabled = true;
-            event.preventDefault();
-            await sendNewsletterForm();
-            submit.disabled = false;
-        });
+        if (form) {
+            form.addEventListener('submit', async (event) => {
+                submit.disabled = true;
+                event.preventDefault();
+                await sendNewsletterForm();
+                submit.disabled = false;
+            });
+        }
     </script>
 </body>
 </html>

@@ -4,24 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypogeum ※ dark ambient // ritual // drone // industrial</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body>
     <header>
-        <h1>Hypogeum ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
+        <h1><a href="https://hypogeum.hu">Hypogeum</a> ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
     </header>
     <main>
-        <form
-            action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
-            method="post"
-            id="newsletter"
-            class="newsletter"
-        >
-            <label for="bd-email">Hírlevél:</label>
-            <input type="email" name="email" id="bd-email">
-            <input type="submit" value="Feliratkozás" id="newsletter-submit">
-        </form>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/mV4e0qOY4R8?si=A0W-4HA42KdOd112" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        
+<section>
+    <h1>Vestigial live at Phobos 2024</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/mV4e0qOY4R8?si=A0W-4HA42KdOd112" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    <time datetime="2025-06-15T18:42:00.000Z">Sun, 15 Jun 2025 18:42:00 GMT</time>
+</section>
+
     </main>
     <script>
         async function sendNewsletterForm() {
@@ -35,12 +31,14 @@
 
         const form = document.querySelector('#newsletter');
         const submit = document.querySelector('#newsletter-submit');
-        form.addEventListener('submit', async (event) => {
-            submit.disabled = true;
-            event.preventDefault();
-            await sendNewsletterForm();
-            submit.disabled = false;
-        });
+        if (form) {
+            form.addEventListener('submit', async (event) => {
+                submit.disabled = true;
+                event.preventDefault();
+                await sendNewsletterForm();
+                submit.disabled = false;
+            });
+        }
     </script>
 </body>
 </html>

@@ -4,25 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypogeum ※ dark ambient // ritual // drone // industrial</title>
-    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="/main.css">
 </head>
 <body>
     <header>
-        <h1>Hypogeum ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
+        <h1><a href="https://hypogeum.hu">Hypogeum</a> ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
     </header>
     <main>
-        <form
-            action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
-            method="post"
-            id="newsletter"
-            class="newsletter"
-        >
-            <label for="bd-email">Hírlevél:</label>
-            <input type="email" name="email" id="bd-email">
-            <input type="submit" value="Feliratkozás" id="newsletter-submit">
-        </form>
-        <p>Cyclic Law-tól érkezett: Kammarheit, Ulvtharm, Sephiroth CD-k. Nemsokára jön egy mixtape, benne lesz egy-egy track, stay tuned vagy mi.</p>
+        
+<section>
+    <h1>CD-k</h1>
+    <p>Cyclic Law-tól érkezett: Kammarheit, Ulvtharm, Sephiroth CD-k. Nemsokára jön egy mixtape, benne lesz egy-egy track, stay tuned vagy mi.</p>
 <p><img src="./img/IMG_1029.jpeg" alt=""></p>
+
+    <time datetime="2025-06-11T20:19:00.000Z">Wed, 11 Jun 2025 20:19:00 GMT</time>
+</section>
 
     </main>
     <script>
@@ -37,12 +33,14 @@
 
         const form = document.querySelector('#newsletter');
         const submit = document.querySelector('#newsletter-submit');
-        form.addEventListener('submit', async (event) => {
-            submit.disabled = true;
-            event.preventDefault();
-            await sendNewsletterForm();
-            submit.disabled = false;
-        });
+        if (form) {
+            form.addEventListener('submit', async (event) => {
+                submit.disabled = true;
+                event.preventDefault();
+                await sendNewsletterForm();
+                submit.disabled = false;
+            });
+        }
     </script>
 </body>
 </html>
