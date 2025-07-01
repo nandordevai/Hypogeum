@@ -4,6 +4,6 @@
     <section>
         <h1>{{ title }}</h1>
         {{ content | safe }}
-        <time datetime="{{ page.date.toISOString() }}">{{ page.date.toUTCString() }}</time>
+        <time datetime="{{ page.date.toISOString() }}">{{ page.date.toLocaleString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' }) }}</time>
     </section>
 {% endblock %}

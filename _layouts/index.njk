@@ -20,7 +20,7 @@
         <section>
             <h1>{{ post.data.title }}</h1>
             {{ post.content | safe }}
-            <time datetime="{{ post.data.date.toISOString() }}">{{ post.data.date.toUTCString() }}</time>
+            <time datetime="{{ post.data.date.toISOString() }}">{{ post.data.date.toLocaleString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' }) }}</time>
         </section>
     {%- endfor -%}
 {% endblock %}
