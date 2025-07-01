@@ -53,3 +53,8 @@ time {
     display: block;
     margin-block-start: 1rem;
 }
+
+.newsletter {
+    border-block-end: 1px solid var(--text-color);
+    padding-block-end: 1rem;
+}

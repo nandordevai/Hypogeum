@@ -15,12 +15,12 @@
             action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
             method="post"
             id="newsletter"
+            class="newsletter"
         >
             <label for="bd-email">Hírlevél:</label>
             <input type="email" name="email" id="bd-email">
             <input type="submit" value="Feliratkozás" id="newsletter-submit">
         </form>
-        <hr>
         {{ content | safe }}
     </main>
     <script>
