@@ -11,9 +11,38 @@
         <h1>Hypogeum ※ dark&nbsp;ambient // ritual // drone // industrial</h1>
     </header>
     <main>
+        <form
+            action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
+            method="post"
+            id="newsletter"
+        >
+            <label for="bd-email">Hírlevél:</label>
+            <input type="email" name="email" id="bd-email">
+            <input type="submit" value="Feliratkozás" id="newsletter-submit">
+        </form>
+        <hr>
         <p>Hallgatnivaló a hétvégére: az ígérteken kívül még Desiderii Marginis, Beckahesten és mások, közel egy órában.</p>
 <p><a href="https://www.mixcloud.com/rabbitknight/hypogeum-1/">Hypogeum Mixtape #1 – Mixcloud</a></p>
 
     </main>
+    <script>
+        async function sendNewsletterForm() {
+            const formData = new FormData(form);
+            await fetch('https://buttondown.com/api/emails/embed-subscribe/nandordevai', {
+                method: 'POST',
+                body: formData,
+            });
+            document.querySelector('#bd-email').value = '';
+        }
+
+        const form = document.querySelector('#newsletter');
+        const submit = document.querySelector('#newsletter-submit');
+        form.addEventListener('submit', async (event) => {
+            submit.disabled = true;
+            event.preventDefault();
+            await sendNewsletterForm();
+            submit.disabled = false;
+        });
+    </script>
 </body>
 </html>

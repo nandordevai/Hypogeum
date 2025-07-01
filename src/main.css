@@ -20,8 +20,10 @@ iframe {
 }
 
 main {
+    display: flow-root;
     margin: auto;
     max-width: 50rem;
+    padding-block: 2rem;
 
     @media screen and (max-width: 960px) {
         max-width: 95dvw;
