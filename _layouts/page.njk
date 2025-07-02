@@ -1,0 +1,10 @@
+{% extends '_layouts/base.njk' %}
+
+{% block head %}
+    <script type="text/javascript" src="/js/newsletter.js"></script>
+{% endblock %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+{{ content | safe }}
+{% endblock %}
