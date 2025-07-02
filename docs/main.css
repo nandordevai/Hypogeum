@@ -53,6 +53,10 @@ nav {
     padding-block: 1rem;
     width: 100%;
 
+    @media screen and (max-width: 960px) {
+        flex-direction: column;
+    }
+
     a,
     a:visited {
         color: var(--link-color);
