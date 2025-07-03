@@ -27,6 +27,16 @@ header {
     h1 {
         color: var(--bg-color);
         margin: 0;
+
+        @media screen and (max-width: 960px) {
+            font-size: medium;
+
+            a {
+                display: block;
+                font-size: larger;
+                padding-block-end: .25rem;
+            }
+        }
     }
 }
 
