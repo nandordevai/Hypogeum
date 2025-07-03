@@ -1,2 +1,0 @@
-- [ ] fix Youtube embed aspect ratio on mobile
-- [ ] date formatting

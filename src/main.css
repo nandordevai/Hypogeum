@@ -45,6 +45,16 @@ iframe {
     max-width: 100%;
 }
 
+iframe[src*="youtube.com"] {
+    aspect-ratio: 16 / 9;
+    height: unset;
+}
+
+iframe[src*="bandcamp.com"] {
+    aspect-ratio: 560 / 435;
+    height: unset !important;
+}
+
 main {
     display: flow-root;
     margin: auto;
