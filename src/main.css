@@ -6,6 +6,7 @@
 }
 
 * {
+    box-sizing: border-box;
     font-family: sans-serif;
 }
 
@@ -18,15 +19,17 @@ body {
 
 header {
     background-color: var(--text-color);
+    overflow: hidden;
     padding: 1rem;
+    position: relative;
 
-    a {
+    * {
         color: var(--bg-color);
     }
 
     h1 {
-        color: var(--bg-color);
         margin: 0;
+        position: relative;
 
         @media screen and (max-width: 960px) {
             font-size: medium;
@@ -56,13 +59,18 @@ iframe[src*="bandcamp.com"] {
 }
 
 main {
-    display: flow-root;
+    background-color: var(--bg-color);
     margin: auto;
     max-width: 50rem;
     padding-block-end: 2rem;
 
     @media screen and (max-width: 960px) {
-        max-width: 95dvw;
+        max-width: 100dvi;
+        padding-inline: 1rem;
+    }
+
+    & > * {
+        margin-inline: 1rem;
     }
 }
 
@@ -71,7 +79,6 @@ nav {
     justify-content: space-between;
     display: flex;
     padding-block: 1rem;
-    width: 100%;
 
     @media screen and (max-width: 960px) {
         flex-direction: column;
@@ -106,6 +113,23 @@ time {
     margin-block-start: 1rem;
 }
 
+.logo {
+    aspect-ratio: 1 / 1;
+    filter: blur(0.1px);
+    height: 400px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    z-index: -100;
+    min-width: 400px;
+    transform: translateX(-25%) translateY(-40%);
+
+    &.logo--header {
+        filter: blur(0.1px) brightness(0.2);
+        z-index: 0;
+    }
+}
+
 .newsletter {
     align-items: center;
     display: flex;
@@ -125,6 +149,10 @@ time {
         align-items: flex-start;
         display: flex;
         gap: 2rem;
+
+        @media screen and (max-width: 960px) {
+            flex-direction: column;
+        }
     }
 
     .profile__text {
