@@ -96,6 +96,16 @@ time {
     margin-block-start: 1rem;
 }
 
+.newsletter {
+    align-items: center;
+    display: flex;
+    gap: .5rem;
+}
+
+.permalink {
+    color: var(--text-color);
+}
+
 .profile {
     border-block-start: 1px solid var(--border-color);
     margin-block-start: 2rem;
@@ -115,10 +125,4 @@ time {
     .profile__title {
         margin-block-start: 0;
     }
-}
-
-.newsletter {
-    align-items: center;
-    display: flex;
-    gap: .5rem;
 }
