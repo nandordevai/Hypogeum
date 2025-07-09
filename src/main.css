@@ -35,7 +35,9 @@ header {
         color: var(--bg-color);
     }
 
-    h1 {
+    div {
+        font-size: 1.5rem;
+        font-weight: bold;
         margin: 0;
         position: relative;
 
