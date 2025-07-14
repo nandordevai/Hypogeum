@@ -55,7 +55,9 @@ header {
 
 img,
 iframe {
+    border: 0;
     max-width: 100%;
+    width: 100%;
 }
 
 iframe[src*="youtube.com"] {
