@@ -9,9 +9,9 @@ A Hypogeumot (és a hozzá tartozó [Facebook csoportot](https://www.facebook.co
 
 
 <div class="profile">
-    <h2 class="profile__title">Rólam</h2>
+    <!-- <h2 class="profile__title">Rólam</h2> -->
     <div class="profile__content">
         <img class="profile__image" src="/img/profile.jpg" width="200">
-        <p class="profile__text">Dévai Nándor vagyok, a Hypogeum kitalálója és létrehozója. Régóta vonzódok a zene sötétebb oldalához: az utam a goth rocktól, a darkwave-től és a doom metaltól vezetett a Swanson, a Nine Inch Nailsen és a Toolon keresztül a dark ambientig, a drone-ig és a hasonló műfajokig.</p>
+        <p class="profile__text">A Hypogeum kitalálója és létrehozója. Régóta vonzódik a zene sötétebb oldalához: az útja a goth rocktól, a darkwave-től és a doom metaltól vezetett a Swanson, a Nine Inch Nailsen és a Toolon keresztül a dark ambientig, a drone-ig és a hasonló műfajokig.</p>
     </div>
 </div>

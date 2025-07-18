@@ -170,4 +170,8 @@ time {
     .profile__title {
         margin-block-start: 0;
     }
+
+    .profile__image {
+        width: 15rem;
+    }
 }
