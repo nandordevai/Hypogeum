@@ -11,7 +11,6 @@ Hírek, ajánlók, koncertbeszámolók a dark underground zenei színtérről, e
 
 
 <div class="profile">
-    <!-- <h2 class="profile__title">Rólam</h2> -->
     <div class="profile__content">
         <img class="profile__image" src="/img/profile.jpg" width="200">
         <p class="profile__text">A képen a Hypogeum kitalálója és létrehozója. Régóta vonzódik a zene sötétebb oldalához: az útja a goth rocktól, a darkwave-től és a doom metaltól vezetett a Swanson, a Nine Inch Nailsen és a Toolon keresztül a dark ambientig, a drone-ig és a hasonló műfajokig.</p>
