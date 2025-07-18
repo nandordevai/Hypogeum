@@ -68,6 +68,10 @@ iframe[src*="youtube.com"] {
     height: unset;
 }
 
+iframe[src*="bandcamp.com"] {
+    max-width: 700px;
+}
+
 main {
     background-color: var(--bg-color);
     margin: auto;
