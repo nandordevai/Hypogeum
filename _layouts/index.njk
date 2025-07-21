@@ -1,11 +1,38 @@
+---
+pagination:
+    data: collections.post
+    alias: posts
+    size: 10
+    reverse: true
+---
+
 {% extends '_layouts/base.njk' %}
 
 {% block content %}
-    {%- for post in collections.post | reverse -%}
+    {%- for post in posts -%}
         <section>
             <h1>{{ post.data.title }}</h1>
             {{ post.content | safe }}
-            <a class="permalink" href="{{ post.url }}"><time datetime="{{ post.data.date.toISOString() }}">{{ post.data.date.toLocaleString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' }) }}</time></a>
+            <a class="permalink" href="{{ post.url }}">
+                <time datetime="{{ post.data.date.toISOString() }}">
+                    {{ post.data.date.toLocaleString('hu-HU', {
+                        year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
+                    }) }}</time>
+            </a>
         </section>
     {%- endfor -%}
+
+    <nav class="footer">
+        {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}">Előző {{ pagination.size }}</a>
+        {% else %}
+            Előző {{ pagination.size }}
+        {% endif %}
+        {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}">Következő {{ pagination.size }}</a>
+        {% else %}
+            Következő {{ pagination.size }}
+        {% endif %}
+    </nav>
+
 {% endblock %}
