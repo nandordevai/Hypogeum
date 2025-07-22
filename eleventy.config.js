@@ -10,6 +10,12 @@ export default function (eleventyConfig) {
     eleventyConfig.addPassthroughCopy({ 'src/main.css': 'main.css' });
     eleventyConfig.addGlobalData('layout', 'base');
 
+    eleventyConfig.addPreprocessor('heading', 'md', (data, content) => {
+        if (data.tags?.includes('post')) {
+            return content.replaceAll('# ', '## ');
+        }
+    });
+
     return {
 	    htmlTemplateEngine: 'njk',
         dir: {

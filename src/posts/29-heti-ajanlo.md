@@ -3,7 +3,8 @@ title: 29. heti ajánló
 tags: post
 date: 2025-07-20t21:00:00.0+02:00
 ---
-## Új megjelenések
+
+# Új megjelenések
 
 Vein by Ashtoreth & Forestaal – samanisztikus, masszív drónok, élőben, zenekarral, minden ami jó.
 
@@ -17,7 +18,7 @@ Santa Sangre Magazine presents: The Sixth Configuration compilation – 100 szá
 
 <iframe style="border: 0; width: 100%; height: 120px;" src="https://bandcamp.com/EmbeddedPlayer/album=2290027164/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/artwork=small/transparent=true/" seamless><a href="https://santasangremagazine.bandcamp.com/album/santa-sangre-magazine-presents-the-sixth-configuration-compilation">Santa Sangre Magazine presents: The Sixth Configuration compilation by Santa Sangre Magazine</a></iframe>
 
-## Régebbi albumok
+# Régebbi albumok
 
 Svarteboken by The Black Monolith & Olik Nesnah – dark/ritual ambient.
 

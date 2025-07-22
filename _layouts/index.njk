@@ -10,7 +10,7 @@ pagination:
 
 {% block content %}
     {%- for post in posts -%}
-        <section>
+        <article>
             <h1>{{ post.data.title }}</h1>
             {{ post.content | safe }}
             <a class="permalink" href="{{ post.url }}">
@@ -19,7 +19,7 @@ pagination:
                         year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
                     }) }}</time>
             </a>
-        </section>
+        </article>
     {%- endfor -%}
 
     <nav class="footer">

@@ -1,6 +1,5 @@
 ---
-tags:
-  - post
+tags: post
 title: "Hypogeum Mixtape #1"
 date: 2025-06-13t13:00:00.0+01:00
 ---
