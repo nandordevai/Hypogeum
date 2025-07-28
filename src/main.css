@@ -10,6 +10,15 @@
     font-family: sans-serif;
 }
 
+article {
+    padding-block-end: 2rem;
+}
+
+article:has(+ article) {
+    border-bottom: 1px solid var(--border-color);
+    margin-block-end: 2rem;
+}
+
 body {
     background-color: var(--bg-color);
     color: var(--text-color);
@@ -115,15 +124,6 @@ nav {
 
 p {
     line-height: 1.4;
-}
-
-section {
-    padding-block-end: 2rem;
-}
-
-section:has(+ section) {
-    border-bottom: 1px solid var(--border-color);
-    margin-block-end: 2rem;
 }
 
 time {
