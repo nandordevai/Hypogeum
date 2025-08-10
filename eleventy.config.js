@@ -12,6 +12,12 @@ export default function (config) {
     config.addPassthroughCopy({ 'src/main.css': 'main.css' });
     config.addGlobalData('layout', 'base');
 
+    config.addPreprocessor('drafts', '*', (data, content) => {
+        if (data.date?.getTime() > Date.now()) {
+            return false;
+        }
+    });
+
     config.addPreprocessor('heading', 'md', (data, content) => {
         if (data.tags?.includes('post')) {
             return content.replaceAll('# ', '## ');
