@@ -12,7 +12,7 @@ export default function (config) {
     config.addPassthroughCopy({ 'src/main.css': 'main.css' });
     config.addGlobalData('layout', 'base');
 
-    config.addPreprocessor('drafts', '*', (data, content) => {
+    config.addPreprocessor('drafts', 'md', (data, _content) => {
         if (data.date?.getTime() > Date.now()) {
             return false;
         }
