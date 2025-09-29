@@ -48,7 +48,6 @@ export default function (config) {
         dir: {
             input: 'src',
             output: 'docs',
-            includes: '../_includes',
             layouts: '../_layouts',
         },
     };
