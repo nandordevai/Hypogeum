@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="/main.css">
     <script src="/js/newsletter.js"></script>
     <meta property="og:image" content="https://hypogeum.hu/img/logo-black.png">
-    {% block meta %}
-    <meta property="og:title" content="Hypogeum ※ dark ambient // ritual // drone // industrial">
-    {% endblock %}
+    
+    <meta property="og:title" content="Hypogeum ※ English Version on the Way">
+
 </head>
 <body>
     <img class="logo" src="/img/logo.png" alt="Logo">
@@ -20,11 +20,7 @@
     </header>
     <main>
         <nav>
-            <div class="links">
-                {%- for page in collections.page -%}
-                <a href="{{ page.url }}">{{ page.data.title }}</a>
-                {%- endfor -%}
-            </div>
+            <div class="links"><a href="/about/">About</a><a href="/contact/">Contact</a></div>
             <form
                 action="https://buttondown.com/api/emails/embed-subscribe/nandordevai"
                 method="post"
@@ -36,7 +32,14 @@
                 <input type="submit" value="Subscribe" id="newsletter-submit">
             </form>
         </nav>
-        {% block content %}{% endblock %}
+        
+    <article>
+        <h1>English Version on the Way</h1>
+        <p>We’re in the process of translating this website into English. Please check back soon.</p>
+
+        <time datetime="2025-10-20T20:30:00.000Z">20 October 2025 at 22:30</time>
+    </article>
+
     </main>
 </body>
 </html>

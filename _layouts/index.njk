@@ -15,7 +15,7 @@ pagination:
             {{ post.content | safe }}
             <a class="permalink" href="{{ post.url }}">
                 <time datetime="{{ post.data.date.toISOString() }}">
-                    {{ post.data.date.toLocaleString('hu-HU', {
+                    {{ post.data.date.toLocaleString('en-GB', {
                         year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
                     }) }}</time>
             </a>
@@ -24,14 +24,14 @@ pagination:
 
     <nav class="footer">
         {% if pagination.href.previous %}
-            <a href="{{ pagination.href.previous }}">Előző {{ pagination.size }}</a>
+            <a href="{{ pagination.href.previous }}">Previous {{ pagination.size }}</a>
         {% else %}
-            Előző {{ pagination.size }}
+            Previous {{ pagination.size }}
         {% endif %}
         {% if pagination.href.next %}
-            <a href="{{ pagination.href.next }}">Következő {{ pagination.size }}</a>
+            <a href="{{ pagination.href.next }}">Next {{ pagination.size }}</a>
         {% else %}
-            Következő {{ pagination.size }}
+            Next {{ pagination.size }}
         {% endif %}
     </nav>
 

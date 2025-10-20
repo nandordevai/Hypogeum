@@ -8,6 +8,6 @@
     <article>
         <h1>{{ title }}</h1>
         {{ content | safe }}
-        <time datetime="{{ page.date.toISOString() }}">{{ page.date.toLocaleString('hu-HU', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' }) }}</time>
+        <time datetime="{{ page.date.toISOString() }}">{{ page.date.toLocaleString('en-GB', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' }) }}</time>
     </article>
 {% endblock %}

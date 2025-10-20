@@ -1,18 +1,20 @@
 ---
-title: Az oldalról
+title: About
 tags: page
 layout: page
 ---
 
-Hypogeum, szó szerinti jelentésben „földalatti”. Sírboltok, labirintusok, templomok; az alászállás szakrális helyei. Tartsatok velem ezekbe a sötét, visszhangos, helyenként nyomasztóan szűk, máshol pedig lenyűgözően tágas földalatti, emberkéz alkotta terekbe – itt és most a zene segítségével.
+Hypogeum, literally meaning “underground.” Tombs, labyrinths, temples: sacred places of descent. Join us as we venture into these dark, echoing spaces, at times oppressively narrow, elsewhere breathtakingly vast — underground realms shaped by human hands, brought to life here and now through music.
 
-Hírek, ajánlók, koncertbeszámolók a dark underground zenei színtérről, elsősorban dark/ritual ambient, drone és industrial stílusban. Ha kérdésed van, ajánlanál te is valamit, esetleg ebben a műfajban alkotsz és szeretnél te is megjelenni itt, keress meg bátran az [elérhetőségeken](/contact).
-
-
+News, recommendations, and concert reviews from the dark underground music scene, primarily in the dark/ritual ambient, drone, and industrial genres. If you have any questions, would like to share something, or create within this genre and wish to be featured here, feel free to get in touch via the [contact page](/contact).
 
 <div class="profile">
     <div class="profile__content">
         <img class="profile__image" src="/img/profile.jpg" width="200">
-        <p class="profile__text">A képen a Hypogeum kitalálója és létrehozója. Régóta vonzódik a zene sötétebb oldalához: az útja a goth rocktól, a darkwave-től és a doom metaltól vezetett a Swanson, a Nine Inch Nailsen és a Toolon keresztül a dark ambientig, a drone-ig és a hasonló műfajokig.</p>
+        <p class="profile__text">
+
+        Pictured is the inventor and creator of Hypogeum. Drawn for years to the darker side of music, he has traveled a winding path through sound — from goth rock, darkwave, and doom metal, to the hypnotic intensity of Swans, Nine Inch Nails, and Tool, and finally into the realms of dark ambient, drone, and other shadowy genres.
+
+        </p>
     </div>
 </div>
