@@ -1,7 +1,9 @@
 ---
-title: 41. heti ajánló
+title: Unearthed – Week 41
 date: 2025-10-06t15:50:00.0+02:00
-tags: post
+tags:
+    - post
+    - unearthed
 ---
 
 # Mixtape

@@ -1,4 +1,7 @@
 import scrape from 'html-metadata';
+import { readFileSync, writeFileSync } from 'fs';
+
+const bandcamp = JSON.parse(readFileSync('./_data/bandcamp.json'));
 
 export default function (config) {
     config.setTemplateFormats([
@@ -15,6 +18,8 @@ export default function (config) {
     config.addPreprocessor('drafts', 'md', (data, _content) => {
         if (data.date?.getTime() > Date.now()) {
             return false;
+        } else if (data.draft && process.env.ELEVENTY_RUN_MODE === 'build') {
+            return false;
         }
     });
 
@@ -30,18 +35,24 @@ export default function (config) {
     });
 
     config.addShortcode('bandcamp', async function (url) {
-        try {
-            const meta = await scrape(url);
-            return `<iframe style="border: 0; width: 100%; height: 120px;" src="${meta.openGraph.video.url}" seamless><a href="${url}">${meta.openGraph.title}</a></iframe>`;
-        } catch (err) {
-            return `<a href="${url}">Bandcamp</a>`;
+        if (!bandcamp[url]) {
+            try {
+                const meta = await scrape(url);
+                bandcamp[url] = { videoURL: meta.openGraph.video.url, title: meta.openGraph.title };
+                writeFileSync('./_data/bandcamp.json', JSON.stringify(bandcamp));
+                return `<iframe style="border: 0; width: 100%; height: 120px;" src="${meta.openGraph.video.url}" seamless><a href="${url}">${meta.openGraph.title}</a></iframe>`;
+            } catch (err) {
+                return `<a href="${url}">Bandcamp</a>`;
+            }
+        } else {
+            return `<iframe style="border: 0; width: 100%; height: 120px;" src="${bandcamp[url].videoURL}" seamless><a href="${url}">${bandcamp[url].title}</a></iframe>`;
         }
     });
 
     config.addShortcode('youtube', function(url) {
         const [_, id] = url.split('=');
         return `<iframe src="https://www.youtube.com/embed/${id}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
-    })
+    });
 
     return {
 	    htmlTemplateEngine: 'njk',
