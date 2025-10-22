@@ -1,22 +1,24 @@
 ---
-title: 37. heti ajánló
-tags: post
+title: Unearthed – Week 37
 date: 2025-09-14t20:45:00.0+02:00
+tags:
+    - post
+    - unearthed
 ---
 
-Astoreth & Forestaal közel negyven perces improvizációja, drónokra és éneklésre épített zenei rituálé.
+Astoreth & Forestaal deliver a nearly forty-minute improvisation, a musical ritual built from drones and vocals.
 
 {% bandcamp 'https://ashtoreth1.bandcamp.com/album/axis' %}
 
-Kicsit kilépve a szokásos kategóriákból, egy svéd neoklasszikus-darkwave zenekart is ajánlok a héten, az Arcana-t. Az „As Bright As A Thousand Suns” albumuk 2012-ben jelent meg a Cyclic Law-nál, most újra megvehető CD-n és bakeliten.
+Stepping outside the usual genre boundaries, this week I’m also highlighting a Swedish neoclassical-darkwave band, Arcana. Their 2012 album *“As Bright As A Thousand Suns”*, originally released on Cyclic Law, is now available again on CD and vinyl.
 
 {% bandcamp 'https://cycliclaw.bandcamp.com/album/as-bright-as-a-thousand-suns' %}
 
-Kloob és Onasander [közös albuma](https://winter-light.bandcamp.com/album/go-s) már szerepelt egy régebbi ajánlóban, most új közös projektjük van, az Ethnea Nekrōn. Exo-Metempsychosis című release-ük a kozmikus újjászületés témáját járja körül, dark/space ambient stílusban.
+Kloob and Onasander’s [previous collaboration](https://winter-light.bandcamp.com/album/go-s) was already featured in an earlier recommendation, and now they return with a new joint project: Ethnea Nekrōn. Their release *Exo-Metempsychosis* explores the theme of cosmic rebirth through dark and space ambient textures.
 
 {% bandcamp 'https://winter-light.bandcamp.com/album/exo-metempsychosis' %}
 
-A Ruusuriimu (Csipkebogyó) transzcendentális apokaliptikus folk Helsinkiből, némi magyar vonatkozással: új albumuk címe „Tánc a rothadásért”. Két magyar énekesnő, Vály Tekla és Csiszér Réka is hallható rajta, Tekla szövegeket is ír és a borító fotója is tőle származik.
+From Helsinki comes Ruusuriimu (Csipkebogyó), offering transcendental apocalyptic folk with a touch of Hungarian connection. Their new album, “Tánc a rothadásért”, features Hungarian vocalists Vály Tekla and Csiszér Réka. Tekla also contributes lyrics and the cover photograph.
 
 {% bandcamp 'https://ruusuriimu.bandcamp.com/album/t-nc-a-rothad-s-rt' %}
 

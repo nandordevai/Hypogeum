@@ -9,5 +9,12 @@
         <h1>{{ title }}</h1>
         {{ content | safe }}
         <time datetime="{{ page.date.toISOString() }}">{{ page.date.toLocaleString('en-GB', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' }) }}</time>
+        <p class="tags">
+            {%- for tag in tags -%}
+                {% if tag != "post" %}
+                    <span class="tag">{{ tag }}</span>
+                {% endif %}
+            {%- endfor -%}
+        </p>
     </article>
 {% endblock %}

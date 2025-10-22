@@ -186,3 +186,11 @@ time {
         width: 15rem;
     }
 }
+
+.tags {
+    .tag {
+        &::before {
+            content: '#';
+        }
+    }
+}
