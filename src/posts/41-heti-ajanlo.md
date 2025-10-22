@@ -6,32 +6,32 @@ tags: post
 
 # Mixtape
 
-Nacht Radio Show 2025. 10. 02. – Mark O’Shea szokásos heti mixe, benne Pavor Nocturnus, Ugasanie, Tineidae & Sole Massif, Onasander és mások.
+Nacht Radio Show 2025. 10. 02. – The usual weekly mix from Mark O’Shea including Pavor Nocturnus, Ugasanie, Tineidae & Sole Massif, Onasander and others.
 
 {% mixcloud 'https://www.mixcloud.com/winterlightnl/nacht-radio-show-02102025/' %}
 
-The Kult of O dark ambient – Oneirichtől ezen a héten Inade, Atrium Carceri & Herbst9, Umbrarum Tenebrae és mások zenéiből kapunk egy órás mixet.
+The Kult of O dark ambient – ​​Oneirich brings you an hour-long mix of Inade, Atrium Carceri & Herbst9, Umbrarum Tenebrae and more this week.
 
 {% mixcloud 'https://www.mixcloud.com/uurObscuur/dark-ambient/' %}
 
-# Albumok
+# Albums
 
-Apocryphos 2016-os albuma, a Stone Speak a halál kultikus tereit fedezi fel. Temetőkben és kísértetvárosokban rögzített hangfelvételeket vegyít lassú, mély drónokkal és ambient elemekkel.
+Apocryphos' 2016 album, Stone Speak, explores the cultic spaces of death. It mixes recordings made in cemeteries and ghost towns with slow, deep drones and ambient elements.
 
 {% bandcamp 'https://cryochamber.bandcamp.com/album/stone-speak' %}
 
-Új megjelenés Brooddark első önálló albuma, az Overvoltage. Futurisztikus, indusztriális drónok és sötét, filmzeneszerű, erőteljes sci-fi hangzás jellemzi.
+Brooddark's first solo album, Overvoltage, is out now. It features futuristic, industrial drones and a dark, soundtrack-like, powerful sci-fi sound.
 
 {% bandcamp 'https://cryochamber.bandcamp.com/album/overvoltage' %}
 
-A melankolikusabb, álomszerűbb hangzás kedvelőinek Teahouse Radio és Skeldos (Pär Boström és Vytenis Eitminavičius) albumát ajánlom, a Night Mosst.
+For those who like a more melancholic, dreamy sound, I recommend the album Night Moss by Teahouse Radio and Skeldos (Pär Boström and Vytenis Eitminavičius).
 
 {% bandcamp 'https://teahouseradio.bandcamp.com/album/night-moss' %}
 
-Hasonló stílusú Ronny Engmann és Karina Dorin albuma, a Never Sleep Again, énekhangra és experimentális soundscape-ekre épülő dark/deep ambient.
+A similar style is Ronny Engmann and Karina Dorin's album Never Sleep Again, a dark/deep ambient based on vocals and experimental soundscapes.
 
 {% bandcamp 'https://winter-light.bandcamp.com/album/never-sleep-again' %}
 
-Végül egy olyan albumot ajánlok, ami kicsit talán határán van annak, amivel a Hypogeum általában foglalkozni szokott. Pär Boström neve viszont garancia arra, hogy az időnként winter/dungeon synthbe hajló zene hallgatható lesz az oldal olvasóinak. A producer Aindulmedir nevű projektjének 2023-as Star Lore című lemezével zárom a heti ajánlót.
+Finally, I want to recommend an album that sits a little outside the usual Hypogeum territory. Still, with Pär Boström’s name attached, readers can be sure the music — sometimes edging into winter or dungeon synth — will resonate here. I’ll wrap up this week’s recommendation with Star Lore (2023), from Boström’s project Aindulmedir.
 
 {% bandcamp 'https://aindulmedir.bandcamp.com/album/star-lore' %}
