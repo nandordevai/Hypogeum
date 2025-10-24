@@ -1,41 +1,41 @@
 ---
-title: 31–32. heti ajánló
+title: Unearthed – Week 31-32.
 tags: post
 date: 2025-08-07t20:00:00.0+02:00
 ---
 
-Egyben jön ki most két heti ajánló – kicsit belassultam, nyár van, meleg van, ez van. Cserébe igyekeztem eleget gyűjteni ahhoz, hogy egy egész nyaralás alatt legyen hallgatnivalótok.
+Two weeks’ worth of recommendations are coming out together this time — I’ve slowed down a bit; it’s summer, it’s hot, that’s how it is. In return, I tried to gather enough so that you’ll have something to listen to for an entire vacation.
 
-Kezdetnek itt van Oneirich új mixtape-je, kevésbé ambient, inkább lüktetősebb-utazósabb ritmikus számokkal:
+To start, here’s Oneirich’s new mixtape — less ambient, more pulsing, travel-like rhythmic tracks:
 
 {% mixcloud 'https://www.mixcloud.com/uurObscuur/shamanic-journey-into-sound/' %}
 
-Ne feledkezzünk meg a szokásos Nachtról sem, a július 27-i mixtape:
+Let’s not forget the usual Nacht either — the July 27 mixtape:
 
 {% mixcloud 'https://www.mixcloud.com/winterlightnl/nacht-radio-show-27072025/' %}
 
-Ajnát már ajánlottam a múltkor, most itt van tőle (más néven, Segment.faultként) friss megjelenés.
+I already recommended Ajna last time, now here’s a new release from them (under another name, as Segment.fault).
 
 {% bandcamp 'https://ajna1.bandcamp.com/album/a-sudden-apparition' %}
 
-Caldon Glover Eternal Night Radio albuma is nemrég jelent meg, méltatlanul elfeledkeztem róla, most pótolom.
+Caldon Glover’s Eternal Night Radio album also came out recently — I unfairly forgot about it, but I’m making up for that now.
 
 {% bandcamp 'https://cryochamber.bandcamp.com/album/eternal-night-radio' %}
 
-Szintén újabb megjelenés az Eraserhead c. film által inspirált gyűjteményes album, többek között Grey Frequency és Sonologyst egy-egy száma is szerepel rajta.
+Also a new release: a compilation inspired by the film Eraserhead, featuring tracks by Grey Frequency and Sonologyst, among others.
 
 {% bandcamp 'https://unexplainedsoundsgroup.bandcamp.com/album/the-eraserhead-music-inspired-by-the-film-of-david-lynch' %}
 
-És ha már említettem Sonologystot, akkor itt egy régi (2015-ös) albuma, az Ancient Death Cults and Beliefs.
+And since I mentioned Sonologyst, here’s one of his older albums from 2015 — Ancient Death Cults and Beliefs.
 
 {% bandcamp 'https://sonologyst.bandcamp.com/album/ancient-death-cults-and-beliefs' %}
 
-Egy különlegesség 2020-ból, egy közönség nélküli előadás felvétele Inade és Circular koprodukciójában: The Saturnine Broadcasting.
+Something special from 2020: a recording of a performance without an audience, a collaboration between Inade and Circular — The Saturnine Broadcasting.
 
 {% bandcamp 'https://loki-found.bandcamp.com/album/the-saturnine-broadcasting' %}
 
-És a végét is zárjuk Oneirich-hel, aki összerakott egy industrial mixtape-et is nemrég.
+And let’s close with Oneirich again, who recently put together an industrial mixtape as well.
 
 {% mixcloud 'https://www.mixcloud.com/uurObscuur/industrial-techno-rhythmic-noise-oneirichs-230-tracks-day-09/' %}
 
-Ennyi volt az ajánló, mindenkinek jó nyaralást kívánok, hozzáadtam amit tudtam. Mivel én is nyaralni megyek nemsokára, ezért új posztokra majd augusztus utolsó hetében lehet számítani.
+That’s all for this round of recommendations, I wish everyone a great summer holiday! I’ve added all I could. Since I’ll be going on vacation soon too, expect new posts in the last week of August.
