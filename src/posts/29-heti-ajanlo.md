@@ -1,37 +1,41 @@
 ---
-title: 29. heti ajánló
-tags: post
+title: Unearthed – Week 29
+tags:
+    - post
+    - unearthed
 date: 2025-07-20t21:00:00.0+02:00
 ---
 
-# Új megjelenések
 
-Vein by Ashtoreth & Forestaal – samanisztikus, masszív drónok, élőben, zenekarral, minden ami jó.
+# New Releases
+
+Vein by Ashtoreth & Forestaal – massive shamanistic drones performed live with a full band; everything that’s good.
 
 {% bandcamp 'https://ashtoreth1.bandcamp.com/album/vein' %}
 
-Dark Orbit by ProtoU – dark space ambient.
+Dark Orbit by ProtoU – dark space ambient.
 
 {% bandcamp 'https://cryochamber.bandcamp.com/album/dark-orbit' %}
 
-Santa Sangre Magazine presents: The Sixth Configuration compilation – 100 számos válogatás a dark undergroundból, rajta pl. The Black Monolith, Llyn Y Cwn, Vestigial, Ashtoreth, Insectarium és természetesen még rengetegen.
+Santa Sangre Magazine presents: The Sixth Configuration –
+a 100-track compilation from the dark underground, featuring The Black Monolith, Llyn Y Cwn, Vestigial, Ashtoreth, Insectarium, and many more.
 
 {% bandcamp 'https://santasangremagazine.bandcamp.com/album/santa-sangre-magazine-presents-the-sixth-configuration-compilation' %}
 
-# Régebbi albumok
+# Older Albums
 
-Svarteboken by The Black Monolith & Olik Nesnah – dark/ritual ambient.
+Svarteboken by The Black Monolith & Olik Nesnah – dark, ritual ambient.
 
 {% bandcamp 'https://aneclecticcollectionofdust.bandcamp.com/album/svarteboken' %}
 
-Drone Day 2025 by Substak – az eddig méltatlanul elhanyagolt drone műfajból, a nemzetközi [Drone Napra](https://droneday.org/index.html) készült felvétel.
+Drone Day 2025 by Substak – a recording from the unjustly neglected drone genre, created for the international [Drone Day](https://droneday.org/index.html).
 
 {% bandcamp 'https://substak.bandcamp.com/track/substak-drone-day-2025' %}
 
-Fury 161 (CSR342CD) by Bestia Astrum – indusztriális dark ambient, egyenesen a Neroid Szektorból…
+Fury 161 (CSR342CD) by Bestia Astrum – industrial dark ambient, straight from the Neroid Sector.
 
 {% bandcamp 'https://coldspring.bandcamp.com/album/fury-161-csr342cd' %}
 
-Better To Have Never Been by Violent Grief – még egy drone a végére.
+Better To Have Never Been by Violent Grief – another drone album to round things off.
 
 {% bandcamp 'https://violentgrief.bandcamp.com/album/better-to-have-never-been' %}
