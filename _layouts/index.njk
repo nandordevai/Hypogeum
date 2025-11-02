@@ -16,7 +16,12 @@ pagination:
     {%- for post in posts -%}
         <article>
             <h1>{{ post.data.title }}</h1>
-            {{ post.content | safe }}
+            {% if post.data.page.excerpt %}
+                {% excerpt post %}
+                <a href="{{ post.url }}">Read more</a>
+            {% else %}
+                {{ post.content | safe }}
+            {% endif %}
             <a class="permalink" href="{{ post.url }}">
                 <time datetime="{{ post.data.date.toISOString() }}">
                     {{ post.data.date.toLocaleString('en-GB', {

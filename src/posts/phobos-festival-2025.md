@@ -1,12 +1,14 @@
 ---
 title: Phobos festival 2025
-date: 2025-10-27t21:00:00.0+02:00
+date: 2025-10-27t21:00:00.0+01:00
 tags: post
 ---
 
 Phobos Festival has been around for quite a while, but somehow I’d never managed to attend it until now. This year, my wife and I decided to change that. We packed up the car in Budapest and set off on a long road trip to Wuppertal for the event. Our first stop was Prague, where I couldn’t resist leaving a little trace of my presence in the form of a sticker.
 
 ![](/img/phobos2025/IMG_1660.jpeg)
+
+<!-- more -->
 
 The next day, we reached our destination. I have to admit, Wuppertal isn’t the most beautiful city I’ve ever seen, but the Schwebebahn (the city’s famous suspension railway) fascinated us. We spent the day wandering around, grabbing dinner, and generally doing what tourist usually do.
 
