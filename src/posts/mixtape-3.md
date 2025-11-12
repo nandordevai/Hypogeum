@@ -8,4 +8,4 @@ tags:
 
 Along with the cool and rainy autumn days comes the third Hypogeum mixtape, featuring music that fits the gloomy mood from The Haxan Cloak, ProtoU, Raison d'Être and many others.
 
-{% mixcloud 'https://www.mixcloud.com/rabbitknight/hypogeum-3/' %}
+{% mixcloud 'https://www.mixcloud.com/hypogeum_hu/hypogeum-3/' %}

@@ -1,7 +1,7 @@
 async function sendNewsletterForm(form) {
     const formData = new FormData(form);
     try {
-        await fetch('https://buttondown.com/api/emails/embed-subscribe/nandordevai', {
+        await fetch('https://buttondown.com/api/emails/embed-subscribe/hypogeum', {
             method: 'POST',
             body: formData,
         });

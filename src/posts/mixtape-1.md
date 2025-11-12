@@ -6,4 +6,4 @@ date: 2025-06-13t13:00:00.0+01:00
 
 Hallgatnivaló a hétvégére: az ígérteken kívül még Desiderii Marginis, Beckahesten és mások, közel egy órában.
 
-{% mixcloud 'https://www.mixcloud.com/rabbitknight/hypogeum-1/' %}
+{% mixcloud 'https://www.mixcloud.com/hypogeum_hu/hypogeum-1/' %}
