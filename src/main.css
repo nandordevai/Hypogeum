@@ -10,8 +10,17 @@
     font-family: sans-serif;
 }
 
-article:has(+ article) {
-    border-bottom: 1px solid var(--border-color);
+article {
+    display: grid;
+
+    &:has(+ article) {
+        border-bottom: 1px solid var(--border-color);
+    }
+
+    &.patreon {
+        background-color: aliceblue;
+        padding-inline: 1rem;
+    }
 }
 
 body {
