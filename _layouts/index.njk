@@ -13,10 +13,7 @@ pagination:
         <h1>English version on the way</h1>
         <p>We’re in the process of translating all earlier posts into English. Please check back soon for more content.</p>
     </article>
-    <article class="patreon">
-        <p><strong><a href="https://www.patreon.com/c/Hypogeum">Support Hypogeum on Patreon</a> to keep the project growing</strong>.</p>
-        <p>Your support keeps the tunnels open.</p>
-    </article>
+    {% include 'patreon.njk' %}
     {%- for post in posts -%}
         <article>
             <h1>{{ post.data.title }}</h1>

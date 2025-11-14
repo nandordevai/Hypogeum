@@ -87,6 +87,7 @@ export default function (config) {
             input: 'src',
             output: 'docs',
             layouts: '../_layouts',
+            includes: '../_includes',
         },
     };
 }
