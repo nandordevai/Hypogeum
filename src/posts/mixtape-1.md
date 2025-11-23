@@ -4,6 +4,6 @@ title: "Hypogeum Mixtape #1"
 date: 2025-06-13t13:00:00.0+01:00
 ---
 
-Hallgatnivaló a hétvégére: az ígérteken kívül még Desiderii Marginis, Beckahesten és mások, közel egy órában.
+Listening material for the weekend. Besides the promised ones, there’s Desiderii Marginis, Beckahesten, and others, almost an hour’s worth.
 
 {% mixcloud 'https://www.mixcloud.com/hypogeum_hu/hypogeum-1/' %}

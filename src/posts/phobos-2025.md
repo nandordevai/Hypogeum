@@ -1,7 +1,7 @@
 ---
 tags: post
-title: Phobos fesztivál 2025.
+title: Phobos festival 2025
 date: 2025-06-10t20:50:00.0+01:00
 ---
 
-Még időben szólok: október 18-án [Phobos fesztivál](https://phobosfestival.de) Wuppertalban.
+Giving you a heads-up in time: on October 18, the [Phobos Festival](https://phobosfestival.de) takes place in Wuppertal.

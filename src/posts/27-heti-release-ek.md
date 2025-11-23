@@ -1,5 +1,5 @@
 ---
-title: 27. heti release-ek
+title: Week 27 releases
 tags: post
 date: 2025-07-06t20:24:00.0+02:00
 ---
@@ -12,12 +12,12 @@ date: 2025-07-06t20:24:00.0+02:00
 
 # Translucent Communion by Vestigial
 
-A 2008-as klasszikus album újrakiadása. Korlátozott példányszámú CD.
+A reissue of the 2008 classic, available as a limited edition CD.
 
 {% bandcamp 'https://cycliclaw.bandcamp.com/album/translucent-communion' %}
 
 # Descending Vastness by Vestigial
 
-…és itt az új album is tőle.
+…and here’s the new album.
 
 {% bandcamp 'https://cycliclaw.bandcamp.com/album/descending-vastness' %}
