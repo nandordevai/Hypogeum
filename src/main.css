@@ -11,15 +11,17 @@
 }
 
 article {
-    display: grid;
-
     &:has(+ article) {
         border-bottom: 1px solid var(--border-color);
     }
 
     &.patreon {
         background-color: aliceblue;
-        padding-inline: 1rem;
+        padding: 1rem;
+
+        p {
+            margin: 0;
+        }
     }
 }
 
@@ -128,6 +130,9 @@ nav {
 
 p {
     line-height: 1.4;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    /* margin-block-end: 1rem; */
 }
 
 time {

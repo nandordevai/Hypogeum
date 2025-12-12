@@ -1,0 +1,74 @@
+---
+title: "Entrópia Architektúra interjú"
+tags:
+    - interview
+date: 2025-12-12t20:45:00.0+01:00
+---
+Több kategóriával is szeretném a jövőben bővíteni a Hypogeumot, a blog koncepciótól elmozdulva a webzine irányába. Az első lépés ezen az úton az interjúk készítése. Örömmel jelenthetem be, hogy elkészült az első, mégpedig az Entrópia Architektúra zenekarral, akinek [Kapu című lemeze](https://entropiarchitektura.bandcamp.com/album/kapu) nemrég jelent meg. Kérdéseimre a tagok közül Csaba (ének, sakuhacsi, sampler), Tamás (gitár, perzsa szitár, samiszen), Dani (basszusgitár, szintetizátor) és Marci (ének, vas, ütőhangszerek, zaj) válaszolt.
+
+**Hypogeum: Viszonylag kevés zenei anyag található tőletek online. Ez koncepció, vagy csak így alakult?**
+
+**Csaba:** Mindkettő. A zenénk felfogása mélyen a jelen pillanathoz köti az előadást. Mindig is törekedtünk arra, hogy csak olyan anyagok legyenek elérhetők rólunk, amelyekben tetten érhető a jelen megismételhetetlensége és a mulandóság melankóliája. Ezek a gondolatok vezettek oda, hogy éveken át gyakorlatilag szabotáltuk a saját anyagaink megjelentetését.
+
+**A zenéteket én leginkább a „rituális” címkével tudnám ellátni – egyfajta modern, technospirituális szertartás, ami a mai kor eszközeivel idéz meg időtlen szellemi energiákat. Mi a célotok ezeknek az erőknek az előhívásával, mire fókuszáljátok?**
+
+**Tamás:** Elsősorban erőt és súlyt szeretnék közvetíteni: lassan sodró, mégis magával ragadó hullámokat. Hálás vagyok, hogy a zenekar nyitott volt, és elfogadta a koncepciómat, hogy nyolchúros gitárral valósítsam meg mindezt, hiszen a csatlakozásomig nem ez volt a jellemző.
+
+**Dani:** A cél egy közösségi élmény, amit a hallgatókkal, koncertlátogatókkal együtt hozunk létre és élünk meg. A hangszerkezelésünk igyekszik egy olyan zenei utat kijelölni, ahol az eszközök nem feltétlenül a megszokott, dogmatikus zenei előírásokat követik, inkább egy örvénylő zenei állapotot hivatottak megjeleníteni.
+
+**Csaba:** A közlésmódunk gyökere egészen a civilizációk előtti időkig nyúlik vissza: amikor a történetek átadásához még a nyelvre sem volt szükség. A misztériumjátékok és vallási rítusok idejéhez kapcsolódik. Ez a nyelv nélküli nyelv, ez az átadási forma tudja a legközvetlenebbül csatornázni az érzések és érzelmek széles spektrumát. Azt akarjuk, hogy a zenénk megállítson, megdöbbentsen, és valami felejthetetlen élményt adjon, mert részben a száműzött állati én-részünkhöz, az animushoz és az animához szól. Ez a rituális megközelítés képes bármilyen közönségre a legerősebb hatást gyakorolni – ehhez viszont le kell ásni az alapokig.
+
+**Minden rituálé egyszerre kötött, szabályok szerint lezajló esemény és egyszeri, megismételhetetlen történés is. A zenétekre mennyire igaz ez? Inkább improvizatív, vagy gondosan felépített?**
+
+**Tamás:** A dalszerkezetek és a témák kötöttek; minimális improvizáció élőben előfordul, főként a „zaj” részeknél. Ambient jellegű gitárhangok, némileg díszített perzsa szitártémák, illetve a szüzü csengő használata élőben, a Sakura közepén.
+
+**Dani:** Gondosan felépített szerkezetekben gondolkodunk és alkotunk. A munkamódszer több körre osztható, pontosabban több különböző fázisból áll. A tételek alapját és szerkezetét általában Tamással közösen hozzuk otthonról, mert mindketten szeretünk egyedül, hosszan foglalkozni dalszerkezetekkel, és különböző témák variációival kísérletezni. Ezeket gyakran közösen is átnézzük, ha épp van időnk összeülni nálam a stúdióban, ahol egyébként a lemezt is felvettük.
+
+A második fázis, amikor a komplett vázzal megérkezünk a próbára, és ott a többiekkel együtt színesítjük tovább – vagy épp szétkapjuk és újra összerakjuk. Innentől van egy alapunk, amihez mindenki hozzáteszi a saját elképzeléseit; ezt próbatermi körülmények között rögzítjük. A harmadik rész már az egyéni finomításokról és szerepvállalásról szól: ilyenkor a szám gyakorlatilag kész, „csak” fel kell tölteni tartalommal és a ránk jellemző vonásokkal.
+
+**Csaba:** Ez a kreatív folyamat nehezen önthető szavakba, mert minden irányból megközelítjük a saját zenénket, mielőtt színpadra visszük. Olyan, mint egy kard kovácsolása: az érc megkeresésétől a kovácsoláson és az edzésen át egészen az élezésig számtalan műveleten kell átesnie, hogy végül valami egészen új esztétikát hozzon létre. A színpadon viszont már nincs keresés, kutatás, improvizáció: ott már az elkészült kard fog vágni.
+
+**A stúdióban mennyire sikerült az elképzelésetek szerint reprodukálni a zenétek energiáját? Hogyan zajlott a felvétel?**
+
+**Tamás:** Részemről maximálisan elégedett vagyok. Nagy Miklós („Májki”) remek munkát végzett, és az irányítása alatt flottul ment minden a felvétel során. Ritkán kellett ugyanannak a témának többször nekifutni; a zenekar és a stúdió is felkészült erre.
+
+**Dani:** Egy felvétel készítése más hozzáállást és munkafolyamatot kíván, mint egy koncert, és teljesen más a hangulata is. Sokat foglalkoztunk azzal, hogy ettől függetlenül megmaradjon a zenekar lényege, az a bizonyos érzés, ami koncerteken előtör. Egyfajta élő, lélegző lemezt és hangzást akartunk; Májki (Nagy Miklós) pedig teljes mértékben kiszolgálta az igényeinket, és mindenben segítségünkre volt. Régóta készültünk erre az együttműködésre: teljesen világos volt, hogy ő az, aki képes megvalósítani azt, amit szeretnénk.
+
+**Marci:** Elmentünk stúdióbejárásra, és megterveztük, mi hol legyen. Mire eljött a felvétel ideje, a stúdió is maximálisan fel volt készülve a feladatra. A felvétel során csapatként vágtunk bele, így nem voltak kilengések az egyéni igények felé: mindenki egy irányba tartott. Ez nekem mindenképpen azt az élményt adta, hogy a „steril stúdiózást” egy közös zenélés élményévé változtattuk.
+
+**Csaba:** Mi is, és a mono/mono stúdió is nagy hangsúlyt fektettünk a megfelelő feltételek megteremtésére, és sikerült elérni azt a közeget, amelyben „begyulladtak” az alkotói energiáink. Szerencsére a stáb nagyon felkészült volt, és ezt az állapotot rögzíteni is sikerült. Az utómunkák során pedig addig nyúztuk a felvételeket, amíg mindenkinek konszenzussal megfelelő lett a végeredmény. Mi úgy érezzük, felvételről is működik a rituálé. Nektek mi a véleményetek?
+
+**Csaba, a metal.hu-n megjelent interjúban említetted, hogy beavatást kaptál a Mahakala-gyakorlat használatába, ill. ha jól tudom Marcival mindketten gyakorló buddhisták vagytok. Milyen szerepe van ennek a tradíciónak a zenében?**
+
+**Csaba:** Személyes szerepe van. Mi, a szólista szerepünkben, életet lehelünk abba az összetett és hatalmas Gólembe, amit a hangszeres csapat kemény munkával hozott létre. Ettől a konstrukció mélyen átitatódik azoknak a tradícióknak az esszenciájával, amelyeket komolyan veszünk és gyakorlunk. Nem akarom túlmisztifikálni az énekesek szerepét a zenekarban, de a hangunk katalizátorként működik a megidézett erők számára. Nagyon fontosnak tartjuk, hogy olyan dolgokról énekeljünk, amelyek a lelkünk részei, és elejétől a végéig tisztában legyünk a jelentésükkel.
+
+**Az említett interjúban azt is mondtátok, „eljött az idő és a hely, hogy kaput nyissunk egy új korszakra”. Mit reméltek, hová vezet pontosan ez a kapu? És ti fogtok átsétálni rajta, vagy azt várjátok hogy ezen a kapun lép be valaki-valami az életetekbe?**
+
+**Tamás:** Természetesen sokmilliós lemezszerződés egy nagy kiadóval. De komolyra fordítva a szót: az album révén aktívabb jelenlétet (élő fellépések, online elérés) remélek. Mindenképpen fordulópont, hiszen ez végre egy referencia is lesz a zenekar számára. Hogy ebből miképp lépünk tovább, az majd organikusan alakul, belső és külső folyamatok révén.
+
+**Dani:** A Kapu cím zenei értelemben arra utal, hogy a zenekar megújult. Tudatosan, koncepció mentén haladtunk, és az eszközpark bővítésével, illetve a saját zenei hozzáállásunk újragondolásával szélesebbre tártuk az Entrópia Architektúra zenei világát, miközben megőriztük a régi hagyományokat és hozzáállást. Ezt leginkább a lemezen található tételek bizonyítják, hiszen az Achaemenid és a 93/93 című számunk egyes részeinek létrejöttében évekkel ezelőtt nagy szerepe volt Nagy Gábornak, Martonosi Péternek, Csürke Zoltánnak és Gnáj Józsefnek; igaz, mostani formájukban ezek a számok már a zenekar jelenlegi zenei felfogásában kerültek újragondolásra. A lemez írásánál fontos szempont volt, hogy eddig nem megszokott hangulatokat is beillesszünk az Entrópia világába, hiszen ezek mindannyiunkban ott voltak régen is, csak eddig nem voltunk olyan zenei közegben, ahol ez megvalósítható lett volna. Ezért is használtunk rengeteg olyan hangszert, ami korábban nem volt jellemző.
+
+**Csaba:** Kilépünk az esetlegesség erődjéből, amely eddig jellemezte a munkásságunkat. Egyszerűen elment mellettünk az a korszak, amikor a közönségünket kizárólag élő fellépéseken keresztül érhettük el. A zenénk folyamatosan változik, mert elsősorban az érzés, és nem a zenei zsáner az, ami mindannyiunkat összetart, motivál és inspirál. Sokféle közegből sokféle zenei elemet hordtunk össze az évek során ebbe a zenekarba; ezeket az elemeket dekonstruáltuk, majd beépítettük a zenénkbe. Az egyetlen fix pont maga a változás maradt, és remélem, ezt a dinamikát fenn tudjuk tartani a jövőben is. De ezután már minden további lépésünknek emléket állítunk – hallgatható formában is.
+
+**Sokféle – hagyományos és modern – hangzást ill. szemléletet is egybefog a zenétek. Mi a szervezőelv, aminek mentén integrálni tudjátok a különféle hatásokat – személyenként és zenekarként egyaránt?**
+
+**Tamás:** Mivel ez egy zenekar, elsősorban a hangzás kialakításakor figyelek arra, hogy még ha vannak is hangsúlyosabb részei egy adott hangszernek, az semmiképp se nyomja el a zene többi részét. Minden hangszer és hang kapjon teret – akár a zajosabb részeknél is. Amikor riffekről van szó, igyekszem arra koncentrálni, hogy az adott téma kifejezetten monotonitásbarát legyen, sokszor lehessen ismételni. A népi hangszereknél pedig az aláfestés és a hangulatképzés a lényeg: mintegy szőnyegként működjenek az énektémák alatt.
+
+**Dani:** A zenekarnak hosszú ideje van egy sajátos, jellemző hangzásvilága; ebbe a hagyományos keretbe foglaljuk az új ötleteket és elképzeléseket, amelyek belőlünk fakadnak. Ez egy olyan fundamentum, ami irányt ad, és sajátos képpé formálja a zenei innovációt.
+
+**Csaba:** A szervezőelv maga a zenekar. Ahogy Dani is említette, ez a zenekar már évekkel ezelőtt életre kelt, és mintha függetlenítette volna magát. Nekünk csak rá kell találnunk az összehordott elemek harmóniájára. Mindig van egy pont, amikor: „Uhh, ez az!”
+
+**Nem könnyen kategorizálható a zenétek, okoz ez nehézséget a koncertszervezésben? Kik azok a zenekarok, akikkel szívesen lépnétek fel együtt?**
+
+**Tamás:** Részemről a stílust nem tartom akadálynak: tág értelemben más zenékkel is meg tud férni egy színpadon a produkció. Ami inkább kihívás, hogy hat főből áll a zenekar, és egy-egy embernek akár több eszközt is vinnie kell, ezeket pedig a színpadon elhelyezni és kezelni. Ez utóbbinál sokszor a hely mérete a meghatározó; igyekszem minél kompaktabbra és ésszerűbbre formálni a hangszeres részem. Ezek hangosítása és összehangolása is komoly feladat, sok csatornára van szükség. Ha választhatnék, nagyon szívesen osztanám meg a színpadot például a Godflesh-sel.
+
+**Dani:** A zenénk stílusok közötti átjárhatósága szerintem egyáltalán nem okoz gondot; sokan vevők a sokszínű, ha úgy tetszik, avantgárd zenei felfogásra és megoldásokra. Viszont mivel hatan vagyunk, rengeteg plusz hangszerrel, a fellépéseinknek vannak gyakorlati feltételei, amelyek nem minden helyszínen adottak. Ez többször okoz problémát, és több esetben konkrétan megvalósíthatatlanná teszi a koncertet.
+
+**Marci:** Mindannyian többféle zenét fogyasztunk, így valahogy természetesen alakult, hogy nyitottabbak vagyunk. Amikor kérdezik tőlem, milyen zenét játszunk, én sem tudom kategorizálni, de már nem is célunk. A koncertek szervezésénél valóban a színpadméret lett a legmeghatározóbb tényező. Nekem egy Neurosis közös koncert lett volna az álom, de ez már csak álom marad.
+
+**Csaba:** Sok tehetséges és érdekes szereplő van a hazai és környékbeli könnyűzenei, kísérleti zenei niche-ben. Én személy szerint szeretném elkerülni, hogy nagyon azonos zsánerbe sorolható előadóval lépjünk fel. Nekünk és a közönségünknek is előnyös, ha minél szélesebb teret tudunk befogni egy-egy koncerttel, és akár szokatlan stílusokat is sikerül párosítani. Ez persze nem lehet kizárólagos: itthon és a környéken is vannak izgalmas zenei fesztiválok, amelyek hasonló műfajokból válogatnak viszonylag széles merítéssel; mi pedig szívesen játszunk náluk, és támogatjuk őket a jelenlétünkkel.
+
+**Mikor láthatunk titeket legközelebb a színpadon?**
+
+A lemez hivatalos bemutatója 2026. február 21-én (szombaton) lesz az A38 gyomrában a [Hænesy és Oaken társaságában](https://fb.me/e/2L9q3phip).
+
