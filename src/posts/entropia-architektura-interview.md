@@ -7,13 +7,17 @@ date: 2025-12-12t20:45:00.0+01:00
 ---
 I’d like to expand Hypogeum with more categories in the future, moving away from the blog concept toward a webzine format. The first step on this path is doing interviews. I’m happy to announce that the first one is complete, featuring the band Entrópia Architektúra whose [new album ‘Kapu’](https://entropiarchitektura.bandcamp.com/album/kapu) was recently released. Csaba (vocals, shakuhachi, sampler), Tamás (guitar, persian sitar, shamisen), Dani (bass, synthesizers) and Marci (vocals, iron, percussion, noise) answered my questions from among the members.
 
-(This interview can also be read [in Hungarian](/posts/hu/entropia-architektura-interview/).)
+(The photos were taken on November 15th, during the pre-release listening session for the new album.)
+
+**This interview can also be read [in Hungarian](/posts/hu/entropia-architektura-interview/).**
 
 <!-- more -->
 
 **Hypogeum: There is relatively little music material from you online. Is this a concept, or did it just happen that way?**
 
 **Csaba:** Both. The perception of our music is deeply tied to the present moment of the performance. We have always strived to only make material available about us in which the unrepeatability of the present and the melancholy of transience are discernible. These thoughts led us to practically sabotage the release of our own material for years.
+
+![](/img/entropia-architektura/IMG_0145.jpeg)
 
 **I would label your music most accurately as “ritualistic” – a kind of modern, techno-spiritual ceremony that evokes timeless spiritual energies using contemporary tools. What is your goal in summoning these forces, what do you focus them on?**
 
@@ -22,6 +26,8 @@ I’d like to expand Hypogeum with more categories in the future, moving away fr
 **Dani:** The goal is a communal experience that we create and live through together with the listeners and concert-goers. Our handling of instruments seeks to define a musical path where the tools do not necessarily follow the usual, dogmatic musical prescriptions, but rather are intended to represent a swirling musical state.
 
 **Csaba:** The root of our communication method stretches back to pre-civilization times: when language was not even needed to pass on stories. It relates to the time of mystery plays and religious rites. This language without language, this form of transmission, is able to most directly channel the wide spectrum of feelings and emotions. We want our music to stop you, shock you, and give you an unforgettable experience, because it speaks partly to our exiled animal self-part, the animus and the anima. This ritualistic approach can have the strongest effect on any audience – but this requires digging down to the foundation.
+
+![](/img/entropia-architektura/IMG_0139.jpeg)
 
 **Every ritual is simultaneously a regulated event that unfolds according to rules and a singular, unrepeatable occurrence. How true is this of your music? Is it more improvisational, or carefully constructed?**
 
@@ -33,6 +39,8 @@ The second phase is when we arrive at the rehearsal with the complete framework 
 
 **Csaba:** This creative process is difficult to put into words because we approach our own music from every direction before taking it to the stage. It’s like forging a sword: from finding the ore through forging and tempering all the way to sharpening, it must go through countless operations to finally create a completely new aesthetic. On stage, however, there is no more searching, researching, or improvisation: there, the finished sword will cut.
 
+![](/img/entropia-architektura/IMG_0147.jpeg)
+
 **How successful were you in reproducing the energy of your music according to your vision in the studio? How did the recording process go?**
 
 **Tamás:** For my part, I am completely satisfied. Miklós Nagy (“Májki”) did an excellent job, and everything went smoothly during the recording under his direction. We rarely had to tackle the same theme multiple times; the band and the studio were both prepared for it.
@@ -42,6 +50,8 @@ The second phase is when we arrive at the rehearsal with the complete framework 
 **Marci:** We went on a studio tour and planned where everything should be. By the time of the recording, the studio was also fully prepared for the task. We started the recording as a team, so there were no swings towards individual needs: everyone headed in one direction. This definitely gave me the experience of transforming “sterile studio work” into a shared musical experience.
 
 **Csaba:** We, and the mono/mono studio, both placed great emphasis on creating the right conditions, and we managed to achieve the environment in which our creative energies “ignited.” Fortunately, the staff was very well prepared, and they managed to capture this state. During post-production, we hammered the recordings until the result was acceptable to everyone by consensus. We feel that the ritual works even on recording. What is your opinion?
+
+![](/img/entropia-architektura/IMG_0150.jpeg)
 
 **Csaba, in the interview published on metal.hu, you mentioned that you were initiated into the use of the Mahakala practice, and if I am correct, both you and Marci are practicing Buddhists. What role does this tradition play in your music?**
 
@@ -54,6 +64,8 @@ The second phase is when we arrive at the rehearsal with the complete framework 
 **Dani:** The title ‘The Gate’ musically refers to the band’s renewal. We proceeded consciously, following a concept, and by expanding our set of tools and rethinking our own musical approach, we broadened the musical world of Entrópia Architektúra, while preserving the old traditions and attitude. This is best evidenced by the movements on the album, as Gábor Nagy, Péter Martonosi, Zoltán Csürke, and József Gnáj played a large role in the creation of parts of our tracks “Achaemenid” and “93/93” years ago; although, in their current form, these tracks have been rethought in the band’s current musical perception. An important aspect of writing the album was to incorporate moods into the world of Entrópia that were not previously characteristic, as these were all within us long ago, but we were not in a musical environment where this could be realized until now. That is why we used many instruments that were not typical before.
 
 **Csaba:** We are stepping out of the fortress of randomness that has characterized our work so far. The era when we could reach our audience exclusively through live performances has simply passed us by. Our music is constantly changing because it is primarily the feeling, and not the musical genre, that holds us together, motivates, and inspires us all. We have accumulated many musical elements from many different environments into this band over the years; we deconstructed these elements and then integrated them into our music. The only fixed point remained change itself, and I hope we can maintain this dynamic in the future as well. But after this, we will also erect a monument to all our subsequent steps – in an audible form.
+
+![](/img/entropia-architektura/IMG_0148.jpeg)
 
 **Your music encompasses many different – traditional and modern – sounds and approaches. What is the organizing principle along which you can integrate the various influences – both individually and as a band?**
 
@@ -76,3 +88,5 @@ The second phase is when we arrive at the rehearsal with the complete framework 
 **When can we see you on stage next?**
 
 The official album launch will be on Saturday, February 21, 2026, in the belly of the A38, [in the company of Hænesy and Oaken](https://fb.me/e/2L9q3phip).
+
+![](/img/entropia-architektura/IMG_0143.jpeg)

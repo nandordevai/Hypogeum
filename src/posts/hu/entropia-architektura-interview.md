@@ -6,9 +6,13 @@ date: 2025-12-12t20:45:00.0+01:00
 ---
 Több kategóriával is szeretném a jövőben bővíteni a Hypogeumot, a blog koncepciótól elmozdulva a webzine irányába. Az első lépés ezen az úton az interjúk készítése. Örömmel jelenthetem be, hogy elkészült az első, mégpedig az Entrópia Architektúra zenekarral, akinek [Kapu című lemeze](https://entropiarchitektura.bandcamp.com/album/kapu) nemrég jelent meg. Kérdéseimre a tagok közül Csaba (ének, sakuhacsi, sampler), Tamás (gitár, perzsa szitár, samiszen), Dani (basszusgitár, szintetizátor) és Marci (ének, vas, ütőhangszerek, zaj) válaszolt.
 
+(A képek november 15-én készültek a Wunder Sörművekben, ahol az új albumot lehetett meghallgatni a zenekar társaságában.)
+
 **Hypogeum: Viszonylag kevés zenei anyag található tőletek online. Ez koncepció, vagy csak így alakult?**
 
 **Csaba:** Mindkettő. A zenénk felfogása mélyen a jelen pillanathoz köti az előadást. Mindig is törekedtünk arra, hogy csak olyan anyagok legyenek elérhetők rólunk, amelyekben tetten érhető a jelen megismételhetetlensége és a mulandóság melankóliája. Ezek a gondolatok vezettek oda, hogy éveken át gyakorlatilag szabotáltuk a saját anyagaink megjelentetését.
+
+![](/img/entropia-architektura/IMG_0145.jpeg)
 
 **A zenéteket én leginkább a „rituális” címkével tudnám ellátni – egyfajta modern, technospirituális szertartás, ami a mai kor eszközeivel idéz meg időtlen szellemi energiákat. Mi a célotok ezeknek az erőknek az előhívásával, mire fókuszáljátok?**
 
@@ -17,6 +21,8 @@ Több kategóriával is szeretném a jövőben bővíteni a Hypogeumot, a blog k
 **Dani:** A cél egy közösségi élmény, amit a hallgatókkal, koncertlátogatókkal együtt hozunk létre és élünk meg. A hangszerkezelésünk igyekszik egy olyan zenei utat kijelölni, ahol az eszközök nem feltétlenül a megszokott, dogmatikus zenei előírásokat követik, inkább egy örvénylő zenei állapotot hivatottak megjeleníteni.
 
 **Csaba:** A közlésmódunk gyökere egészen a civilizációk előtti időkig nyúlik vissza: amikor a történetek átadásához még a nyelvre sem volt szükség. A misztériumjátékok és vallási rítusok idejéhez kapcsolódik. Ez a nyelv nélküli nyelv, ez az átadási forma tudja a legközvetlenebbül csatornázni az érzések és érzelmek széles spektrumát. Azt akarjuk, hogy a zenénk megállítson, megdöbbentsen, és valami felejthetetlen élményt adjon, mert részben a száműzött állati én-részünkhöz, az animushoz és az animához szól. Ez a rituális megközelítés képes bármilyen közönségre a legerősebb hatást gyakorolni – ehhez viszont le kell ásni az alapokig.
+
+![](/img/entropia-architektura/IMG_0139.jpeg)
 
 **Minden rituálé egyszerre kötött, szabályok szerint lezajló esemény és egyszeri, megismételhetetlen történés is. A zenétekre mennyire igaz ez? Inkább improvizatív, vagy gondosan felépített?**
 
@@ -28,6 +34,8 @@ A második fázis, amikor a komplett vázzal megérkezünk a próbára, és ott 
 
 **Csaba:** Ez a kreatív folyamat nehezen önthető szavakba, mert minden irányból megközelítjük a saját zenénket, mielőtt színpadra visszük. Olyan, mint egy kard kovácsolása: az érc megkeresésétől a kovácsoláson és az edzésen át egészen az élezésig számtalan műveleten kell átesnie, hogy végül valami egészen új esztétikát hozzon létre. A színpadon viszont már nincs keresés, kutatás, improvizáció: ott már az elkészült kard fog vágni.
 
+![](/img/entropia-architektura/IMG_0147.jpeg)
+
 **A stúdióban mennyire sikerült az elképzelésetek szerint reprodukálni a zenétek energiáját? Hogyan zajlott a felvétel?**
 
 **Tamás:** Részemről maximálisan elégedett vagyok. Nagy Miklós („Májki”) remek munkát végzett, és az irányítása alatt flottul ment minden a felvétel során. Ritkán kellett ugyanannak a témának többször nekifutni; a zenekar és a stúdió is felkészült erre.
@@ -37,6 +45,8 @@ A második fázis, amikor a komplett vázzal megérkezünk a próbára, és ott 
 **Marci:** Elmentünk stúdióbejárásra, és megterveztük, mi hol legyen. Mire eljött a felvétel ideje, a stúdió is maximálisan fel volt készülve a feladatra. A felvétel során csapatként vágtunk bele, így nem voltak kilengések az egyéni igények felé: mindenki egy irányba tartott. Ez nekem mindenképpen azt az élményt adta, hogy a „steril stúdiózást” egy közös zenélés élményévé változtattuk.
 
 **Csaba:** Mi is, és a mono/mono stúdió is nagy hangsúlyt fektettünk a megfelelő feltételek megteremtésére, és sikerült elérni azt a közeget, amelyben „begyulladtak” az alkotói energiáink. Szerencsére a stáb nagyon felkészült volt, és ezt az állapotot rögzíteni is sikerült. Az utómunkák során pedig addig nyúztuk a felvételeket, amíg mindenkinek konszenzussal megfelelő lett a végeredmény. Mi úgy érezzük, felvételről is működik a rituálé. Nektek mi a véleményetek?
+
+![](/img/entropia-architektura/IMG_0150.jpeg)
 
 **Csaba, a metal.hu-n megjelent interjúban említetted, hogy beavatást kaptál a Mahakala-gyakorlat használatába, ill. ha jól tudom Marcival mindketten gyakorló buddhisták vagytok. Milyen szerepe van ennek a tradíciónak a zenében?**
 
@@ -49,6 +59,8 @@ A második fázis, amikor a komplett vázzal megérkezünk a próbára, és ott 
 **Dani:** A Kapu cím zenei értelemben arra utal, hogy a zenekar megújult. Tudatosan, koncepció mentén haladtunk, és az eszközpark bővítésével, illetve a saját zenei hozzáállásunk újragondolásával szélesebbre tártuk az Entrópia Architektúra zenei világát, miközben megőriztük a régi hagyományokat és hozzáállást. Ezt leginkább a lemezen található tételek bizonyítják, hiszen az Achaemenid és a 93/93 című számunk egyes részeinek létrejöttében évekkel ezelőtt nagy szerepe volt Nagy Gábornak, Martonosi Péternek, Csürke Zoltánnak és Gnáj Józsefnek; igaz, mostani formájukban ezek a számok már a zenekar jelenlegi zenei felfogásában kerültek újragondolásra. A lemez írásánál fontos szempont volt, hogy eddig nem megszokott hangulatokat is beillesszünk az Entrópia világába, hiszen ezek mindannyiunkban ott voltak régen is, csak eddig nem voltunk olyan zenei közegben, ahol ez megvalósítható lett volna. Ezért is használtunk rengeteg olyan hangszert, ami korábban nem volt jellemző.
 
 **Csaba:** Kilépünk az esetlegesség erődjéből, amely eddig jellemezte a munkásságunkat. Egyszerűen elment mellettünk az a korszak, amikor a közönségünket kizárólag élő fellépéseken keresztül érhettük el. A zenénk folyamatosan változik, mert elsősorban az érzés, és nem a zenei zsáner az, ami mindannyiunkat összetart, motivál és inspirál. Sokféle közegből sokféle zenei elemet hordtunk össze az évek során ebbe a zenekarba; ezeket az elemeket dekonstruáltuk, majd beépítettük a zenénkbe. Az egyetlen fix pont maga a változás maradt, és remélem, ezt a dinamikát fenn tudjuk tartani a jövőben is. De ezután már minden további lépésünknek emléket állítunk – hallgatható formában is.
+
+![](/img/entropia-architektura/IMG_0148.jpeg)
 
 **Sokféle – hagyományos és modern – hangzást ill. szemléletet is egybefog a zenétek. Mi a szervezőelv, aminek mentén integrálni tudjátok a különféle hatásokat – személyenként és zenekarként egyaránt?**
 
@@ -72,3 +84,4 @@ A második fázis, amikor a komplett vázzal megérkezünk a próbára, és ott 
 
 A lemez hivatalos bemutatója 2026. február 21-én (szombaton) lesz az A38 gyomrában a [Hænesy és Oaken társaságában](https://fb.me/e/2L9q3phip).
 
+![](/img/entropia-architektura/IMG_0143.jpeg)
