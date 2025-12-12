@@ -1,5 +1,5 @@
 ---
-title: "Entrópia Architektúra interview"
+title: "“Stepping out of the fortress of randomness” – Entrópia Architektúra interview"
 tags:
     - post
     - interview

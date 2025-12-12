@@ -1,5 +1,5 @@
 ---
-title: "Entrópia Architektúra interjú"
+title: "„Kilépünk az esetlegesség erődjéből” – Entrópia Architektúra interjú"
 tags:
     - interview
 date: 2025-12-12t20:45:00.0+01:00
