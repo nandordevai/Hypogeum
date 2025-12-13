@@ -4,9 +4,13 @@ tags:
     - interview
 date: 2025-12-12t20:45:00.0+01:00
 ---
-Több kategóriával is szeretném a jövőben bővíteni a Hypogeumot, a blog koncepciótól elmozdulva a webzine irányába. Az első lépés ezen az úton az interjúk készítése. Örömmel jelenthetem be, hogy elkészült az első, mégpedig az Entrópia Architektúra zenekarral, akinek [Kapu című lemeze](https://entropiarchitektura.bandcamp.com/album/kapu) nemrég jelent meg. Kérdéseimre a tagok közül Csaba (ének, sakuhacsi, sampler), Tamás (gitár, perzsa szitár, samiszen), Dani (basszusgitár, szintetizátor) és Marci (ének, vas, ütőhangszerek, zaj) válaszolt.
+ **This interview can also be read [in English](/posts/entropia-architektura-interview/)**
+
+ Több kategóriával is szeretném a jövőben bővíteni a Hypogeumot, a blog koncepciótól elmozdulva a webzine irányába. Az első lépés ezen az úton az interjúk készítése. Örömmel jelenthetem be, hogy elkészült az első, mégpedig az Entrópia Architektúra zenekarral, akinek [Kapu című lemeze](https://entropiarchitektura.bandcamp.com/album/kapu) nemrég jelent meg. Kérdéseimre a tagok közül Csaba (ének, sakuhacsi, sampler), Tamás (gitár, perzsa szitár, samiszen), Dani (basszusgitár, szintetizátor) és Marci (ének, vas, ütőhangszerek, zaj) válaszolt.
 
 (A képek november 15-én készültek a Wunder Sörművekben, ahol az új albumot lehetett meghallgatni a zenekar társaságában.)
+
+---
 
 **Hypogeum: Viszonylag kevés zenei anyag található tőletek online. Ez koncepció, vagy csak így alakult?**
 

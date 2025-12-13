@@ -5,13 +5,15 @@ tags:
     - interview
 date: 2025-12-12t20:45:00.0+01:00
 ---
+**Ez az interjú [magyarul is olvasható](/posts/hu/entropia-architektura-interview/).**
+
 I’d like to expand Hypogeum with more categories in the future, moving away from the blog concept toward a webzine format. The first step on this path is doing interviews. I’m happy to announce that the first one is complete, featuring the band Entrópia Architektúra whose [new album ‘Kapu’](https://entropiarchitektura.bandcamp.com/album/kapu) was recently released. Csaba (vocals, shakuhachi, sampler), Tamás (guitar, persian sitar, shamisen), Dani (bass, synthesizers) and Marci (vocals, iron, percussion, noise) answered my questions from among the members.
 
 (The photos were taken on November 15th, during the pre-release listening session for the new album.)
 
-**This interview can also be read [in Hungarian](/posts/hu/entropia-architektura-interview/).**
-
 <!-- more -->
+
+---
 
 **Hypogeum: There is relatively little music material from you online. Is this a concept, or did it just happen that way?**
 
