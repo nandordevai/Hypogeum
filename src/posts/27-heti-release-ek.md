@@ -1,5 +1,5 @@
 ---
-title: Week 27 releases
+title: Unearthed – Week 27
 tags: post
 date: 2025-07-06t20:24:00.0+02:00
 ---

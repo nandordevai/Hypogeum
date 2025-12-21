@@ -6,7 +6,6 @@ tags:
 date: 2025-07-20t21:00:00.0+02:00
 ---
 
-
 # New Releases
 
 Vein by Ashtoreth & Forestaal – massive shamanistic drones performed live with a full band; everything that’s good.
