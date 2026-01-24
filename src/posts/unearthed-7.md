@@ -1,5 +1,5 @@
 ---
-title: Unearthed – Week 37
+title: "Unearthed #7"
 date: 2025-09-14t20:45:00.0+02:00
 tags:
     - post

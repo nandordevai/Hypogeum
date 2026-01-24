@@ -1,5 +1,5 @@
 ---
-title: Unearthed – Week 50-52 (part 2)
+title: "Unearthed #13 (part 2)"
 tags:
     - post
     - unearthed
@@ -7,7 +7,7 @@ date: 2026-01-02t22:00:00.0+01:00
 ---
 Okay, so this took much longer than expected. Sorry for the delay – exam period, job searching, and other stuff left me with very little time and energy to write posts. I’ll pick up the rhythm in February…
 
-So the first post of 2026 is actually the last one of 2025. You can read [part 1 here](/posts/unearthed-50-51/) if you missed it.
+So the first post of 2026 is actually the last one of 2025. You can read [part 1 here](/posts/unearthed-13/) if you missed it.
 
 # Releases
 

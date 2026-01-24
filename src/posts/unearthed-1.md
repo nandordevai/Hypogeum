@@ -1,5 +1,5 @@
 ---
-title: Unearthed #1
+title: "Unearthed #1"
 tags:
     - post
     - unearthed

@@ -1,5 +1,5 @@
 ---
-title: Unearthed – Week 47
+title: "Unearthed #10"
 date: 2025-11-23t20:00:00.0+01:00
 tags:
     - post

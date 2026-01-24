@@ -1,5 +1,5 @@
 ---
-title: Unearthed – Week 36
+title: "Unearthed #6"
 date: 2025-09-02t22:20:00.0+02:00
 tags:
     - post

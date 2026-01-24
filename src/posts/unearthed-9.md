@@ -1,5 +1,5 @@
 ---
-title: Unearthed – Week 44
+title: "Unearthed #9"
 date: 2025-11-02t18:50:00.0+01:00
 tags:
     - post

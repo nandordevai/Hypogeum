@@ -1,5 +1,5 @@
 ---
-title: Unearthed – Week 30
+title: "Unearthed #3"
 tags:
     - post
     - unearthed
