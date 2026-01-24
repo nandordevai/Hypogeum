@@ -1,6 +1,8 @@
 ---
-title: Unearthed – Week 27
-tags: post
+title: Unearthed #1
+tags:
+    - post
+    - unearthed
 date: 2025-07-06t20:24:00.0+02:00
 ---
 

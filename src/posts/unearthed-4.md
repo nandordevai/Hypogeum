@@ -1,6 +1,8 @@
 ---
 title: Unearthed – Week 31-32.
-tags: post
+tags:
+    - post
+    - unearthed
 date: 2025-08-07t20:00:00.0+02:00
 ---
 

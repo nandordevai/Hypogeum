@@ -1,6 +1,8 @@
 ---
 title: Unearthed – Week 35
-tags: post
+tags:
+    - post
+    - unearthed
 date: 2025-08-25t14:20:00.0+02:00
 ---
 
