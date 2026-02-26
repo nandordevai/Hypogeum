@@ -11,7 +11,7 @@ I’d like to expand Hypogeum with more categories in the future, moving away fr
 
 (The photos were taken on November 15th, during the pre-release listening session for the new album.)
 
-<!-- more -->
+[[more]]
 
 ---
 

@@ -7,6 +7,9 @@
 {% block content %}
     <article>
         <h1>{{ title }}</h1>
+        {% if subtitle %}
+            <h2 class="subtitle">{{ subtitle }}</h2>
+        {% endif %}
         {{ content | safe }}
         <time datetime="{{ page.date.toISOString() }}">{{ page.date.toLocaleString('en-GB', { year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric' }) }}</time>
         <p class="tags">

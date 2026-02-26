@@ -9,6 +9,8 @@ With the exam period approaching, I unfortunately have less time to cover new re
 
 But now, let’s get back to our usual dark ambient releases.
 
+[[more]]
+
 # New releases
 
 **Nihil Impvlse** crafts bleak, isolationist soundscapes from industrial noise and deep drones on his new album **The Great Filter**. The resulting post-apocalyptic atmosphere offers a powerful reinterpretation of both industrial and dark ambient music.

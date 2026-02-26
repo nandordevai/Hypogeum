@@ -11,6 +11,8 @@ Let’s kick things off with two standout industrial albums. First up is **WIELO
 
 {% bandcamp 'https://zoharum.bandcamp.com/album/gods-final-breath' %}
 
+[[more]]
+
 Another release from the same artist, **Ritual**, is also a must for industrial fans. This one feels more hypnotic and rave-like, yet remains just as uncompromising. Grab both.
 
 {% bandcamp 'https://zoharum.bandcamp.com/album/ritual' %}

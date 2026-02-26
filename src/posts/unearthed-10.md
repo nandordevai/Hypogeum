@@ -6,6 +6,10 @@ tags:
     - unearthed
 ---
 
+Welcome to Unearthed #10. In this week’s recommendation: TeHÔM remixes, The Grey Lake, Insectarium & The Black Monolith and others.
+
+[[more]]
+
 # New Releases
 
 “More than a decade after the seminal release of Lacrimae Mundi, Croatian ritual ambient pioneer TeHÔM returns with Lacrimae Mundi Remixed, a transcendent new offering that gathers together the crème de la crème of the dark ambient, ritual, and post-industrial realms.”

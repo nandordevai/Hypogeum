@@ -1,8 +1,9 @@
 import scrape from 'html-metadata';
 import { readFileSync, writeFileSync } from 'fs';
-import markdown from 'markdown-it';
+import { EleventyRenderPlugin } from '@11ty/eleventy';
 
 const bandcamp = JSON.parse(readFileSync('./_data/bandcamp.json'));
+const excerptSeparator = '[[more]]';
 
 export default function (config) {
     config.setTemplateFormats([
@@ -15,6 +16,7 @@ export default function (config) {
     config.addPassthroughCopy('src/js');
     config.addPassthroughCopy({ 'src/main.css': 'main.css' });
     config.addGlobalData('layout', 'base');
+    config.addPlugin(EleventyRenderPlugin);
 
     config.addPreprocessor('drafts', 'md', (data, _content) => {
         if (data.date?.getTime() > Date.now()) {
@@ -30,12 +32,12 @@ export default function (config) {
         }
     });
 
-    config.addShortcode('mixcloud', function (url) {
+    config.addShortcode('mixcloud', (url) => {
         const parts = url.split('/').filter(item => item !== '');
         return `<iframe height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2F${parts[2]}%2F${parts[3]}%2F" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>`
     });
 
-    config.addShortcode('bandcamp', async function (url) {
+    config.addShortcode('bandcamp', async (url) => {
         if (!bandcamp[url]) {
             try {
                 const meta = await scrape(url);
@@ -50,22 +52,27 @@ export default function (config) {
         }
     });
 
-    config.addShortcode('youtube', function(url) {
+    config.addShortcode('youtube', (url) => {
         const src = url.replace('watch?v=', 'embed/');
         return `<iframe src="${src}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
     });
 
-    config.addShortcode('excerpt', function(page) {
-        return markdown({ html: true }).render(page.data.page.excerpt);
-    });
+    config.addTransform('removeExcerptMarker', (content, outputPath) => (
+        outputPath?.endsWith('.html')
+            ? content.replaceAll(excerptSeparator, '')
+            : content
+    ));
 
-    config.setFrontMatterParsingOptions({
-        excerpt: true,
-        excerpt_separator: '<!-- more -->',
+    config.addFilter('excerpt', (content, url) => {
+        if (content.includes(excerptSeparator)) {
+            const excerpt = content.split(excerptSeparator)[0];
+            return `${excerpt}<a href="${url}">Read more</a>`;
+        }
+        return content;
     });
 
     return {
-	    htmlTemplateEngine: 'njk',
+        htmlTemplateEngine: 'njk',
         dir: {
             input: 'src',
             output: 'docs',

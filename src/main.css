@@ -3,6 +3,7 @@
     --border-color: hsl(0 0% 5%);
     --link-color: hsl(240 90% 40%);
     --text-color: hsl(0 0% 5%);
+    --text-lighter-color: hsl(0 0% 10%);
 }
 
 * {
@@ -38,6 +39,10 @@ h1 {
 
 h2 {
     font-size: 1.25rem;
+
+    &.subtitle {
+        font-style: italic;
+    }
 }
 
 header {

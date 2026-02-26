@@ -10,6 +10,8 @@ date: 2025-12-07t21:00:00.0+01:00
 
 It’s a great week for fans of dark underground music: a lot of new records have just dropped. I haven’t had time to listen to everything from start to finish yet, but I’ll do my best to pull together our usual weekly list of recommendations.
 
+[[more]]
+
 First up is **Subsystem Decay** from **Kristof Bathory & Blakmoth**. If you’re into dark sci-fi atmospheres, rich analog drones, and deep cinematic pads, this one won’t let you down. Easily one of my favourites this week.
 
 {% bandcamp 'https://cryochamber.bandcamp.com/album/subsystem-decay' %}

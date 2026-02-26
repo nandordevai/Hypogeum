@@ -9,6 +9,8 @@ Okay, so this took much longer than expected. Sorry for the delay – exam perio
 
 So the first post of 2026 is actually the last one of 2025. You can read [part 1 here](/posts/unearthed-13/) if you missed it.
 
+[[more]]
+
 # Releases
 
 Let’s start with **Compendium** from **Hiemis**. It’s a compilation of previously released tracks (plus a new one), but it’s definitely worth listening to as a complete album. Deep, slow, and contemplative dark ambient with subtle ritual elements. Favourite track: *Atraxas*.

@@ -8,6 +8,8 @@ date: 2025-12-22t11:00:00.0+01:00
 
 Due to the high number of releases (and skipping last week’s Unearthed), my recommendations for the end of the year will be split into two parts. Here is part 1.
 
+[[more]]
+
 # New releases
 
 **Argyre Planitia**’s third album, **Ediacara**, was released by Winter-Light. It is a journey to an alien world that will one day be called Earth. Ten tracks guide us through these strange landscapes with slowly evolving soundscapes and deep drones.
