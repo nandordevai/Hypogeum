@@ -3,7 +3,7 @@ title: "Unearthed #15"
 tags:
   - post
   - unearthed
-date: 2026-02-11t20:00:00.0+01:00
+date: 2026-02-11 20:00:00 +01:00
 ---
 # New releases
 

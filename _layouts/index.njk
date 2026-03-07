@@ -19,10 +19,11 @@ pagination:
             {{ post.templateContent | excerpt(post.url) | safe }}
             <p>
                 <a class="permalink" href="{{ post.url }}">
-                    <time datetime="{{ post.data.date.toISOString() }}">
-                        {{ post.data.date.toLocaleString('en-GB', {
+                    <time datetime="{{ post.date.toISOString() }}">
+                        {{ post.date.toLocaleString('en-GB', {
                             year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
-                        }) }}</time>
+                        }) }}
+                    </time>
                 </a>
             </p>
             <p class="tags">

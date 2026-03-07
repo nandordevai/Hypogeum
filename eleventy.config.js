@@ -15,6 +15,7 @@ export default function (config) {
     config.addPassthroughCopy('src/img');
     config.addPassthroughCopy('src/js');
     config.addPassthroughCopy({ 'src/main.css': 'main.css' });
+    config.addPassthroughCopy({ 'src/CNAME': 'CNAME' });
     config.addGlobalData('layout', 'base');
     config.addPlugin(EleventyRenderPlugin);
 
