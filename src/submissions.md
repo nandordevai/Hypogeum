@@ -19,6 +19,7 @@ If you create within these genres and wish to be featured, please get in touch v
 * If you’re sending file downloads, please make sure they’re properly tagged with the artist name, album, and track titles. It saves me a lot of time on the “admin” side so I can focus on actually listening to the music.
 * Submitting music does not guarantee a review or feature. As a labor of love, coverage is based on personal curation and available time.
 * There is no set schedule for reviews, they appear when they are ready.
+* I may also share snippets of reviews and album art on social media to promote the feature. Please let me know if you have specific accounts you’d like me to tag.
 
 # Physical Materials
 
@@ -39,3 +40,5 @@ By submitting music for consideration, you grant **Hypogeum** permission to use 
 
 * All rights remain strictly with the original creators or their respective labels.
 * If you are a copyright holder and wish to have your content removed – or if a distribution agreement has changed – please reach out via the [contact page](/contact). I respect artist autonomy and will process removal requests promptly.
+
+Last updated: March 2026
