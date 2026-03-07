@@ -28,7 +28,7 @@ export default function (config) {
     });
 
     config.addPreprocessor('heading', 'md', (data, content) => {
-        if (data.tags?.includes('post')) {
+        if (data.tags?.includes('post') || data.tags?.includes('page')) {
             return content.replaceAll('# ', '## ');
         }
     });
