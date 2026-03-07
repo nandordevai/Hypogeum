@@ -133,8 +133,12 @@ nav {
     }
 }
 
-p {
+p,
+li {
     line-height: 1.4;
+}
+
+p {
     margin-top: 1rem;
     margin-bottom: 1rem;
     /* margin-block-end: 1rem; */

@@ -8,6 +8,8 @@ Hypogeum, literally meaning “underground.” Tombs, labyrinths, temples: sacre
 
 News, recommendations, and concert reviews from the dark underground music scene, primarily in the dark/ritual ambient, drone, and industrial genres. If you have any questions, would like to share something, or create within this genre and wish to be featured here, feel free to get in touch via the [contact page](/contact).
 
+For detailed information on our review process, ethics, and submission guidelines, please visit our [Submissions](/submissions) page.
+
 <div class="profile">
     <div class="profile__content">
         <img class="profile__image" src="/img/profile.jpg" width="200">
