@@ -10,6 +10,8 @@ date: 2026-03-07 18:30:00 +01:00
 
 {% bandcamp 'https://cryochamber.bandcamp.com/album/dark-shadows-across-a-disordered-mind' %}
 
+[[more]]
+
 **ARCHIPENOM.II** by **Alphaxone** is one thirty-minute-long track, featuring “fractured atmospheres, slow-moving tension, and submerged emotional weight,” as the release page states.
 
 {% bandcamp 'https://alphaxone.bandcamp.com/album/archipenom-ii-2' %}
@@ -31,6 +33,14 @@ date: 2026-03-07 18:30:00 +01:00
 {% bandcamp 'https://sombresoniks.bandcamp.com/album/initiation' %}
 
 **How to Start a Cult (Part I: The Forest)** by **Through the Gloom** is a strange and captivating album. Melancholic, experimental, and refreshing – just what my awesome readers want in music.
+
+This is what the author himself wrote about the release:
+
+> _How to Start a Cult (Part I: The Forest)_ is the opening chapter of a four-part concept unfolding across 2026. The Forest introduces the setting: a place of grief, isolation, and quiet gathering, where something slowly begins to form. Mournful piano melodies sit against oppressive drones, ritual drums, tape hiss and bursts of static, giving the impression of a damaged transmission or field recording from an unknown ceremony.
+>
+> The project continues with _Part II: The Flock_, arriving on 21 June, the summer solstice, followed later in the year by _The Ritual_ and _The Ruin_. Together the four releases trace the emergence, escalation, and eventual collapse of the cult.
+
+Definitely looking forward to the summer solstice this year.
 
 {% bandcamp 'https://throughthegloom.bandcamp.com/album/how-to-start-a-cult-part-i-the-forest' %}
 

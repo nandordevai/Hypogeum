@@ -141,7 +141,6 @@ li {
 p {
     margin-top: 1rem;
     margin-bottom: 1rem;
-    /* margin-block-end: 1rem; */
 }
 
 time {
@@ -210,5 +209,25 @@ time {
         &::before {
             content: '#';
         }
+    }
+}
+
+blockquote {
+    border-inline-start: 0.1rem solid var(--border-color);
+    margin-block: 1.5rem;
+    margin-inline: 0;
+    padding-block: 0;
+    padding-inline: 1rem;
+    width: 80%;
+    @media screen and (max-width: 960px) {
+        width: 100%;
+    }
+
+    p {
+        margin: 0;
+    }
+
+    p + p {
+        margin-block-start: 1rem;
     }
 }
