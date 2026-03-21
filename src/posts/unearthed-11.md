@@ -9,7 +9,7 @@ With the exam period approaching, I unfortunately have less time to cover new re
 
 But now, let’s get back to our usual dark ambient releases.
 
-[[more]]
+<!-- more -->
 
 # New releases
 

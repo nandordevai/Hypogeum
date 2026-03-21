@@ -12,7 +12,7 @@ date: 2026-02-25t19:45:00.0+01:00
 
 The album was released on December 19, 2025, and I’ve essentially been living with it ever since: listening while commuting, working, or studying, and several times just lying in bed, half-asleep. I’ve had a lot going on in my life recently, and this album – with the journey implied by its title – has consistently helped my troubled mind find relief.
 
-[[more]]
+<!-- more -->
 
 {% bandcamp 'https://cycliclaw.bandcamp.com/album/the-journey-to-reach-the-fathers-2' %}
 

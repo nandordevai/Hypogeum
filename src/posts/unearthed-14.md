@@ -9,7 +9,7 @@ date: 2026-02-02t23:00:00.0+01:00
 
 Welcome to the first Unearthed of 2026 to feature albums actually released this year.
 
-[[more]]
+<!-- more -->
 
 Our first selection is **Echoes from the Void of Time** by **Torus Dome**. It’s a half-hour dark ambient piece built on slow-moving drones and eerie choirs; the atmosphere is excellent.
 

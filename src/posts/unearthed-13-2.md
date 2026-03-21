@@ -9,7 +9,7 @@ Okay, so this took much longer than expected. Sorry for the delay – exam perio
 
 So the first post of 2026 is actually the last one of 2025. You can read [part 1 here](/posts/unearthed-13/) if you missed it.
 
-[[more]]
+<!-- more -->
 
 # Releases
 

@@ -8,7 +8,7 @@ Phobos Festival has been around for quite a while, but somehow I’d never manag
 
 ![](/img/phobos2025/IMG_1660.jpeg)
 
-[[more]]
+<!-- more -->
 
 The next day, we reached our destination. I have to admit, Wuppertal isn’t the most beautiful city I’ve ever seen, but the Schwebebahn (the city’s famous suspension railway) fascinated us. We spent the day wandering around, grabbing dinner, and generally doing what tourist usually do.
 

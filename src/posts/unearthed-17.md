@@ -8,7 +8,7 @@ date: 2026-03-19 15:00:00 +01:00
 
 {% bandcamp 'https://hermenacingpet.bandcamp.com/album/a-woman-under-the-influence' %}
 
-[[more]]
+<!-- more -->
 
 **Haunted Forest** by **Overclouds** is a slow, experimental, dark ambient album with plenty of spoken word (by Shane Beck). They are “guiding you through a disturbed mind that has gone numb,” and that sums it up perfectly.
 

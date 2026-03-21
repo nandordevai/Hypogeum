@@ -8,7 +8,7 @@ tags:
 
 Welcome to Unearthed #10. In this week’s recommendation: TeHÔM remixes, The Grey Lake, Insectarium & The Black Monolith and others.
 
-[[more]]
+<!-- more -->
 
 # New Releases
 

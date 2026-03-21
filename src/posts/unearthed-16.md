@@ -10,7 +10,7 @@ date: 2026-03-07 18:30:00 +01:00
 
 {% bandcamp 'https://cryochamber.bandcamp.com/album/dark-shadows-across-a-disordered-mind' %}
 
-[[more]]
+<!-- more -->
 
 **ARCHIPENOM.II** by **Alphaxone** is one thirty-minute-long track, featuring “fractured atmospheres, slow-moving tension, and submerged emotional weight,” as the release page states.
 

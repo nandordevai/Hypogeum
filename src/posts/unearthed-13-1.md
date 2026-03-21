@@ -8,7 +8,7 @@ date: 2025-12-22t11:00:00.0+01:00
 
 Due to the high number of releases (and skipping last week’s Unearthed), my recommendations for the end of the year will be split into two parts. Here is part 1.
 
-[[more]]
+<!-- more -->
 
 # New releases
 

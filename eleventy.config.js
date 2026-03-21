@@ -3,7 +3,8 @@ import { readFileSync, writeFileSync } from 'fs';
 import { EleventyRenderPlugin } from '@11ty/eleventy';
 
 const bandcamp = JSON.parse(readFileSync('./_data/bandcamp.json'));
-const excerptSeparator = '[[more]]';
+const excerptSeparator = '<!-- more -->';
+const isProduction = process.env.ELEVENTY_RUN_MODE === 'build';
 
 export default function (config) {
     config.setTemplateFormats([
@@ -20,9 +21,7 @@ export default function (config) {
     config.addPlugin(EleventyRenderPlugin);
 
     config.addPreprocessor('drafts', 'md', (data, _content) => {
-        if (data.date?.getTime() > Date.now()) {
-            return false;
-        } else if (data.draft && process.env.ELEVENTY_RUN_MODE === 'build') {
+        if (data.draft && isProduction) {
             return false;
         }
     });
@@ -67,7 +66,7 @@ export default function (config) {
     config.addFilter('excerpt', (content, url) => {
         if (content.includes(excerptSeparator)) {
             const excerpt = content.split(excerptSeparator)[0];
-            return `${excerpt}<a href="${url}">Read more</a>`;
+            return `${excerpt}<p><a href="${url}">Read more</a></p>`;
         }
         return content;
     });

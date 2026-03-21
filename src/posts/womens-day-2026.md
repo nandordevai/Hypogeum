@@ -6,7 +6,7 @@ date: 2026-03-08 12:30:00 +01:00
 
 I realized that I wasn’t paying enough attention to actively seeking out and promoting female producers in this genre. This post is an attempt to remedy that – please listen to these artists and support them. Art always needs every voice, every viewpoint, and every experience to remain relevant to our lives.
 
-[[more]]
+<!-- more -->
 
 My first recommendation is **Songs from the Omega Point** by **Gail Priest**. It might not be as dark as others, but it still carries the melancholy, the posthuman feeling, and the occasional glitchy, screaming noises that counterpoint the otherwise serene atmosphere of the tracks.
 
