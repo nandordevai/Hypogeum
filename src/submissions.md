@@ -31,7 +31,7 @@ I primarily focus on **dark/ritual ambient, drone, and industrial** genres. Whil
 * I don’t accept money or incentives for reviews.
 * While I’m happy to receive promotional copies, they are accepted without any obligation to provide a review.
 * This site isn’t a platform for hate speech or extremist views. I’ll pass on any submission that promotes racism, Nazism, anti-LGBTQ+ sentiments, or any other form of discrimination.
-* If you’d like to help keep the site running, you can support it via Patreon. These contributions are purely voluntary – they don’t guarantee a review, influence my opinion, or grant any editorial say.
+<!-- * If you’d like to help keep the site running, you can support it via Patreon. These contributions are purely voluntary – they don’t guarantee a review, influence my opinion, or grant any editorial say. -->
 
 # Legal stuff
 
@@ -39,4 +39,4 @@ I primarily focus on **dark/ritual ambient, drone, and industrial** genres. Whil
 * All rights remain strictly with the original creators or their respective labels.
 * If you are a copyright holder and wish to have your content removed – or if a distribution agreement has changed – please reach out via the [contact page](/contact). I respect artist autonomy and will process removal requests promptly.
 
-Last updated: 2026-03-12
+Last updated: 2026-03-25
