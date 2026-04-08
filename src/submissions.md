@@ -1,7 +1,6 @@
 ---
 title: Submissions
-tags: page
-layout: page
+tags: removed
 ---
 
 **Hypogeum** is a hobby project built on a passion for the underground. To keep things clear and honest for both the artists who share their work and those who read the site, I’ve put together a few guidelines on how I handle reviews, recommendations, and submissions.
