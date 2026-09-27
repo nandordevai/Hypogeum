@@ -1,9 +1,11 @@
 @font-face {
-  font-family: 'PicaItalic';
-  src: url('/fonts/Pica-Italic.woff') format('woff');
-  font-style: normal;
-  font-display: swap;
-}
+    font-family: 'JSL-Ancient-Italic';
+    src:url('JSL-Ancient-Italic.ttf.woff') format('woff'),
+        url('JSL-Ancient-Italic.ttf.svg#JSL-Ancient-Italic') format('svg'),
+        url('JSL-Ancient-Italic.ttf.eot'),
+        url('JSL-Ancient-Italic.ttf.eot?#iefix') format('embedded-opentype');
+    font-weight: 300;
+  }
 
 :root {
   --link-color: oklch(0.3265 0.1307 262.59);
@@ -33,8 +35,7 @@ header {
 
   h1,
   h2 {
-    font-family: 'PicaItalic';
-    font-weight: normal;
+    font-family: 'JSL-Ancient-Italic';
   }
 
   h1 {
@@ -102,23 +103,4 @@ section {
 a,
 a:visited {
   color: var(--link-color);
-}
-
-img,
-iframe {
-    border: 0;
-    max-width: 100%;
-}
-
-iframe {
-    width: 100%;
-}
-
-iframe[src*="youtube.com"] {
-    aspect-ratio: 16 / 9;
-    height: unset;
-}
-
-iframe[src*="bandcamp.com"] {
-    max-width: 700px;
 }

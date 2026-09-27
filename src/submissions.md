@@ -1,6 +1,7 @@
 ---
 title: Submissions
-tags: removed
+tags: page
+layout: page
 ---
 
 **Hypogeum** is a hobby project built on a passion for the underground. To keep things clear and honest for both the artists who share their work and those who read the site, I’ve put together a few guidelines on how I handle reviews, recommendations, and submissions.
@@ -11,7 +12,7 @@ I primarily focus on **dark/ritual ambient, drone, and industrial** genres. Whil
 
 # Submission Guidelines
 
-* I only feature music composed by humans, please **don’t submit AI-generated tracks**. AI-generated cover art is acceptable, but the music itself must be your own creation.
+* I only feature art made by humans, please **don’t submit AI-generated tracks, images, or text**. I’m no hypocrite, I also use AI sometimes for translating or editing posts, so if you use AI in the process as a tool, that’s acceptable. But if your art was made **by AI**, then it has no place here. If I discover it later, I’ll remove it from the site and all your future submissions will be automatically banned.
 * Please send **streaming links** (Bandcamp, SoundCloud) or download codes if possible.
 * If you’re sending file downloads, please make sure they’re **properly tagged** with the artist name, album, and track titles. It saves me a lot of time on the “admin” side so I can focus on actually listening to the music.
 * Sending music **doesn’t guarantee** a review or a feature. This is a labor of love, so coverage depends on my own curation and how much time I have available.
@@ -38,4 +39,4 @@ I primarily focus on **dark/ritual ambient, drone, and industrial** genres. Whil
 * All rights remain strictly with the original creators or their respective labels.
 * If you are a copyright holder and wish to have your content removed – or if a distribution agreement has changed – please reach out via the [contact page](/contact). I respect artist autonomy and will process removal requests promptly.
 
-Last updated: 2026-03-25
+Last updated: 2026-09-24

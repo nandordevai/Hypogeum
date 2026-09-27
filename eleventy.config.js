@@ -15,6 +15,7 @@ export default function (config) {
     ]);
     config.addPassthroughCopy('src/img');
     config.addPassthroughCopy('src/js');
+    config.addPassthroughCopy('src/fonts');
     config.addPassthroughCopy({ 'src/main.css': 'main.css' });
     config.addPassthroughCopy({ 'src/CNAME': 'CNAME' });
     config.addGlobalData('layout', 'base');
@@ -66,9 +67,44 @@ export default function (config) {
     config.addFilter('excerpt', (content, url) => {
         if (content.includes(excerptSeparator)) {
             const excerpt = content.split(excerptSeparator)[0];
-            return `${excerpt}<p><a href="${url}">Read more</a></p>`;
+            return `${excerpt}<p><a href="${url}">Read more »</a></p>`;
         }
         return content;
+    });
+
+    const getMonthKey = (date) => {
+        const d = new Date(date);
+        const year = d.getUTCFullYear();
+        const month = String(d.getUTCMonth() + 1).padStart(2, "0");
+        return `${year}-${month}`;
+    };
+
+    config.addCollection('issues', (collection) => {
+        const posts = collection.getFilteredByTag('post').sort((a, b) => b.date - a.date);
+        const groups = {};
+        posts.forEach((post) => {
+            const key = getMonthKey(post.date);
+            if (!groups[key]) {
+                groups[key] = {
+                issueKey: key,
+                date: post.date,
+                posts: []
+                };
+            }
+            groups[key].posts.push(post);
+        });
+        return Object.values(groups).sort((a, b) => b.issueKey.localeCompare(a.issueKey));
+    });
+
+    config.addCollection('currentIssue', (collection) => {
+        const issues = config.getCollections().issues(collection);
+        console.log(issues[0])
+        return issues.length > 0 ? issues[0] : { posts: [] };
+    });
+
+    config.addFilter('formatIssueDate', function(date) {
+        const options = { month: 'long', year: 'numeric', timeZone: 'UTC' };
+        return new Intl.DateTimeFormat('en-US', options).format(new Date(date));
     });
 
     return {

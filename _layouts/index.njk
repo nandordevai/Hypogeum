@@ -1,52 +1,20 @@
----
-pagination:
-    data: collections.post
-    alias: posts
-    size: 10
-    reverse: true
----
-
 {% extends '_layouts/base.njk' %}
 
 {% block content %}
-    {% include 'patreon.njk' %}
-    {%- for post in posts -%}
-        <article>
-            <h1>{{ post.data.title }}</h1>
-            {% if post.data.subtitle %}
-                <h2 class="subtitle">{{ post.data.subtitle }}</h2>
-            {% endif %}
-            {{ post.templateContent | excerpt(post.url) | safe }}
-            <p>
-                <a class="permalink" href="{{ post.url }}">
-                    <time datetime="{{ post.date.toISOString() }}">
-                        {{ post.date.toLocaleString('en-GB', {
-                            year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
-                        }) }}
-                    </time>
-                </a>
-            </p>
-            <p class="tags">
-                {%- for tag in post.data.tags -%}
-                    {% if tag != "post" %}
-                        <span class="tag">{{ tag }}</span>
-                    {% endif %}
-                {%- endfor -%}
-            </p>
-        </article>
-    {%- endfor -%}
+<main>
+  <h1>{{ collections.currentIssue.date | formatIssueDate }}</h1>
+  <section>
 
-    <nav class="footer">
-        {% if pagination.href.previous %}
-            <a href="{{ pagination.href.previous }}">Previous {{ pagination.size }}</a>
-        {% else %}
-            Previous {{ pagination.size }}
-        {% endif %}
-        {% if pagination.href.next %}
-            <a href="{{ pagination.href.next }}">Next {{ pagination.size }}</a>
-        {% else %}
-            Next {{ pagination.size }}
-        {% endif %}
-    </nav>
+  {% for post in collections.currentIssue.posts %}
+    <article>
+      <h1><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
+      <p>
+        {{ post.templateContent | excerpt(post.url) | safe }}
+      </p>
+      <p class="article-end">※</p>
+    </article>
+  {% endfor %}
 
+  </section>
+</main>
 {% endblock %}
