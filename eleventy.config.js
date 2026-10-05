@@ -98,7 +98,6 @@ export default function (config) {
 
     config.addCollection('currentIssue', (collection) => {
         const issues = config.getCollections().issues(collection);
-        console.log(issues[0])
         return issues.length > 0 ? issues[0] : { posts: [] };
     });
 

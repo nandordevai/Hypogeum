@@ -1,20 +1,20 @@
 {% extends '_layouts/base.njk' %}
 
 {% block content %}
-<main>
-  <h1>{{ collections.currentIssue.date | formatIssueDate }}</h1>
-  <section>
+<main class="index">
+<h1>{{ collections.currentIssue.date | formatIssueDate }}</h1>
+<section>
 
-  {% for post in collections.currentIssue.posts %}
-    <article>
-      <h1><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
-      <p>
-        {{ post.templateContent | excerpt(post.url) | safe }}
-      </p>
-      <p class="article-end">※</p>
-    </article>
-  {% endfor %}
+{% for post in collections.currentIssue.posts %}
+  <article>
+    <h1><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
+    <p>
+      {{ post.templateContent | excerpt(post.url) | safe }}
+    </p>
+    <p class="article-end">※</p>
+  </article>
+{% endfor %}
 
-  </section>
+</section>
 </main>
 {% endblock %}

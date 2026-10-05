@@ -19,6 +19,9 @@
         <nav>
             {%- for page in collections.page -%}
             <a href="{{ page.url }}">{{ page.data.title }}</a>
+            {% if page.data.title !== 'Submissions' %}
+                ※
+            {% endif %}
             {%- endfor -%}
         </nav>
     </header>

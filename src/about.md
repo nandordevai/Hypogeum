@@ -11,10 +11,8 @@ News, recommendations, and concert reviews from the dark underground music scene
 For detailed information on our review process, ethics, and submission guidelines, please visit our [Submissions](/submissions) page.
 
 <div class="profile">
-    <div class="profile__content">
-        <img class="profile__image" src="/img/profile.jpg" width="200">
-        <p class="profile__text">
-        Pictured is the inventor and creator of Hypogeum. Drawn for years to the darker side of music, he has traveled a winding path through sound — from goth rock, darkwave, and doom metal, to the hypnotic intensity of Swans, Nine Inch Nails, and Tool, and finally into the realms of dark ambient, drone, and other shadowy genres.
-        </p>
-    </div>
+    <img class="profile__image" src="/img/profile.jpg" width="200">
+    <p class="profile__text">
+    Pictured is the inventor and creator of Hypogeum. Drawn for years to the darker side of music, he has traveled a winding path through sound — from goth rock, darkwave, and doom metal, to the hypnotic intensity of Swans, Nine Inch Nails, and Tool, and finally into the realms of dark ambient, drone, and other shadowy genres.
+    </p>
 </div>
