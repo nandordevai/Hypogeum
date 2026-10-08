@@ -2,6 +2,7 @@
 title: About
 tags: page
 layout: page
+order: 2
 ---
 
 Hypogeum, literally meaning “underground.” Tombs, labyrinths, temples: sacred places of descent. Join us as we venture into these dark, echoing spaces, at times oppressively narrow, elsewhere breathtakingly vast — underground realms shaped by human hands, brought to life here and now through music.

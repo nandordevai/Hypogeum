@@ -101,6 +101,18 @@ export default function (config) {
         return issues.length > 0 ? issues[0] : { posts: [] };
     });
 
+    config.addCollection('menu', (collection) => {
+        return collection.getFilteredByTag('page').sort((a, b) => a.data.order - b.data.order);
+    });
+
+    config.addCollection('archive', (collection) => {
+        const posts = collection.getFilteredByTag('post')
+            .filter((post) => post.date < new Date('2026-10-01T00:00:00Z'))
+            .sort((a, b) => b.date.getTime() - a.date.getTime());
+        console.log(`found ${posts.length} posts`)
+        return posts;
+    });
+
     config.addFilter('formatIssueDate', function(date) {
         const options = { month: 'long', year: 'numeric', timeZone: 'UTC' };
         return new Intl.DateTimeFormat('en-US', options).format(new Date(date));

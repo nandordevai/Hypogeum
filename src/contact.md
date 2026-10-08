@@ -2,6 +2,7 @@
 title: Contact
 tags: page
 layout: page
+order: 3
 ---
 
 <p>Want to get in touch? Here’s how:</p>

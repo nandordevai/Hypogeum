@@ -17,12 +17,11 @@
         <h1>Hypogeum</h1>
         <h2>dark ambient - ritual - drone - industrial</h2>
         <nav>
-            {%- for page in collections.page -%}
+            {%- for page in collections.menu -%}
             <a href="{{ page.url }}">{{ page.data.title }}</a>
-            {% if page.data.title !== 'Submissions' %}
-                ※
-            {% endif %}
+            ※
             {%- endfor -%}
+            <a href="/archive">Archive</a>
         </nav>
     </header>
     {% block content %}{% endblock %}

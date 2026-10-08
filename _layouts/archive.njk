@@ -1,0 +1,52 @@
+---
+pagination:
+    data: collections.archive
+    alias: posts
+    size: 10
+---
+
+{% extends '_layouts/base.njk' %}
+
+{% block content %}
+<main class="page">
+    {%- for post in posts -%}
+        <article>
+            <h1>{{ post.data.title }}</h1>
+            {% if post.data.subtitle %}
+                <h2 class="subtitle">{{ post.data.subtitle }}</h2>
+            {% endif %}
+            {{ post.templateContent | excerpt(post.url) | safe }}
+            <p>
+                <a class="permalink" href="{{ post.url }}">
+                    <time datetime="{{ post.date.toISOString() }}">
+                        {{ post.date.toLocaleString('en-GB', {
+                            year: 'numeric', month: 'long', day: 'numeric', hour: 'numeric', minute: 'numeric'
+                        }) }}
+                    </time>
+                </a>
+            </p>
+            <p class="tags">
+                {%- for tag in post.data.tags -%}
+                    {% if tag != "post" %}
+                        <span class="tag">{{ tag }}</span>
+                    {% endif %}
+                {%- endfor -%}
+            </p>
+        </article>
+    {%- endfor -%}
+
+    <nav class="footer">
+        {% if pagination.href.previous %}
+            <a href="{{ pagination.href.previous }}">Previous {{ pagination.size }}</a>
+        {% else %}
+            Previous {{ pagination.size }}
+        {% endif %}
+        {% if pagination.href.next %}
+            <a href="{{ pagination.href.next }}">Next {{ pagination.size }}</a>
+        {% else %}
+            Next {{ pagination.size }}
+        {% endif %}
+    </nav>
+
+</main>
+{% endblock %}
