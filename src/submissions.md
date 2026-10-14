@@ -5,11 +5,11 @@ layout: page
 order: 4
 ---
 
-**Hypogeum** is a hobby project built on a passion for the underground. To keep things clear and honest for both the artists who share their work and those who read the site, I’ve put together a few guidelines on how I handle reviews, recommendations, and submissions.
+**Hypogeum** is a hobby project built on a passion for the underground. To keep things clear and honest for both the artists and the readers, I’ve put together a few guidelines on how I handle reviews, recommendations, and submissions.
 
 # What I Cover
 
-I primarily focus on **dark/ritual ambient, drone, and industrial** genres. While I appreciate all art, I generally don’t feature music outside of these atmospheric realms. Occasionally I also cover other arts – prints, books, visual arts – but the main focus is on music. If you create within these genres and want to be featured, please get in touch via the channels listed on the [contact page](/contact) (email preferred).
+I primarily focus on **dark/ritual ambient, drone, and industrial** genres. While I appreciate all art, I generally don’t feature music outside of these. Occasionally I also cover other arts – prints, books, visual arts – but the main focus is on music. If you create within these genres and want to be featured, please get in touch via the channels listed on the [contact page](/contact) (email preferred).
 
 # Submission Guidelines
 
@@ -40,4 +40,4 @@ I primarily focus on **dark/ritual ambient, drone, and industrial** genres. Whil
 * All rights remain strictly with the original creators or their respective labels.
 * If you are a copyright holder and wish to have your content removed – or if a distribution agreement has changed – please reach out via the [contact page](/contact). I respect artist autonomy and will process removal requests promptly.
 
-Last updated: 2026-09-24
+Last updated: 2026-10-14

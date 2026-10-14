@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="hu">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Dark/ritual ambient, drone, industrial zenei website">
-    <title>Hypogeum</title>
-    <link rel="stylesheet" href="/main.css">
-    <script src="/js/newsletter.js"></script>
-    <meta property="og:image" content="https://hypogeum.hu/img/logo-black.png">
-    {% block meta %}
-    <meta property="og:title" content="Hypogeum ※ dark ambient // ritual // drone // industrial">
-    {% endblock %}
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dark/ritual ambient, drone, industrial zenei website">
+  <title>Hypogeum</title>
+  <link rel="stylesheet" href="/main.css">
+  <script src="/js/newsletter.js"></script>
+  <meta property="og:image" content="https://hypogeum.hu/img/logo-black.png">
+  {% block meta %}
+  <meta property="og:title" content="Hypogeum ※ dark ambient // ritual // drone // industrial">
+  {% endblock %}
 </head>
+
 <body>
-    <header>
-        <h1>Hypogeum</h1>
-        <h2>dark ambient - ritual - drone - industrial</h2>
-        <nav>
-            {%- for page in collections.menu -%}
-            <a href="{{ page.url }}">{{ page.data.title }}</a>
-            ※
-            {%- endfor -%}
-            <a href="/archive">Archive</a>
-        </nav>
-    </header>
-    {% block content %}{% endblock %}
+  <header>
+    <div class="title">
+      <h1>Hypogeum</h1>
+      <h2>dark ambient - ritual - drone - industrial</h2>
+    </div>
+    <nav>
+      <strong>{{ collections.currentIssue.date | formatIssueDate }}</strong>
+      {%- for page in collections.menu -%}
+      <a href="{{ page.url }}">{{ page.data.title }}</a>
+      ※
+      {%- endfor -%}
+      <a href="/archive">Archive</a>
+    </nav>
+  </header>
+
+  {% block content %}{% endblock %}
+
+  <footer>
+    <p>Hypogeum ※ dark ambient - ritual - drone - industrial</p>
+  </footer>
 </body>
+
 </html>

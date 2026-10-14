@@ -6,7 +6,10 @@
 }
 
 :root {
-  --link-color: oklch(0.3265 0.1307 262.59);
+  --dark-color: oklch(0.14 0 0);
+  --link-color: oklch(0.33 0.13 263);
+  --light-color: oklch(0.94 0 0);
+  --shadow-color: oklch(0.54 0 0);
   --base-size: 1.2rem;
   --step: 1.25;
   --font-s: calc(var(--base-size) / var(--step));
@@ -21,19 +24,32 @@
 }
 
 body {
+  /* background: repeating-linear-gradient(to bottom, black, white 1px, white 16px); */
   font-size: 16px;
   margin: 0;
 }
 
-header {
-  background-color: oklch(0.14 0 0);
-  background-image: url('/img/logo.png');
-  background-position: 20% 15%;
-  background-repeat: no-repeat;
-  background-size: 10%;
+header,
+footer {
   color: oklch(0.96 0 0);
-  padding-block-start: 1rem;
   text-align: center;
+}
+
+header {
+  /* background: repeating-linear-gradient(to bottom, white, black 1px, black 16px); */
+
+  .title {
+    background-image: url('/img/logo.png');
+    background-position: 20% 15%;
+    background-repeat: no-repeat;
+    background-size: 10%;
+    background-color: var(--dark-color);
+    box-shadow: var(--shadow-color) 0 0.1rem 0.3rem;
+    display: inline-block;
+    height: 100%;
+    padding-block-start: 1rem;
+    width: 100%;
+  }
 
   h1,
   h2 {
@@ -43,22 +59,43 @@ header {
 
   h1 {
     font-size: var(--font-2xl);
+    line-height: 3rem;
     margin-block: 1rem;
   }
 
   h2 {
     font-size: var(--font-xl);
+    line-height: 2rem;
+    margin-block: 1rem;
     padding-block-end: 1rem;
   }
 
   nav {
-    background: white;
+    /* background: repeating-linear-gradient(to bottom, black, grey 1px, grey 16px); */
+    background: var(--light-color);
+    box-shadow: var(--shadow-color) 0 0.05rem 0.15rem;
     color: black;
     display: flex;
     font-size: var(--font-m);
     gap: 1rem;
     justify-content: center;
-    padding: 1rem;
+    line-height: 4rem;
+
+    a {
+      text-decoration: none;
+    }
+  }
+}
+
+footer {
+  background-color: var(--dark-color);
+  box-shadow: var(--shadow-color) 0 -0.1rem 0.3rem;
+  font-size: var(--font-m);
+  padding: 2rem;
+
+  p {
+    font-family: 'PicaItalic';
+    font-weight: normal;
   }
 }
 
@@ -66,14 +103,14 @@ main {
   font-size: var(--font-m);
   line-height: 1.3;
   margin: 2rem auto;
-  margin-block-start: 1rem;
+  margin-block-start: 2rem;
   width: min(90dvw, 75rem);
 
   h1 {
     border-block-end: 1px solid black;
     font-size: var(--font-l);
-    margin-block-end: 2rem;
-    padding-block-end: 0.5rem;
+    line-height: 2rem;
+    margin-block: 1rem;
   }
 }
 
@@ -136,5 +173,7 @@ iframe[src*="bandcamp.com"] {
 
 .page,
 .post {
-  width: 55rem;
+  margin-block-end: 6rem;
+  margin-block-start: 4rem;
+  max-width: 40rem;
 }
