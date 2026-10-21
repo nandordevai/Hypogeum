@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'PicaItalic';
-  src: url('/fonts/Pica-Italic.woff') format('woff');
+  font-family: 'Konquer';
+  src: url('/fonts/konquer-Regular.ttf');
   font-style: normal;
   font-display: swap;
 }
@@ -10,13 +10,20 @@
   --link-color: oklch(0.33 0.13 263);
   --light-color: oklch(0.94 0 0);
   --shadow-color: oklch(0.54 0 0);
-  --base-size: 1.2rem;
+  --base-size: 1.1rem;
   --step: 1.25;
   --font-s: calc(var(--base-size) / var(--step));
   --font-m: var(--base-size);
   --font-l: calc(var(--font-m) * var(--step));
   --font-xl: calc(var(--font-l) * var(--step));
   --font-2xl: calc(var(--font-xl) * var(--step));
+  --length-xs: calc(var(--base-size) * 0.25);
+  --length-s: calc(var(--base-size) * 0.5);
+  --length-m: var(--base-size);
+  --length-l: calc(var(--base-size) * 2);
+  --length-xl: calc(var(--base-size) * 3);
+  --length-2xl: calc(var(--base-size) * 4);
+  --length-3xl: calc(var(--base-size) * 6);
 }
 
 * {
@@ -24,8 +31,8 @@
 }
 
 body {
-  /* background: repeating-linear-gradient(to bottom, black, white 1px, white 16px); */
-  font-size: 16px;
+  /* background: repeating-linear-gradient(to bottom, black, white 1px, white var(--base-size)); */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   margin: 0;
 }
 
@@ -36,16 +43,19 @@ footer {
 }
 
 header {
-  /* background: repeating-linear-gradient(to bottom, white, black 1px, black 16px); */
+  /* background: repeating-linear-gradient(to bottom, white, black 1px, black var(--base-size)); */
 
   .title {
     box-shadow: var(--shadow-color) 0 0.1rem 0.3rem;
     display: inline-block;
     height: 100%;
-    padding-block-start: 1rem;
     position: relative;
     width: 100%;
     z-index: 1;
+
+    @media (min-width: 48rem) {
+      padding-block-start: var(--length-m);
+    }
 
     &::after {
       background-color: var(--dark-color);
@@ -66,39 +76,55 @@ header {
 
   h1,
   h2 {
-    font-family: 'PicaItalic';
+    font-family: 'Konquer';
     font-weight: normal;
+    margin-block: var(--length-s);
+
+    @media (min-width: 48rem) {
+      margin-block: var(--length-m);
+    }
   }
 
   h1 {
-    font-size: var(--font-2xl);
-    line-height: 3rem;
-    margin-block: 1rem;
+    font-size: var(--font-xl);
+    line-height: var(--length-xl);
+
+    /* font quirk fix: */
+    position: relative;
+    top: var(--length-s);
+
+    @media (min-width: 48rem) {
+      font-size: var(--font-2xl);
+    }
   }
 
   h2 {
-    font-size: var(--font-xl);
-    line-height: 2rem;
-    margin-block: 1rem;
-    padding-block-end: 1rem;
+    font-size: var(--font-s);
+    line-height: var(--length-l);
     text-wrap: balance;
+
+    @media (min-width: 48rem) {
+      font-size: var(--font-m);
+      padding-block-end: var(--length-m);
+    }
   }
 
   nav {
-    /* background: repeating-linear-gradient(to bottom, black, grey 1px, grey 16px); */
     background: var(--light-color);
+    /* background: repeating-linear-gradient(to bottom, black, grey 1px, grey var(--base-size)); */
     box-shadow: var(--shadow-color) 0 0.05rem 0.15rem;
     color: black;
     display: flex;
     flex-wrap: wrap;
     font-size: var(--font-m);
-    gap: 0.5rem;
+    gap: var(--length-s);
     justify-content: center;
-    padding: 1rem;
+    padding: var(--length-s);
 
     @media (min-width: 48rem) {
-      gap: 1rem;
-      line-height: 4rem;
+      gap: var(--length-m);
+      line-height: var(--length-l);
+      padding: var(--length-m);
     }
 
     a {
@@ -111,32 +137,41 @@ footer {
   background-color: var(--dark-color);
   box-shadow: var(--shadow-color) 0 -0.1rem 0.3rem;
   font-size: var(--font-m);
-  padding: 2rem;
+  padding: var(--length-l);
 
   p {
-    font-family: 'PicaItalic';
+    font-family: 'Konquer';
     font-weight: normal;
   }
 }
 
 main {
   font-size: var(--font-m);
-  line-height: 1.3;
-  margin: 2rem auto;
-  margin-block-start: 2rem;
+  line-height: calc(var(--length-m) * 1.5);
   width: min(90dvw, 75rem);
+  margin: var(--length-m) auto;
+  margin-block-start: var(--length-m);
+
+  @media (min-width: 48rem) {
+    margin: var(--length-l) auto;
+    margin-block-start: var(--length-l);
+  }
 
   h1 {
     border-block-end: 1px solid black;
     font-size: var(--font-l);
-    line-height: 2rem;
-    margin-block: 1rem;
+    line-height: var(--length-l);
+    margin-block: var(--length-m);
   }
 }
 
 article {
   break-inside: avoid;
-  margin-block-end: 2rem;
+  margin-block-end: var(--length-m);
+
+  @media (min-width: 48rem) {
+    margin-block-end: var(--length-l);
+  }
 
   h1 {
     border: none;
@@ -186,15 +221,23 @@ iframe[src*="bandcamp.com"] {
     max-width: 700px;
 }
 
+p {
+  margin-block: var(--length-s);
+
+  @media (min-width: 48rem) {
+    margin-block: var(--length-m);
+  }
+}
+
 .profile {
   display: flex;
-  gap: 2rem;
+  gap: var(--length-l);
 }
 
 .page,
 .post {
-  margin-block-end: 6rem;
-  margin-block-start: 4rem;
+  margin-block-end: var(--length-3xl);
+  margin-block: var(--length-2xl);
   max-width: 40rem;
 }
 
