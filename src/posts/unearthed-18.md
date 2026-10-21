@@ -41,6 +41,11 @@ Everything is here that I like: soundscapes, drones, cinematic ambient. Highly r
 
 {% bandcamp 'https://darkodysseyrecords.bandcamp.com/album/iter-ad-psychen' %}
 
+And another release from him: **Echoes Of Dimensional Contemplation**. I won’t repeat myself, go and check this one too.
+
+{% bandcamp 'https://winter-light.bandcamp.com/album/echoes-of-dimensional-contemplation' %}
+
 Another deep space ambient album from **Ruptured World**: **Spaceworld** is another one that you shouldn’t miss if you’re looking for something to listen to during those rainy autumn afternoons.
 
 {% bandcamp 'https://cryochamber.bandcamp.com/album/spacefold' %}
+
