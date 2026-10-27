@@ -1,7 +1,6 @@
 ---
-title: 'Current issue'
+title: 'Volume 1'
 layout: index
 tags: page
-date: 2000-01-01
 order: 1
 ---

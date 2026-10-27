@@ -19,6 +19,7 @@ export default function (config) {
     config.addPassthroughCopy({ 'src/main.css': 'main.css' });
     config.addPassthroughCopy({ 'src/CNAME': 'CNAME' });
     config.addGlobalData('layout', 'base');
+    config.addGlobalData('volume', 1);
     config.addPlugin(EleventyRenderPlugin);
 
     config.addPreprocessor('drafts', 'md', (data, _content) => {
@@ -86,9 +87,9 @@ export default function (config) {
             const key = getMonthKey(post.date);
             if (!groups[key]) {
                 groups[key] = {
-                issueKey: key,
-                date: post.date,
-                posts: []
+                    issueKey: key,
+                    date: post.date,
+                    posts: []
                 };
             }
             groups[key].posts.push(post);
@@ -98,7 +99,10 @@ export default function (config) {
 
     config.addCollection('currentIssue', (collection) => {
         const issues = config.getCollections().issues(collection);
-        return issues.length > 0 ? issues[0] : { posts: [] };
+        const current = issues[0];
+        current.posts.sort((a, b) => a.date.getTime() - b.date.getTime());
+        console.log(current);
+        return current;
     });
 
     config.addCollection('menu', (collection) => {

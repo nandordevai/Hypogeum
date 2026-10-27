@@ -21,12 +21,16 @@
       <h2>dark ambient - ritual - drone - industrial</h2>
     </div>
     <nav>
-      <strong>{{ collections.currentIssue.date | formatIssueDate }}</strong>
       {%- for page in collections.menu -%}
-      <a href="{{ page.url }}">{{ page.data.title }}</a>
-      ※
+        <a href="{{ page.url }}">{{ page.data.title }}
+          {%- if loop.first -%}
+            &nbsp;–&nbsp;{{ collections.currentIssue.date | formatIssueDate }}
+          {% endif %}
+        </a>
+        {% if not loop.last %}
+          ※
+        {% endif %}
       {%- endfor -%}
-      <a href="/archive">Archive</a>
     </nav>
   </header>
 
