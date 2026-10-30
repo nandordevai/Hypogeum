@@ -101,7 +101,6 @@ export default function (config) {
         const issues = config.getCollections().issues(collection);
         const current = issues[0];
         current.posts.sort((a, b) => a.date.getTime() - b.date.getTime());
-        console.log(current);
         return current;
     });
 

@@ -5,7 +5,8 @@ layout: page
 order: 3
 ---
 
-<p>Want to get in touch? Here’s how:</p>
+<p>Here’s all the ways you can reach me (and my posts in social media). Please use email if you want to send me a message as I don’t check other accounts as often.</p>
+
 <p>Email: <a href="mailto:contact@hypogeum.hu">contact@hypogeum.hu</a></p>
 <p>Facebook: <a href="https://www.facebook.com/hypogeum.hu/">Hypogeum</a></p>
 <p>Instagram: <a href="https://www.instagram.com/hypogeum_hu/">hypogeum_hu</a></p>

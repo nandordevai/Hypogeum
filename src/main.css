@@ -179,6 +179,11 @@ article {
     margin: 0;
   }
 
+  h2 {
+    font-size: var(--font-l);
+    margin-block-start: var(--length-l);
+  }
+
   .article-end {
     text-align: center;
     width: 95%;
@@ -237,7 +242,7 @@ p {
 .page,
 .post {
   margin-block-end: var(--length-3xl);
-  margin-block: var(--length-2xl);
+  margin-block-start: var(--length-xl);
   max-width: 40rem;
 }
 
