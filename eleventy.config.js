@@ -73,7 +73,7 @@ export default function (config) {
     config.addFilter('excerpt', (content, url) => {
         if (content.includes(excerptSeparator)) {
             const excerpt = content.split(excerptSeparator)[0];
-            return `${excerpt}<p><a href="${url}">Read more »</a></p>`;
+            return `${excerpt}`; //<p><a href="${url}">Read more »</a></p>`;
         }
         return content;
     });

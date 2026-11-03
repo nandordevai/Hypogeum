@@ -30,6 +30,11 @@
   box-sizing: border-box;
 }
 
+a,
+a:visited {
+  color: var(--link-color);
+}
+
 body {
   /* background: repeating-linear-gradient(to bottom, black, white 1px, white var(--base-size)); */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -38,7 +43,7 @@ body {
 
 header,
 footer {
-  color: oklch(0.96 0 0);
+  color: var(--light-color);
   text-align: center;
 }
 
@@ -96,6 +101,7 @@ header {
     @media (min-width: 48rem) {
       font-size: var(--font-2xl);
     }
+
   }
 
   h2 {
@@ -162,6 +168,12 @@ main {
     font-size: var(--font-l);
     line-height: var(--length-l);
     margin-block: var(--length-m);
+
+    a,
+    a:visited {
+      color: var(--dark-color) !important;
+      text-decoration: none;
+    }
   }
 }
 
@@ -200,11 +212,6 @@ section {
   @media (min-width: 64rem) {
     columns: 3;
   }
-}
-
-a,
-a:visited {
-  color: var(--link-color);
 }
 
 img,
@@ -248,4 +255,10 @@ p {
 
 .current-issue {
   display: block;
+}
+
+.archive {
+  article {
+    border-block-end: 1px solid var(--dark-color);
+  }
 }
