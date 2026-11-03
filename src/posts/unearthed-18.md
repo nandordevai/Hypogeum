@@ -1,7 +1,7 @@
 ---
 title: 'Unearthed'
 tags: ['post', 'unearthed']
-date: 2026-10-01 00:00:00
+volume: 1
 ---
 
 In the previous Unearthed columns I reviewed and recommended new releases, but since more than half a year has passed since the last one, I’ll be a bit more lax with dates here.

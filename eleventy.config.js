@@ -1,8 +1,9 @@
 import scrape from 'html-metadata';
-import { readFileSync, writeFileSync } from 'fs';
+import fs, { readFileSync, writeFileSync } from 'fs';
 import { EleventyRenderPlugin } from '@11ty/eleventy';
 
 const bandcamp = JSON.parse(readFileSync('./_data/bandcamp.json'));
+const volumes = JSON.parse(readFileSync('./_data/volumes.json'));
 const excerptSeparator = '<!-- more -->';
 const isProduction = process.env.ELEVENTY_RUN_MODE === 'build';
 
@@ -18,9 +19,13 @@ export default function (config) {
     config.addPassthroughCopy('src/fonts');
     config.addPassthroughCopy({ 'src/main.css': 'main.css' });
     config.addPassthroughCopy({ 'src/CNAME': 'CNAME' });
-    config.addGlobalData('layout', 'base');
-    config.addGlobalData('volume', 1);
     config.addPlugin(EleventyRenderPlugin);
+
+    config.addGlobalData('layout', 'base');
+
+    config.addGlobalData('currentVolumeDate', function() {
+        return volumes[Math.max(Object.keys(volumes))].date;
+    });
 
     config.addPreprocessor('drafts', 'md', (data, _content) => {
         if (data.draft && isProduction) {
@@ -98,10 +103,24 @@ export default function (config) {
     });
 
     config.addCollection('currentIssue', (collection) => {
-        const issues = config.getCollections().issues(collection);
-        const current = issues[0];
-        current.posts.sort((a, b) => a.date.getTime() - b.date.getTime());
-        return current;
+        const today = new Date().toISOString().split("T")[0]; // "YYYY-MM-DD"
+
+        let activeVolNum = null;
+        Object.keys(volumes).forEach(volNum => {
+            if (volumes[volNum].date <= today) {
+                if (!activeVolNum || Number(volNum) > Number(activeVolNum)) {
+                    activeVolNum = volNum;
+                }
+            }
+        });
+
+        if (!activeVolNum) return [];
+
+        const currentPosts = collection.getFilteredByTag('post').filter(post => {
+            const postVolume = post.data.volume ?? 0;
+            return String(postVolume) === String(activeVolNum);
+        }).sort((a, b) => a.data.tags.includes('editorial') ? -1 : 1);
+        return currentPosts;
     });
 
     config.addCollection('menu', (collection) => {
@@ -112,7 +131,6 @@ export default function (config) {
         const posts = collection.getFilteredByTag('post')
             .filter((post) => post.date < new Date('2026-10-01T00:00:00Z'))
             .sort((a, b) => b.date.getTime() - a.date.getTime());
-        console.log(`found ${posts.length} posts`)
         return posts;
     });
 

@@ -3,7 +3,7 @@ title: 'Buried Finds'
 tags:
   - post
   - buried-finds
-date: 2026-10-01 01:00:00
+volume: 1
 ---
 
 Let’s continue the excavation from where we left off [in the first post](/posts/buried-finds-1).

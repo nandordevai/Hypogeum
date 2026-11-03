@@ -4,13 +4,12 @@
 <main class="index">
 <section>
 
-{% for post in collections.currentIssue.posts %}
+{% for post in collections.currentIssue %}
   <article>
     <h1>{{ post.data.title }}</h1>
     <p>
       {{ post.templateContent | excerpt(post.url) | safe }}
     </p>
-    {# <p class="article-end">※</p> #}
   </article>
 {% endfor %}
 
