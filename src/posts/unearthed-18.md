@@ -6,9 +6,9 @@ volume: 1
 
 In the previous Unearthed columns I reviewed and recommended new releases, but since more than half a year has passed since the last one, I’ll be a bit more lax with dates here.
 
-Let’s start with **Beyond the Nuummite Cosmos** by **Brotherhood of Sleep**. It confuses me a bit, because the Bandcamp page says that it’s their debut album – however, I think I already reviewed their previous one in [Unearthed #14](/posts/unearthed-14/). But let’s let that go and listen to this ritual, ceremonial masterpiece.
-
 <!-- more -->
+
+Let’s start with **Beyond the Nuummite Cosmos** by **Brotherhood of Sleep**. It confuses me a bit, because the Bandcamp page says that it’s their debut album – however, I think I already reviewed their previous one in [Unearthed #14](/posts/unearthed-14/). But let’s let that go and listen to this ritual, ceremonial masterpiece.
 
 {% bandcamp 'https://darkodysseyrecords.bandcamp.com/album/beyond-the-nuummite-cosmos' %}
 
