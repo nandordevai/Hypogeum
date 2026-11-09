@@ -1,0 +1,22 @@
+.menu {
+  background: var(--light-color);
+  /* background: repeating-linear-gradient(to bottom, black, grey 1px, grey var(--base-size)); */
+  box-shadow: var(--shadow-color) 0 0.05rem 0.15rem;
+  color: black;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: var(--font-m);
+  gap: var(--length-s);
+  justify-content: center;
+  padding: var(--length-s);
+
+  @media (min-width: 48rem) {
+    gap: var(--length-m);
+    line-height: var(--length-l);
+    padding: var(--length-m);
+  }
+
+  &__item {
+    text-decoration: none;
+  }
+}

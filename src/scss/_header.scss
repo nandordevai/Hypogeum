@@ -1,0 +1,62 @@
+.header {
+  // background: repeating-linear-gradient(to bottom, white, black 1px, black var(--base-size));
+
+  &__main {
+    box-shadow: var(--shadow-color) 0 0.1rem 0.3rem;
+    color: var(--light-color);
+    display: inline-block;
+    height: 100%;
+    position: relative;
+    text-align: center;
+    width: 100%;
+    z-index: 1;
+
+    @media (min-width: 48rem) {
+      padding-block-start: var(--length-m);
+    }
+
+    &::after {
+      background-color: var(--dark-color);
+      background-image: url('/img/logo.png');
+      background-position: 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+      content: "";
+      filter: brightness(0.25);
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: -1;
+    }
+  }
+
+  &__title,
+  &__subtitle {
+    font-family: 'Konquer';
+    font-weight: normal;
+    margin-block: var(--length-s);
+
+    @media (min-width: 48rem) {
+      margin-block: var(--length-m);
+    }
+  }
+
+  &__title {
+    font-size: var(--font-xl);
+    line-height: var(--length-xl);
+
+    /* font quirk fix: */
+    position: relative;
+    top: var(--length-s);
+
+    @media (min-width: 48rem) {
+      font-size: var(--font-2xl);
+    }
+  }
+
+  &__subtitle {
+    font-size: var(--font-l);
+  }
+}

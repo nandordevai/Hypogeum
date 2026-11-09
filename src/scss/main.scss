@@ -1,0 +1,16 @@
+@use 'variables';
+@use 'defaults';
+@use 'menu';
+@use 'header';
+@use 'footer';
+@use 'iframe';
+@use 'content';
+// @use 'pages';
+
+@font-face {
+  font-family: 'Konquer';
+  src: url('/fonts/konquer-Regular.ttf');
+  font-style: normal;
+  font-display: swap;
+}
+

@@ -1,0 +1,12 @@
+.content {
+  font-size: var(--font-m);
+  line-height: calc(var(--length-m) * 1.5);
+  width: min(90dvw, 45rem);
+  margin: var(--length-m) auto;
+  margin-block-start: var(--length-m);
+
+  @media (min-width: 48rem) {
+    margin: var(--length-l) auto;
+    margin-block-start: var(--length-l);
+  }
+}

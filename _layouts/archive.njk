@@ -8,10 +8,10 @@ pagination:
 {% extends '_layouts/base.njk' %}
 
 {% block content %}
-<main class="page archive">
+<main class="content archive">
     {%- for post in posts -%}
-        <article>
-            <h1>{{ post.data.title }}</h1>
+        <article class="archive__item">
+            <h1><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
             {% if post.data.subtitle %}
                 <h2 class="subtitle">{{ post.data.subtitle }}</h2>
             {% endif %}
@@ -26,7 +26,7 @@ pagination:
         </article>
     {%- endfor -%}
 
-    <nav class="footer">
+    <nav>
         {% if pagination.href.previous %}
             <a href="{{ pagination.href.previous }}">Previous {{ pagination.size }}</a>
         {% else %}

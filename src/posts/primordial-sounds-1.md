@@ -10,7 +10,6 @@ I started a couple of new columns in this volume. This one was my oldest idea: l
 
 # Lustmord – Heresy (1990)
 
-
 I don’t subscribe to the notion that there was a definitive “first” album in dark ambient, but we should start somewhere – and what would be better than this record? Before Heresy, the dark underground was often a mix of industrial noise and power electronics. Brian Williams (Lustmord) took those elements and sank them into a vast, subterranean space. Recorded in various locations (crypts, mines, catacombs), Heresy sounds massive and atmospheric. It moved away from the aggression of the '80s industrial scene toward a sense of cosmic dread and physical weight.
 
 **Why It Is Essential:** It stripped away melody and rhythm in favor of deep, disturbing sounds and environmental recordings. Every project working in ritual or cinematic ambient today owes a debt to the acoustic architecture found here.

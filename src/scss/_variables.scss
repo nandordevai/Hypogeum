@@ -1,0 +1,27 @@
+:root {
+  // colors
+  --dark-color: oklch(0.14 0 0);
+  --link-color: oklch(0.33 0.13 263);
+  --light-color: oklch(0.94 0 0);
+  --shadow-color: oklch(0.54 0 0);
+
+  // fonts
+  --step: 1.25;
+
+  --font-s: calc(var(--base-size) / var(--step));
+  --font-m: var(--base-size);
+  --font-l: calc(var(--font-m) * var(--step));
+  --font-xl: calc(var(--font-l) * var(--step));
+  --font-2xl: calc(var(--font-xl) * var(--step));
+
+  // lengths
+  --base-size: 1.1rem;
+
+  --length-xs: calc(var(--base-size) * 0.25);
+  --length-s: calc(var(--base-size) * 0.5);
+  --length-m: var(--base-size);
+  --length-l: calc(var(--base-size) * 2);
+  --length-xl: calc(var(--base-size) * 3);
+  --length-2xl: calc(var(--base-size) * 4);
+  --length-3xl: calc(var(--base-size) * 6);
+}

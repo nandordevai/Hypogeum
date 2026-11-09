@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+
+a,
+a:visited {
+  color: var(--link-color);
+}
+
+body {
+  /* background: repeating-linear-gradient(to bottom, black, white 1px, white var(--base-size)); */
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin: 0;
+}

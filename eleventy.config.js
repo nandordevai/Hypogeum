@@ -1,5 +1,7 @@
 import scrape from 'html-metadata';
-import fs, { readFileSync, writeFileSync } from 'fs';
+import path from "node:path";
+import * as sass from "sass";
+import { readFileSync, writeFileSync } from 'fs';
 import { EleventyRenderPlugin } from '@11ty/eleventy';
 
 const bandcamp = JSON.parse(readFileSync('./_data/bandcamp.json'));
@@ -14,18 +16,23 @@ export default function (config) {
         'njk',
         'js',
     ]);
+    config.addTemplateFormats('scss');
     config.addPassthroughCopy('src/img');
     config.addPassthroughCopy('src/js');
     config.addPassthroughCopy('src/fonts');
-    config.addPassthroughCopy({ 'src/main.css': 'main.css' });
+    config.addPassthroughCopy({ 'src/scss/main.css': 'main.css' });
     config.addPassthroughCopy({ 'src/CNAME': 'CNAME' });
     config.addPlugin(EleventyRenderPlugin);
 
+    // data
+
     config.addGlobalData('layout', 'base');
 
-    config.addGlobalData('currentVolumeDate', function() {
+    config.addGlobalData('currentVolumeDate', function () {
         return volumes[Math.max(Object.keys(volumes))].date;
     });
+
+    // preprocessor
 
     config.addPreprocessor('drafts', 'md', (data, _content) => {
         if (data.draft && isProduction) {
@@ -39,6 +46,8 @@ export default function (config) {
         }
     });
 
+    // shortcode
+
     config.addShortcode('mixcloud', (url) => {
         const parts = url.split('/').filter(item => item !== '');
         return `<iframe height="120" src="https://player-widget.mixcloud.com/widget/iframe/?hide_cover=1&light=1&feed=%2F${parts[2]}%2F${parts[3]}%2F" allow="encrypted-media; fullscreen; autoplay; idle-detection; speaker-selection; web-share;" ></iframe>`
@@ -50,33 +59,41 @@ export default function (config) {
                 const meta = await scrape(url);
                 bandcamp[url] = { videoURL: meta.openGraph.video.url, title: meta.openGraph.title };
                 writeFileSync('./_data/bandcamp.json', JSON.stringify(bandcamp));
-                return `<iframe style="border: 0; width: 100%; height: 120px;" src="${meta.openGraph.video.url}" seamless><a href="${url}">${meta.openGraph.title}</a></iframe>`;
             } catch (err) {
                 return `<a href="${url}">Bandcamp</a>`;
             }
-        } else {
-            return `<iframe style="border: 0; width: 100%; height: 120px;" src="${bandcamp[url].videoURL}" seamless><a href="${url}">${bandcamp[url].title}</a></iframe>`;
         }
+        return `<iframe class="bandcamp" style="border: 0; width: 100%; height: 120px;" src="${bandcamp[url].videoURL}" seamless><a href="${url}">${bandcamp[url].title}</a></iframe>`;
+
     });
 
     config.addShortcode('youtube', (url) => {
         const src = url.replace('watch?v=', 'embed/');
-        return `<iframe src="${src}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
+        return `<iframe class="youtube" src="${src}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
     });
 
+    // transform
+
     config.addTransform('removeExcerptMarker', (content, outputPath) => (
-        outputPath?.endsWith('.html')
+        outputPath && outputPath?.endsWith('.html')
             ? content.replaceAll(excerptSeparator, '')
             : content
     ));
 
-    config.addFilter('excerpt', (content, url) => {
-        if (content.includes(excerptSeparator)) {
-            const excerpt = content.split(excerptSeparator)[0];
-            return `${excerpt}`; //<p><a href="${url}">Read more »</a></p>`;
-        }
-        return content;
+    // filter
+
+    config.addFilter('excerpt', (content, _url) => (
+        content.includes(excerptSeparator)
+            ? content.split(excerptSeparator)[0]
+            : content
+    ));
+
+    config.addFilter('formatIssueDate', function (date) {
+        const options = { month: 'long', year: 'numeric', timeZone: 'UTC' };
+        return new Intl.DateTimeFormat('en-US', options).format(new Date(date));
     });
+
+    // collection
 
     const getMonthKey = (date) => {
         const d = new Date(date);
@@ -134,9 +151,29 @@ export default function (config) {
         return posts;
     });
 
-    config.addFilter('formatIssueDate', function(date) {
-        const options = { month: 'long', year: 'numeric', timeZone: 'UTC' };
-        return new Intl.DateTimeFormat('en-US', options).format(new Date(date));
+    // extension
+    config.addExtension('scss', {
+        outputFileExtension: 'css',
+        useLayouts: false,
+        compileOptions: {
+            permalink: function(_contents, inputPath) {
+                let parsed = path.parse(inputPath);
+                if (parsed.name.startsWith("_")) return false;
+
+                return `/${parsed.name}.css`;
+            }
+        },
+        compile: async function (inputContent, inputPath) {
+            if (path.basename(inputPath).startsWith('_')) return;
+
+            let result = sass.compileString(inputContent, {
+                loadPaths: [
+                    path.dirname(inputPath),
+                    'src/scss'
+                ]
+            });
+            return async () => result.css;
+        },
     });
 
     return {

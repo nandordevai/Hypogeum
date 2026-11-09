@@ -5,7 +5,7 @@
 {% endblock %}
 
 {% block content %}
-<main class="post">
+<main class="content post">
     <article>
         <h1>{{ title }}</h1>
         {% if subtitle %}
@@ -13,6 +13,6 @@
         {% endif %}
         {{ content | safe }}
     </article>
-    {% include 'patreon.njk' %}
+    {# {% include 'patreon.njk' %} #}
 </main>
 {% endblock %}

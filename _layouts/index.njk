@@ -2,17 +2,13 @@
 
 {% block content %}
 <main class="index">
-<section>
 
 {% for post in collections.currentIssue %}
-  <article>
+  <article class="index__article">
     <h1><a class="article-link" href="{{ post.url }}">{{ post.data.title }}</a></h1>
-    <p>
-      {{ post.templateContent | excerpt(post.url) | safe }}
-    </p>
+    {{ post.templateContent | excerpt(post.url) | safe }}
   </article>
 {% endfor %}
 
-</section>
 </main>
 {% endblock %}

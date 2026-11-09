@@ -15,14 +15,14 @@
 </head>
 
 <body>
-  <header>
-    <div class="title">
-      <h1>Hypogeum</h1>
-      <h2>dark ambient - ritual - drone - industrial</h2>
+  <header class="header">
+    <div class="header__main">
+      <h1 class="header__title">Hypogeum</h1>
+      <h2 class="header__subtitle">dark ambient - ritual - drone - industrial</h2>
     </div>
-    <nav>
+    <nav class="header__menu menu">
       {%- for page in collections.menu -%}
-        <a href="{{ page.url }}">{{ page.data.title }}
+        <a class="menu__item" href="{{ page.url }}">{{ page.data.title }}
           {%- if loop.first -%}
             &nbsp;–&nbsp;{{ currentVolumeDate | formatIssueDate }}
           {% endif %}
@@ -36,8 +36,8 @@
 
   {% block content %}{% endblock %}
 
-  <footer>
-    <p>Hypogeum ※ dark ambient - ritual - drone - industrial</p>
+  <footer class="footer">
+    <h2 class="footer__title">Hypogeum ※ dark ambient - ritual - drone - industrial</h2>
   </footer>
 </body>
 
