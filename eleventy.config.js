@@ -23,6 +23,7 @@ export default function (config) {
     config.addPassthroughCopy({ 'src/scss/main.css': 'main.css' });
     config.addPassthroughCopy({ 'src/CNAME': 'CNAME' });
     config.addPlugin(EleventyRenderPlugin);
+    config.addWatchTarget('src/scss');
 
     // data
 
@@ -172,6 +173,7 @@ export default function (config) {
                     'src/scss'
                 ]
             });
+            this.addDependencies(inputPath, result.loadedUrls);
             return async () => result.css;
         },
     });

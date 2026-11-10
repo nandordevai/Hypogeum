@@ -5,7 +5,8 @@
 @use 'footer';
 @use 'iframe';
 @use 'content';
-// @use 'pages';
+@use 'index';
+@use 'pages';
 
 @font-face {
   font-family: 'Konquer';

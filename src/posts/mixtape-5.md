@@ -1,5 +1,5 @@
 ---
-title: 'Mixtape #5'
+title: 'Mixtape 5'
 tags: [post, mixtape]
 volume: 1
 ---

@@ -1,5 +1,5 @@
 ---
-title: 'Reviews #1'
+title: 'Reviews 1'
 tags: [post, reviews]
 volume: 1
 ---

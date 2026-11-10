@@ -1,5 +1,5 @@
 ---
-title: 'Penumbra #1'
+title: 'Penumbra 1'
 tags: [post, penumbra]
 volume: 1
 ---

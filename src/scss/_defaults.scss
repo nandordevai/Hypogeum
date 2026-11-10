@@ -10,5 +10,10 @@ a:visited {
 body {
   /* background: repeating-linear-gradient(to bottom, black, white 1px, white var(--base-size)); */
   font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: var(--font-m);
   margin: 0;
+}
+
+p {
+  line-height: 1.3;
 }

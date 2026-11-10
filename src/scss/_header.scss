@@ -12,7 +12,7 @@
     z-index: 1;
 
     @media (min-width: 48rem) {
-      padding-block-start: var(--length-m);
+      padding-block: var(--length-m);
     }
 
     &::after {
@@ -46,10 +46,6 @@
   &__title {
     font-size: var(--font-xl);
     line-height: var(--length-xl);
-
-    /* font quirk fix: */
-    position: relative;
-    top: var(--length-s);
 
     @media (min-width: 48rem) {
       font-size: var(--font-2xl);

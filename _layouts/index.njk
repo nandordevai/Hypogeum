@@ -4,8 +4,8 @@
 <main class="index">
 
 {% for post in collections.currentIssue %}
-  <article class="index__article">
-    <h1><a class="article-link" href="{{ post.url }}">{{ post.data.title }}</a></h1>
+  <article class="index__article {% if loop.first %}index__editorial{% endif %}">
+    <h1 class="index__title"><a class="index__link" href="{{ post.url }}">{{ post.data.title }}</a></h1>
     {{ post.templateContent | excerpt(post.url) | safe }}
   </article>
 {% endfor %}

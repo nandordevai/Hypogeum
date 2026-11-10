@@ -1,5 +1,5 @@
 ---
-title: 'Buried Finds'
+title: 'Buried Finds 2'
 tags:
   - post
   - buried-finds

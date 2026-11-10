@@ -1,10 +1,10 @@
 ---
-title: 'Primordial Sounds'
+title: 'Primordial Sounds 1'
 tags: ['post', 'primordial sounds']
 volume: 1
 ---
 
-I started a couple of new columns in this volume. This one was my oldest idea: let’s go through the most important albums of the dark underground genres. In *Primordial Sounds** I will recommend a couple of records, along with some information on why they are important.
+I started a couple of new columns in this volume. This one was my oldest idea: let’s go through the most important albums of the dark underground genres. In Primordial Sounds I will recommend a couple of records, along with some information on why they are important.
 
 <!-- more -->
 
