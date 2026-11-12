@@ -1,0 +1,18 @@
+.profile {
+  display: flex;
+  gap: var(--length-l);
+}
+
+.archive,
+.page,
+.post {
+  margin-block-end: var(--length-4xl);
+  margin-block-start: var(--length-2xl);
+  max-width: 40rem;
+}
+
+.archive {
+  &__item {
+    border-block-end: 1px solid var(--dark-color);
+  }
+}

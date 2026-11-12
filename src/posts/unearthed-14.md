@@ -37,7 +37,7 @@ Our first selection is **Echoes from the Void of Time** by **Torus Dome**. It’
 
 **Brotherhood of Sleep** recently released **Enter the Nuummite Cosmos**, an experimental, ritual dark ambient album. Nuummite – also called the “Sorcerer’s Stone” – is a rare rock from Greenland, associated with Earth and Fire. It is  believed to embody the primordial energies of creation and destruction, birth and renewal, making it a perfect symbol for the music here.
 
-{% bandcamp 'https://zazensoundspublishings.bandcamp.com/track/blessed-are-the-anointed-human-vessels' %}
+{% bandcamp 'https://zazensoundspublishings.bandcamp.com/album/zzs-173-brotherhood-of-sleep-enter-the-nuummite-cosmos' %}
 
 **Sewn Into The Infinite Sky** by **Talst** features six menacing tracks sitting right on the edge of deep ambient and horror-infused sci-fi.
 

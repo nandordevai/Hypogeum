@@ -21,9 +21,9 @@ Let’s start with **Compendium** from **Hiemis**. It’s a compilation of previ
 
 {% bandcamp 'https://torusdome.bandcamp.com/album/transcendental-frequency' %}
 
-**Aurora’s Breath Volume 2** is a long, experimental, atmospheric release (a single track running over an hour) by **Scott Lawlor and Ingrid Narval Faolán**. Ingrid is a gong player, so a sound bath is very much part of the experience – though definitely not the usual happy, vibey new age kind.
+**Aurora’s Breath issue 2** is a long, experimental, atmospheric release (a single track running over an hour) by **Scott Lawlor and Ingrid Narval Faolán**. Ingrid is a gong player, so a sound bath is very much part of the experience – though definitely not the usual happy, vibey new age kind.
 
-{% bandcamp 'https://ingridnmbius.bandcamp.com/album/auroras-breath-volume-2' %}
+{% bandcamp 'https://ingridnmbius.bandcamp.com/album/auroras-breath-issue-2' %}
 
 **Pleroma** is a consolidated body of work by **The Black Monolith**, spanning the last two years. It brings together tracks from various compilations along with some previously unreleased pieces, all remastered and assembled into a strong album well worth a listen.
 

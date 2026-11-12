@@ -6,7 +6,7 @@ tags:
 date: 2026-03-22 19:00:00 +01:00
 ---
 
-Welcome to the first installment of the new column, Buried Finds. Here, we look backward in time, digging deeper into the silt. I’ll recommend a few older releases in each post.
+Welcome to the first installment of the new column, Buried Finds. Here, we look backward in time, digging deeper into the ground. I’ll recommend a few older releases in each post.
 
 <!-- , with additional picks available in dedicated [Patreon posts](https://www.patreon.com/c/Hypogeum) for subscribers. -->
 
@@ -32,10 +32,8 @@ The next one was released back in 2017 by **Svartsinn**, titled **Mørkets Varia
 
 {% bandcamp 'https://zoharum.bandcamp.com/album/magnor' %}
 
-**Llyn Y Cwn**’s 2023 album, **Posidonia**, is short, featuring only three tracks, yet it remains a massive experience. The music is composed of field recordings from the British coastline, masterfully transformed into beautiful soundscapes evoking oceanic themes. If you only have time for one of these recommendations, let it be this – and not only because of its length.
+**Llyn Y Cwn**’s 2023 album, **Posidonia**, is short, featuring only three tracks, yet it remains a massive experience. The music is composed of field recordings from the British coastline, transformed into soundscapes evoking oceanic themes. If you only have time for one of these recommendations, let it be this – and not only because of its length.
 
 {% bandcamp 'https://llynycwn.bandcamp.com/album/posidonia' %}
-
-These artifacts remain as vital now as the day they were unearthed. Listen deeply, and perhaps you'll find something that resonates within your own silence.
 
 Until the next excavation.
