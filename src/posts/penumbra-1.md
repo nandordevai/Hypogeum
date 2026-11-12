@@ -2,6 +2,7 @@
 title: 'Penumbra'
 tags: [post, penumbra]
 issue: 1
+order: 3
 ---
 
 From time to time I encounter some art that I’d really like to review or recommend to the readers of Hypogeum, but it doesn’t belong to the musical genres I ususally write about. It might be a different kind of music, or not even music but fine arts or literature. This column will be the place for all these random recommendations and reviews. I hope every reader will find something interesting in these articles.
@@ -11,8 +12,6 @@ From time to time I encounter some art that I’d really like to review or recom
 # Peter Bjärgö – The Translucency of Mind’s Decay
 
 Let’s start with an album that doesn’t really belong to dark ambient but definitely worthy of attention. The Translucency of Mind’s Decay by Peter Bjärgö is a neoclassical, downtempo release.
-
-TBD
 
 {% bandcamp 'https://peterbjargo.bandcamp.com/album/the-translucency-of-minds-decay' %}
 
@@ -28,7 +27,7 @@ I have a feeling that I’m preaching to the choir here, but I just can’t skip
 
 # Győző Mesterházy’s Art (Behance)
 
-
+Győző is the drummer of [Entrópia Architektúra](/posts/entropia-architektura-interview/).
 
 https://www.behance.net/mesterhazy
 

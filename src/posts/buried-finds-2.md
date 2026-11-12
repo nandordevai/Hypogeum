@@ -4,6 +4,7 @@ tags:
   - post
   - buried-finds
 issue: 1
+order: 5
 ---
 
 Let’s continue the excavation from where we left off [in the first post](/posts/buried-finds-1).

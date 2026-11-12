@@ -2,6 +2,7 @@
 title: 'Primordial Sounds'
 tags: ['post', 'primordial sounds']
 issue: 1
+order: 4
 ---
 
 I started a couple of new columns in this issue. This one was my oldest idea: let’s go through the most important albums of the dark underground genres. In Primordial Sounds I will recommend a couple of records, along with some information on why they are important.

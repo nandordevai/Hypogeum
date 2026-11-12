@@ -141,7 +141,7 @@ export default function (config) {
         const currentPosts = collection.getFilteredByTag('post').filter(post => {
             const postIssue = post.data.issue ?? 0;
             return String(postIssue) === String(activeNum);
-        }).sort((a, b) => a.data.tags.includes('editorial') ? -1 : 1);
+        }).sort((a, b) => a.data.order - b.data.order);
         return currentPosts;
     });
 

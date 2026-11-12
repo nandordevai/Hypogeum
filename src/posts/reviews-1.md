@@ -2,6 +2,7 @@
 title: 'Reviews'
 tags: [post, reviews]
 issue: 1
+order: 7
 ---
 
 I have two long overdue reviews in queue – apologies for the artists. Let’s dive into the records and see what makes them great and interesting.
@@ -30,6 +31,7 @@ As the song progresses, the semi-rhythmical noises start to dominate, but finall
 
 # La Compagnie du Crépuscule
 
-Our next one is the self-titled album of a French ethno-dark-ambient duo.
+Our next one is the self-titled album of a French ethno-dark-ambient duo. It features 22 tracks ranging from 39 seconds to over 6 minutes. I let Étienne, one of the members introduce themselves first:
 
-“We are influenced by the french ethno-ambient scene of the 90's that you maybe know, bands like Désaccord Majeur, Internal Fusion, Tlön Uqbar and so on. As well as older bands like Popol Vuh. Despite these influences, the entire album is made or free improvisations with microKORG, Yamaha CS Reface, a sampler for ambient sounds and a few softwares on a pad. Recorded straight to a digital recorder. Hence the unpolished but naive and sincere feel of the album.”
+> “We are influenced by the french ethno-ambient scene of the 90's that you maybe know, bands like Désaccord Majeur, Internal Fusion, Tlön Uqbar and so on. As well as older bands like Popol Vuh. Despite these influences, the entire album is made or free improvisations with microKORG, Yamaha CS Reface, a sampler for ambient sounds and a few softwares on a pad. Recorded straight to a digital recorder. Hence the unpolished but naive and sincere feel of the album.”
+

@@ -42,6 +42,12 @@ p {
   line-height: 1.3;
 }
 
+blockquote {
+  border-inline-start: var(--length-s) solid var(--dark-color);
+  margin-inline: 0;
+  padding-inline: var(--length-m);
+}
+
 .menu {
   background: linear-gradient(var(--light-color) 0%, color-mix(in oklch, var(--light-color) 90%, var(--dark-color) 10%) 100%);
   /* background: repeating-linear-gradient(to bottom, black, grey 1px, grey var(--base-size)); */
