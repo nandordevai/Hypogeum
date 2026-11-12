@@ -50,7 +50,7 @@
   }
 
   &__title {
-    font-size: var(--font-xl);
+    font-size: var(--font-l);
     line-height: var(--length-xl);
 
     @media (min-width: 48rem) {
@@ -59,6 +59,10 @@
   }
 
   &__subtitle {
-    font-size: var(--font-l);
+    font-size: var(--font-s);
+
+    @media (min-width: 48rem) {
+      font-size: var(--font-l);
+    }
   }
 }

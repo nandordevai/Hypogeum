@@ -8,8 +8,11 @@
   // fonts
   --step: 1.25;
 
-  --font-s: calc(var(--base-size) / var(--step));
   --font-m: var(--base-size);
+
+  --font-s: calc(var(--font-m) / var(--step));
+  --font-xs: calc(var(--font-s) / var(--step));
+
   --font-l: calc(var(--font-m) * var(--step));
   --font-xl: calc(var(--font-l) * var(--step));
   --font-2xl: calc(var(--font-xl) * var(--step));

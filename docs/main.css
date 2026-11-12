@@ -4,8 +4,9 @@
   --light-color: oklch(0.94 0 0);
   --shadow-color: oklch(0.54 0 0);
   --step: 1.25;
-  --font-s: calc(var(--base-size) / var(--step));
   --font-m: var(--base-size);
+  --font-s: calc(var(--font-m) / var(--step));
+  --font-xs: calc(var(--font-s) / var(--step));
   --font-l: calc(var(--font-m) * var(--step));
   --font-xl: calc(var(--font-l) * var(--step));
   --font-2xl: calc(var(--font-xl) * var(--step));
@@ -46,6 +47,13 @@ blockquote {
   border-inline-start: var(--length-s) solid var(--dark-color);
   margin-inline: 0;
   padding-inline: var(--length-m);
+}
+
+img {
+  max-width: 100%;
+}
+img[src$="#small"] {
+  max-width: 50%;
 }
 
 .menu {
@@ -112,7 +120,7 @@ blockquote {
   }
 }
 .header__title {
-  font-size: var(--font-xl);
+  font-size: var(--font-l);
   line-height: var(--length-xl);
 }
 @media (min-width: 48rem) {
@@ -121,7 +129,12 @@ blockquote {
   }
 }
 .header__subtitle {
-  font-size: var(--font-l);
+  font-size: var(--font-s);
+}
+@media (min-width: 48rem) {
+  .header__subtitle {
+    font-size: var(--font-l);
+  }
 }
 
 .footer {
@@ -129,7 +142,7 @@ blockquote {
   background: linear-gradient(color-mix(in oklch, var(--dark-color) var(--mix), var(--light-color) calc(100% - var(--mix))) 0%, var(--dark-color) 100%);
   box-shadow: var(--shadow-color) 0 calc(-1 * var(--shadow-y)) var(--shadow-blur);
   color: var(--light-color);
-  font-size: var(--font-s);
+  font-size: var(--font-xs);
   font-family: "Konquer";
   font-weight: normal;
   padding: var(--length-l);
@@ -170,9 +183,18 @@ iframe {
   display: grid;
   grid-auto-flow: dense;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  padding-block: var(--length-l);
-  padding-inline: var(--length-3xl);
-  row-gap: var(--length-l);
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: var(--length-m);
+  row-gap: var(--length-m);
+}
+@media (min-width: 48rem) {
+  .index {
+    padding-block-end: var(--length-xl);
+    padding-block-start: var(--length-m);
+    padding-inline: var(--length-3xl);
+    row-gap: var(--length-l);
+  }
 }
 @supports (display: grid-lanes) {
   .index {
@@ -187,12 +209,32 @@ iframe {
   background: radial-gradient(at top left, var(--light-color) 0%, white 100%);
   border-radius: var(--length-s);
   box-shadow: var(--shadow-color) 0 calc(var(--shadow-y) / 2) calc(var(--shadow-blur) / 2);
-  grid-column: span 2;
   padding-block: var(--length-m);
-  padding-inline: var(--length-l);
+  padding-inline: var(--length-m);
+}
+@media (min-width: 48rem) {
+  .index__editorial {
+    grid-column: span 2;
+    padding-block: var(--length-m);
+    padding-inline: var(--length-l);
+  }
 }
 .index__column {
   font-size: var(--font-s);
+}
+
+.current-issue {
+  font-size: var(--font-xl);
+  margin: 0;
+  text-align: center;
+  margin-block-end: var(--length-xs);
+  margin-block-start: var(--length-m);
+}
+@media (min-width: 48rem) {
+  .current-issue {
+    margin-block-end: var(--length-m);
+    margin-block-start: var(--length-l);
+  }
 }
 
 .profile {

@@ -1,6 +1,7 @@
 {% extends '_layouts/base.njk' %}
 
 {% block content %}
+<h1 class="current-issue">Issue {{ currentIssue }}&nbsp;–&nbsp;{{ currentIssueDate | formatIssueDate }}</h1>
 <main class="index">
 
 {% for post in collections.currentIssue %}

@@ -22,11 +22,7 @@
     </div>
     <nav class="header__menu menu">
       {%- for page in collections.menu -%}
-        <a class="menu__item" href="{{ page.url }}">{{ page.data.title }}
-          {%- if loop.first -%}
-            Issue {{ currentIssue }}&nbsp;–&nbsp;{{ currentIssueDate | formatIssueDate }}
-          {% endif %}
-        </a>
+        <a class="menu__item" href="{{ page.url }}">{{ page.data.title }}</a>
         {% if not loop.last %}
           ※
         {% endif %}

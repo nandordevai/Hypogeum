@@ -3,9 +3,17 @@
   display: grid;
   grid-auto-flow: dense;
   grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
-  padding-block: var(--length-l);
-  padding-inline: var(--length-3xl);
-  row-gap: var(--length-l);
+  margin: 0 auto;
+  max-width: 80rem;
+  padding: var(--length-m);
+  row-gap: var(--length-m);
+
+  @media (min-width: 48rem) {
+    padding-block-end: var(--length-xl);
+    padding-block-start: var(--length-m);
+    padding-inline: var(--length-3xl);
+    row-gap: var(--length-l);
+  }
 
   @supports (display: grid-lanes) {
     display: grid-lanes;
@@ -20,12 +28,30 @@
     background: radial-gradient(at top left, var(--light-color) 0%, white 100%);
     border-radius: var(--length-s);
     box-shadow: var(--shadow-color) 0 calc(var(--shadow-y) / 2) calc(var(--shadow-blur) / 2);
-    grid-column: span 2;
     padding-block: var(--length-m);
-    padding-inline: var(--length-l);
+    padding-inline: var(--length-m);
+
+    @media (min-width: 48rem) {
+      grid-column: span 2;
+      padding-block: var(--length-m);
+      padding-inline: var(--length-l);
+    }
   }
 
   &__column {
     font-size: var(--font-s);
+  }
+}
+
+.current-issue {
+  font-size: var(--font-xl);
+  margin: 0;
+  text-align: center;
+  margin-block-end: var(--length-xs);
+  margin-block-start: var(--length-m);
+
+  @media (min-width: 48rem) {
+    margin-block-end: var(--length-m);
+    margin-block-start: var(--length-l);
   }
 }

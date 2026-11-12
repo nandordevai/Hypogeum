@@ -23,3 +23,11 @@ blockquote {
   margin-inline: 0;
   padding-inline: var(--length-m);
 }
+
+img {
+  max-width: 100%;
+
+    &[src$="#small"] {
+      max-width: 50%;
+    }
+}
