@@ -31,7 +31,10 @@ As the song progresses, the semi-rhythmical noises start to dominate, but finall
 
 # La Compagnie du Crépuscule
 
-Our next one is the self-titled album of a French ethno-dark-ambient duo. It features 22 tracks ranging from 39 seconds to over 6 minutes. I let Étienne, one of the members introduce themselves first:
+Our next one is the self-titled album of a French ethno-dark-ambient duo. It features 22 tracks ranging from 39 seconds to over 6 minutes, so I won’t write a track-by-track review. I let Étienne, one of the members introduce themselves first:
 
 > “We are influenced by the french ethno-ambient scene of the 90's that you maybe know, bands like Désaccord Majeur, Internal Fusion, Tlön Uqbar and so on. As well as older bands like Popol Vuh. Despite these influences, the entire album is made or free improvisations with microKORG, Yamaha CS Reface, a sampler for ambient sounds and a few softwares on a pad. Recorded straight to a digital recorder. Hence the unpolished but naive and sincere feel of the album.”
 
+It’s definitely not an easy listening, you have to put in some effort to discover the details – but I hope for the readers of Hypogeum that’s not a negative. The album is a mesmerizing amalgamation of all the mentioned influences and much more. There are tracks that are closer to dungeon synth (Nuit I), others are more ritual (Escale), and there’s a dark ambient streak as well (À l'aveuglette). But all in all, this is something truly unique and convincing release. It’s available for free at Bandcamp.
+
+{% bandcamp 'https://lacompagnieducrepuscule.bandcamp.com/album/s-t' %}
