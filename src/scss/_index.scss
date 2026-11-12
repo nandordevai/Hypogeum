@@ -16,17 +16,16 @@
     margin: 0;
   }
 
-  &__link {
-    //
-  }
-
   &__editorial {
     background: radial-gradient(at top left, var(--light-color) 0%, white 100%);
     border-radius: var(--length-s);
-    // TODO: fix values
-    box-shadow: var(--shadow-color) 0 0.05rem 0.15rem;
+    box-shadow: var(--shadow-color) 0 calc(var(--shadow-y) / 2) calc(var(--shadow-blur) / 2);
     grid-column: span 2;
     padding-block: var(--length-m);
     padding-inline: var(--length-l);
+  }
+
+  &__column {
+    font-size: var(--font-s);
   }
 }

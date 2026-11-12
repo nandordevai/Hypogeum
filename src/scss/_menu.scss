@@ -1,7 +1,10 @@
 .menu {
-  background: var(--light-color);
+  background: linear-gradient(
+    var(--light-color) 0%,
+    color-mix(in oklch, var(--light-color) 90%, var(--dark-color) 10%) 100%
+  );
   /* background: repeating-linear-gradient(to bottom, black, grey 1px, grey var(--base-size)); */
-  box-shadow: var(--shadow-color) 0 0.05rem 0.15rem;
+  box-shadow: var(--shadow-color) 0 calc(var(--shadow-y) / 2) calc(var(--shadow-blur) / 2);
   color: black;
   display: flex;
   flex-wrap: wrap;

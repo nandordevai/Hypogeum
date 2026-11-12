@@ -5,7 +5,7 @@ import { readFileSync, writeFileSync } from 'fs';
 import { EleventyRenderPlugin } from '@11ty/eleventy';
 
 const bandcamp = JSON.parse(readFileSync('./_data/bandcamp.json'));
-const volumes = JSON.parse(readFileSync('./_data/volumes.json'));
+const issues = JSON.parse(readFileSync('./_data/issues.json'));
 const excerptSeparator = '<!-- more -->';
 const isProduction = process.env.ELEVENTY_RUN_MODE === 'build';
 
@@ -29,8 +29,12 @@ export default function (config) {
 
     config.addGlobalData('layout', 'base');
 
-    config.addGlobalData('currentVolumeDate', function () {
-        return volumes[Math.max(Object.keys(volumes))].date;
+    config.addGlobalData('currentIssue', function () {
+        return Math.max(Object.keys(issues));
+    });
+
+    config.addGlobalData('currentIssueDate', function () {
+        return issues[Math.max(Object.keys(issues))].date;
     });
 
     // preprocessor
@@ -123,20 +127,20 @@ export default function (config) {
     config.addCollection('currentIssue', (collection) => {
         const today = new Date().toISOString().split("T")[0]; // "YYYY-MM-DD"
 
-        let activeVolNum = null;
-        Object.keys(volumes).forEach(volNum => {
-            if (volumes[volNum].date <= today) {
-                if (!activeVolNum || Number(volNum) > Number(activeVolNum)) {
-                    activeVolNum = volNum;
+        let activeNum = null;
+        Object.keys(issues).forEach(volNum => {
+            if (issues[volNum].date <= today) {
+                if (!activeNum || Number(volNum) > Number(activeNum)) {
+                    activeNum = volNum;
                 }
             }
         });
 
-        if (!activeVolNum) return [];
+        if (!activeNum) return [];
 
         const currentPosts = collection.getFilteredByTag('post').filter(post => {
-            const postVolume = post.data.volume ?? 0;
-            return String(postVolume) === String(activeVolNum);
+            const postIssue = post.data.issue ?? 0;
+            return String(postIssue) === String(activeNum);
         }).sort((a, b) => a.data.tags.includes('editorial') ? -1 : 1);
         return currentPosts;
     });

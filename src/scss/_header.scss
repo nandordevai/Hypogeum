@@ -2,7 +2,7 @@
   // background: repeating-linear-gradient(to bottom, white, black 1px, black var(--base-size));
 
   &__main {
-    box-shadow: var(--shadow-color) 0 0.1rem 0.3rem;
+    box-shadow: var(--shadow-color) 0 var(--shadow-y) var(--shadow-blur);
     color: var(--light-color);
     display: inline-block;
     height: 100%;
@@ -16,8 +16,14 @@
     }
 
     &::after {
-      background-color: var(--dark-color);
-      background-image: url('/img/logo.png');
+      --mix: 20%;
+      background-image:
+        url('/img/logo.png'),
+        linear-gradient(
+          color-mix(in oklch, var(--dark-color) var(--mix), var(--light-color) calc(100% - var(--mix))) 0%,
+          var(--dark-color) 40%,
+          var(--dark-color) 100%
+        );
       background-position: 50%;
       background-repeat: no-repeat;
       background-size: contain;

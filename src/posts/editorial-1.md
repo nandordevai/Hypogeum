@@ -1,7 +1,7 @@
 ---
-title: 'Editorial vol. 1'
+title: 'Editorial'
 tags: ['post', 'editorial']
-volume: 1
+issue: 1
 ---
 
 Hello and welcome back to the renewed Hypogeum! It’s been a couple of months since I last updated the site. The reason for this was simple: I began to treat writing new posts as a job – an obligation to you, dear reader – and it took a toll on my enthusiasm. To prevent burnout, I needed a break and a rethink of the process.

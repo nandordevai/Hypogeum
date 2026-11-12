@@ -24,7 +24,7 @@
       {%- for page in collections.menu -%}
         <a class="menu__item" href="{{ page.url }}">{{ page.data.title }}
           {%- if loop.first -%}
-            &nbsp;–&nbsp;{{ currentVolumeDate | formatIssueDate }}
+            Issue {{ currentIssue }}&nbsp;–&nbsp;{{ currentIssueDate | formatIssueDate }}
           {% endif %}
         </a>
         {% if not loop.last %}

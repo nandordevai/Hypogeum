@@ -3,7 +3,7 @@ title: 'Buried Finds 2'
 tags:
   - post
   - buried-finds
-volume: 1
+issue: 1
 ---
 
 Let’s continue the excavation from where we left off [in the first post](/posts/buried-finds-1).

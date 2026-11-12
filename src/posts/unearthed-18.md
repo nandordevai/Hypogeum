@@ -1,7 +1,7 @@
 ---
 title: 'Unearthed 18'
 tags: ['post', 'unearthed']
-volume: 1
+issue: 1
 ---
 
 In the previous Unearthed columns I reviewed and recommended new releases, but since more than half a year has passed since the last one, I’ll be a bit more lax with dates here.

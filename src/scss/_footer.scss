@@ -1,6 +1,10 @@
 .footer {
-  background-color: var(--dark-color);
-  box-shadow: var(--shadow-color) 0 -0.1rem 0.3rem;
+  --mix: 80%;
+  background: linear-gradient(
+    color-mix(in oklch, var(--dark-color) var(--mix), var(--light-color) calc(100% - var(--mix))) 0%,
+    var(--dark-color) 100%
+  );
+  box-shadow: var(--shadow-color) 0 calc(-1 * var(--shadow-y)) var(--shadow-blur);
   color: var(--light-color);
   font-size: var(--font-s);
   font-family: 'Konquer';

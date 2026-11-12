@@ -1,7 +1,7 @@
 ---
 title: 'Reviews 1'
 tags: [post, reviews]
-volume: 1
+issue: 1
 ---
 
 I have two long overdue reviews in queue – apologies for the artists. Let’s dive into the records and see what makes them great and interesting.

@@ -1,7 +1,7 @@
 ---
 title: 'Mixtape 5'
 tags: [post, mixtape]
-volume: 1
+issue: 1
 ---
 
 Enjoy the latest Mixcloud set of the renewed Hypogeum, featuring Ugasanie, The Black Monolith, New Risen Throne, Shibalba and others.

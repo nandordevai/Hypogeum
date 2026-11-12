@@ -18,6 +18,8 @@
   --length-2xl: calc(var(--base-size) * 4);
   --length-3xl: calc(var(--base-size) * 6);
   --length-4xl: calc(var(--base-size) * 8);
+  --shadow-y: calc(var(--base-size) / 11);
+  --shadow-blur: calc(var(--base-size) / 4);
 }
 
 * {
@@ -41,9 +43,9 @@ p {
 }
 
 .menu {
-  background: var(--light-color);
+  background: linear-gradient(var(--light-color) 0%, color-mix(in oklch, var(--light-color) 90%, var(--dark-color) 10%) 100%);
   /* background: repeating-linear-gradient(to bottom, black, grey 1px, grey var(--base-size)); */
-  box-shadow: var(--shadow-color) 0 0.05rem 0.15rem;
+  box-shadow: var(--shadow-color) 0 calc(var(--shadow-y) / 2) calc(var(--shadow-blur) / 2);
   color: black;
   display: flex;
   flex-wrap: wrap;
@@ -64,7 +66,7 @@ p {
 }
 
 .header__main {
-  box-shadow: var(--shadow-color) 0 0.1rem 0.3rem;
+  box-shadow: var(--shadow-color) 0 var(--shadow-y) var(--shadow-blur);
   color: var(--light-color);
   display: inline-block;
   height: 100%;
@@ -79,8 +81,8 @@ p {
   }
 }
 .header__main::after {
-  background-color: var(--dark-color);
-  background-image: url("/img/logo.png");
+  --mix: 20%;
+  background-image: url("/img/logo.png"), linear-gradient(color-mix(in oklch, var(--dark-color) var(--mix), var(--light-color) calc(100% - var(--mix))) 0%, var(--dark-color) 40%, var(--dark-color) 100%);
   background-position: 50%;
   background-repeat: no-repeat;
   background-size: contain;
@@ -117,8 +119,9 @@ p {
 }
 
 .footer {
-  background-color: var(--dark-color);
-  box-shadow: var(--shadow-color) 0 -0.1rem 0.3rem;
+  --mix: 80%;
+  background: linear-gradient(color-mix(in oklch, var(--dark-color) var(--mix), var(--light-color) calc(100% - var(--mix))) 0%, var(--dark-color) 100%);
+  box-shadow: var(--shadow-color) 0 calc(-1 * var(--shadow-y)) var(--shadow-blur);
   color: var(--light-color);
   font-size: var(--font-s);
   font-family: "Konquer";
@@ -177,10 +180,13 @@ iframe {
 .index__editorial {
   background: radial-gradient(at top left, var(--light-color) 0%, white 100%);
   border-radius: var(--length-s);
-  box-shadow: var(--shadow-color) 0 0.05rem 0.15rem;
+  box-shadow: var(--shadow-color) 0 calc(var(--shadow-y) / 2) calc(var(--shadow-blur) / 2);
   grid-column: span 2;
   padding-block: var(--length-m);
   padding-inline: var(--length-l);
+}
+.index__column {
+  font-size: var(--font-s);
 }
 
 .profile {
