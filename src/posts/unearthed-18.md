@@ -1,5 +1,5 @@
 ---
-title: 'Unearthed 18'
+title: 'Unearthed'
 tags: ['post', 'unearthed']
 issue: 1
 ---

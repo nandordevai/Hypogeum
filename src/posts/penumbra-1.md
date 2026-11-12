@@ -1,5 +1,5 @@
 ---
-title: 'Penumbra 1'
+title: 'Penumbra'
 tags: [post, penumbra]
 issue: 1
 ---

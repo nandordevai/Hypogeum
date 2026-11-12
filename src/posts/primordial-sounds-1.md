@@ -1,5 +1,5 @@
 ---
-title: 'Primordial Sounds 1'
+title: 'Primordial Sounds'
 tags: ['post', 'primordial sounds']
 issue: 1
 ---
@@ -14,7 +14,7 @@ I don’t subscribe to the notion that there was a definitive “first” album 
 
 **Why It Is Essential:** It stripped away melody and rhythm in favor of deep, disturbing sounds and environmental recordings. Every project working in ritual or cinematic ambient today owes a debt to the acoustic architecture found here.
 
-**Key Track:** Heresy Part 3 – A perfect example of how deep drones can create more tension than a harsh wall of noise.
+**Key Track:** Heresy Part 3
 
 # Raison d’être – Prospectus I (1993)
 
@@ -22,15 +22,15 @@ While Lustmord explored cosmic and subterranean dread, Peter Andersson’s Raiso
 
 **Why It Is Essential:** It proved that dark ambient could be melodic and emotive without losing its grim edge. This album helped put the Cold Meat Industry label on the map and remains a major influence on later ritual projects.
 
-**Key Track:** “Mourning” – The perfect fusion of choir and cold machine noises.
+**Key Track:** Mourning
 
 # Thomas Köner – Permafrost (1993)
 
 If other artists are dark, Köner is white. Permafrost is the ultimate isolationist record. It is so minimalist that it almost ceases to be music and becomes a physical environment. The sound is composed of deep sub-bass and the cracking sounds of ice. It is not as claustrophobic as dark ambient in general, but creates tension through the feeling of desolate vastness.
 
-**Why It Is Essential:** Köner stripped the genre of all horror tropes and replaced them with the terrifying indifference of nature. It’s a masterclass in sound texture.
+**Why It Is Essential:** Köner stripped the genre of all horror tropes and replaced them with the terrifying indifference of nature. It’s a masterclass in texture.
 
-**Key Track:** “Nival” – A track that makes the listener feel the temperature in the room drop.
+**Key Track:** Nival
 
 # Zoviet France – Shadow, Thief of the Sun (1991)
 
@@ -38,4 +38,4 @@ Before the genre was fully codified, Zoviet France was experimenting with lo-fi 
 
 **Why It Is Essential:** It introduced the idea of tribal ambient. It’s less about “space” and more about the earth, ruins, and forgotten civilizations. It’s an essential listen for those who prefer an organic, analog grit.
 
-**Key Track:** “Cahl-yn-yan” – A swirling, rhythmic descent into a hazy, dusty dreamscape.
+**Key Track:** Cahl-yn-yan

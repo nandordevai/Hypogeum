@@ -1,5 +1,5 @@
 ---
-title: 'Reviews 1'
+title: 'Reviews'
 tags: [post, reviews]
 issue: 1
 ---
