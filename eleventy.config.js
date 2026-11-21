@@ -28,11 +28,11 @@ export default function (config) {
     // data
 
     config.addGlobalData('currentIssue', function () {
-        return Math.max(Object.keys(issues));
+        return issues.length;
     });
 
     config.addGlobalData('currentIssueDate', function () {
-        return issues[Math.max(Object.keys(issues))].date;
+        return issues.at(-1);
     });
 
     // preprocessor
@@ -75,14 +75,6 @@ export default function (config) {
         return `<iframe class="youtube" src="${src}" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
     });
 
-    // transform
-
-    config.addTransform('removeExcerptMarker', (content, outputPath) => (
-        outputPath && outputPath?.endsWith('.html')
-            ? content.replaceAll(excerptSeparator, '')
-            : content
-    ));
-
     // filter
 
     config.addFilter('excerpt', (content, _url) => (
@@ -98,48 +90,12 @@ export default function (config) {
 
     // collection
 
-    const getMonthKey = (date) => {
-        const d = new Date(date);
-        const year = d.getUTCFullYear();
-        const month = String(d.getUTCMonth() + 1).padStart(2, "0");
-        return `${year}-${month}`;
-    };
-
-    // TODO: do we need this?
-    config.addCollection('issues', (collection) => {
-        const posts = collection.getFilteredByTag('post').sort((a, b) => b.date - a.date);
-        const groups = {};
-        posts.forEach((post) => {
-            const key = getMonthKey(post.date);
-            if (!groups[key]) {
-                groups[key] = {
-                    issueKey: key,
-                    date: post.date,
-                    posts: []
-                };
-            }
-            groups[key].posts.push(post);
-        });
-        return Object.values(groups).sort((a, b) => b.issueKey.localeCompare(a.issueKey));
-    });
-
     config.addCollection('currentIssue', (collection) => {
-        const today = new Date().toISOString().split("T")[0]; // "YYYY-MM-DD"
-
-        let activeNum = null;
-        Object.keys(issues).forEach(volNum => {
-            if (issues[volNum].date <= today) {
-                if (!activeNum || Number(volNum) > Number(activeNum)) {
-                    activeNum = volNum;
-                }
-            }
-        });
-
-        if (!activeNum) return [];
+        const lastNum = issues.length;
 
         const currentPosts = collection.getFilteredByTag('post').filter(post => {
             const postIssue = post.data.issue ?? 0;
-            return String(postIssue) === String(activeNum);
+            return String(postIssue) === String(lastNum);
         }).sort((a, b) => a.data.order - b.data.order);
         return currentPosts;
     });
@@ -156,6 +112,7 @@ export default function (config) {
     });
 
     // extension
+
     config.addExtension('scss', {
         outputFileExtension: 'css',
         useLayouts: false,
