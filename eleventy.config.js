@@ -27,8 +27,6 @@ export default function (config) {
 
     // data
 
-    config.addGlobalData('layout', 'base');
-
     config.addGlobalData('currentIssue', function () {
         return Math.max(Object.keys(issues));
     });
@@ -107,6 +105,7 @@ export default function (config) {
         return `${year}-${month}`;
     };
 
+    // TODO: do we need this?
     config.addCollection('issues', (collection) => {
         const posts = collection.getFilteredByTag('post').sort((a, b) => b.date - a.date);
         const groups = {};
