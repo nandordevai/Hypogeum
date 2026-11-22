@@ -6,6 +6,9 @@
 
 {% block content %}
 <main class="content post">
+    {% if issue %}
+        <h2 class="current-issue--post">Issue {{ currentIssue }}&nbsp;–&nbsp;{{ currentIssueDate | formatIssueDate }}</h1>
+    {% endif %}
     <article>
         <h1>{{ title }}</h1>
         {% if subtitle %}

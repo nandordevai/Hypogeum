@@ -55,4 +55,8 @@
     margin-block-end: var(--length-m);
     margin-block-start: var(--length-l);
   }
+
+  &--post {
+    font-size: var(--font-m);
+  }
 }
