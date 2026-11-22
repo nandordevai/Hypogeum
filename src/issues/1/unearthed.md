@@ -1,7 +1,5 @@
 ---
-title: 'Unearthed 18'
-tags: ['post', 'unearthed']
-issue: 1
+title: 'Unearthed'
 order: 2
 ---
 

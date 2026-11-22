@@ -24,6 +24,7 @@ export default function (config) {
     config.addPassthroughCopy({ 'src/CNAME': 'CNAME' });
     config.addPlugin(EleventyRenderPlugin);
     config.addWatchTarget('src/scss');
+    config.setDataDeepMerge(true);
 
     // data
 
@@ -117,7 +118,7 @@ export default function (config) {
         outputFileExtension: 'css',
         useLayouts: false,
         compileOptions: {
-            permalink: function(_contents, inputPath) {
+            permalink: function (_contents, inputPath) {
                 let parsed = path.parse(inputPath);
                 if (parsed.name.startsWith("_")) return false;
 

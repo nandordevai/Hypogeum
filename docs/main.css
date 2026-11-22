@@ -233,6 +233,9 @@ iframe {
     margin-block-start: var(--length-l);
   }
 }
+.current-issue--post {
+  font-size: var(--font-m);
+}
 
 .profile {
   display: flex;
@@ -243,7 +246,7 @@ iframe {
 .page,
 .post {
   margin-block-end: var(--length-4xl);
-  margin-block-start: var(--length-2xl);
+  margin-block-start: var(--length-l);
   max-width: 40rem;
 }
 
